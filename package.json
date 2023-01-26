@@ -1,0 +1,17 @@
+{
+  "name": "ds-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf build",
+    "build": "node ./config.js",
+    "watch": "chokidar 'src/**/*.json' -c 'node ./config.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "style-dictionary": "^3.7.2"
+  }
+}

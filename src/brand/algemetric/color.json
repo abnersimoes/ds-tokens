@@ -1,0 +1,28 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "pure": {
+          "value": "#FF6700",
+          "type": "color"
+        },
+        "light": {
+          "value": "#FFC8A3",
+          "type": "color"
+        },
+        "lighter": {
+          "value": "#FFF5EE",
+          "type": "color"
+        },
+        "medium": {
+          "value": "#FF8533",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#D34506",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
