@@ -6,7 +6,7 @@ const PLATFORM_PATH = require("path").resolve(__dirname, "src/platform");
 const BRANDS = getChildrenOfFolder(BRAND_PATH);
 const PLATFORMS = getChildrenOfFolder(PLATFORM_PATH);
 const PREFIX = "";
-const FONT_PATH_PREFIX = "./fonts/";
+const FONT_PATH_PREFIX = "./assets/fonts/";
 
 function getStyleDictionaryConfig(brand, platform) {
   return {
