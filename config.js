@@ -6,7 +6,7 @@ const PLATFORM_PATH = require("path").resolve(__dirname, "src/platform");
 const BRANDS = getChildrenOfFolder(BRAND_PATH);
 const PLATFORMS = getChildrenOfFolder(PLATFORM_PATH);
 const PREFIX = "";
-const FONT_PATH_PREFIX = "./assets/fonts/";
+// const FONT_PATH_PREFIX = "../assets/fonts/";
 
 function getStyleDictionaryConfig(brand, platform) {
   return {
@@ -64,26 +64,26 @@ function getStyleDictionaryConfig(brand, platform) {
           },
         ],
       },
-      "web/css/font-face": {
-        transforms: ["attribute/font"],
-        buildPath: `build/${platform}/${brand}/`,
-        actions: ["copy_assets"],
-        files: [
-          {
-            destination: "font-face.css",
-            format: "font-face",
-            filter: {
-              attributes: {
-                category: "asset",
-                type: "font",
-              },
-            },
-            options: {
-              fontPathPrefix: FONT_PATH_PREFIX,
-            },
-          },
-        ],
-      },
+      // "web/css/font-face": {
+      //   transforms: ["attribute/font"],
+      //   buildPath: `build/${platform}/${brand}/`,
+      //   actions: ["copy_assets"],
+      //   files: [
+      //     {
+      //       destination: "font-face.css",
+      //       format: "font-face",
+      //       filter: {
+      //         attributes: {
+      //           category: "asset",
+      //           type: "font",
+      //         },
+      //       },
+      //       options: {
+      //         fontPathPrefix: FONT_PATH_PREFIX,
+      //       },
+      //     },
+      //   ],
+      // },
       "web/scss/font-face": {
         transforms: ["attribute/font"],
         buildPath: `build/${platform}/${brand}/`,
@@ -98,7 +98,7 @@ function getStyleDictionaryConfig(brand, platform) {
               },
             },
             options: {
-              fontPathPrefix: FONT_PATH_PREFIX,
+              fontPathPrefix: "#{$font-path}/",
             },
           },
         ],
@@ -203,7 +203,7 @@ PLATFORMS.map(function (platform) {
       instance.buildPlatform("web/json");
       instance.buildPlatform("web/scss");
       instance.buildPlatform("web/css");
-      instance.buildPlatform("web/css/font-face");
+      // instance.buildPlatform("web/css/font-face");
       instance.buildPlatform("web/scss/font-face");
     }
   });
