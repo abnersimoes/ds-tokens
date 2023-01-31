@@ -1,3 +1,4 @@
+const fs = require("fs-extra");
 const StyleDictionary = require("style-dictionary");
 
 const FONT_PATH_PREFIX_DEFAULT = "../";
@@ -13,11 +14,11 @@ StyleDictionary.registerTransform({
 
 StyleDictionary.registerAction({
   name: "copy_fonts",
-  do: function (dictionary, config) {
+  do: function (_, config) {
     console.log("Copying assets directory");
-    fs.copySync("assets", config.buildPath + "assets");
+    fs.copySync(config.srcPath, config.buildPath + "assets");
   },
-  undo: function (dictionary, config) {
+  undo: function (_, config) {
     console.log("Cleaning assets directory");
     fs.removeSync(config.buildPath + "assets");
   },

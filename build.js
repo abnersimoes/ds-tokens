@@ -67,7 +67,7 @@ function getStyleDictionaryConfig(brand, platform) {
       "web/css/font-face": {
         transforms: ["attribute/font"],
         buildPath: `build/${platform}/${brand}/`,
-        // actions: ["copy_assets"],
+        // actions: ["copy_fonts"],
         files: [
           {
             destination: "font-face.css",
@@ -86,7 +86,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       "web/scss/font-face": {
         transforms: ["attribute/font"],
-        srcPath: `src/brand/${brand}/`,
+        srcPath: `src/brand/${brand}/assets`,
         buildPath: `build/${platform}/${brand}/`,
         actions: ["copy_fonts"],
         files: [
