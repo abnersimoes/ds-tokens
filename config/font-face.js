@@ -11,6 +11,18 @@ StyleDictionary.registerTransform({
   }),
 });
 
+StyleDictionary.registerAction({
+  name: "copy_fonts",
+  do: function (dictionary, config) {
+    console.log("Copying assets directory");
+    fs.copySync("assets", config.buildPath + "assets");
+  },
+  undo: function (dictionary, config) {
+    console.log("Cleaning assets directory");
+    fs.removeSync(config.buildPath + "assets");
+  },
+});
+
 function buildFontFaceUrls(formats, prefix, filename) {
   const formatsMap = {
     woff2: "woff2",
