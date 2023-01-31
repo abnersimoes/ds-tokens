@@ -2,7 +2,7 @@
   "asset": {
     "font": {
       "poppins": {
-        "family": "Poppins",
+        "value": "Poppins",
         "formats": ["woff2", "woff"],
         "display": "fallback",
         "styles": [

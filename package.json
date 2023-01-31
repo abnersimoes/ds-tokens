@@ -6,8 +6,8 @@
   "module": "build/web/algemetric/tokens.esm.js",
   "scripts": {
     "prebuild": "rm -rf build",
-    "build": "node ./config.js",
-    "watch": "chokidar 'src/**/*.json' -c 'node ./config.js'"
+    "build": "node ./build.js",
+    "watch": "chokidar 'src/**/*.json' -c 'node ./build.js'"
   },
   "author": "",
   "license": "ISC",
