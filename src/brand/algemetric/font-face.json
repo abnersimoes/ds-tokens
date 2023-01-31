@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "font": {
+      "poppins": {
+        "family": "{font.family}",
+        "formats": ["woff2", "woff"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "Poppins-Regular",
+            "weight": "{font.weight.regular}",
+            "style": "{font.style.normal}"
+          },
+          {
+            "file": "Poppins-SemiBold",
+            "weight": "{font.weight.semiBold}",
+            "style": "{font.style.normal}"
+          },
+          {
+            "file": "Poppins-Bold",
+            "weight": "{font.weight.bold}",
+            "style": "{font.style.normal}"
+          }
+        ]
+      }
+    }
+  }
+}
