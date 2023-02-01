@@ -1,0 +1,8 @@
+{
+  "color": {
+    "font": {
+      "base": { "value": "{color.base.black.value}" },
+      "primary": { "value": "{color.brand.primary.pure.value}" }
+    }
+  }
+}

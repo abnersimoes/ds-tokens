@@ -16,32 +16,32 @@ function getStyleDictionaryConfig(brand, platform) {
       `src/platforms/${platform}/*.json`,
     ],
     platforms: {
-      "web/js": {
-        transformGroup: "tokens-js",
-        buildPath: `build/${platform}/${brand}/`,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: "tokens.cjs.js",
-            format: "javascript/module",
-          },
-          {
-            destination: "tokens.esm.js",
-            format: "javascript/es6",
-          },
-        ],
-      },
-      "web/json": {
-        transformGroup: "tokens-json",
-        buildPath: `build/${platform}/${brand}/`,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: "tokens.json",
-            format: "json/flat",
-          },
-        ],
-      },
+      // "web/js": {
+      //   transformGroup: "tokens-js",
+      //   buildPath: `build/${platform}/${brand}/`,
+      //   prefix: PREFIX,
+      //   files: [
+      //     {
+      //       destination: "tokens.cjs.js",
+      //       format: "javascript/module",
+      //     },
+      //     {
+      //       destination: "tokens.esm.js",
+      //       format: "javascript/es6",
+      //     },
+      //   ],
+      // },
+      // "web/json": {
+      //   transformGroup: "tokens-json",
+      //   buildPath: `build/${platform}/${brand}/`,
+      //   prefix: PREFIX,
+      //   files: [
+      //     {
+      //       destination: "tokens.json",
+      //       format: "json/flat",
+      //     },
+      //   ],
+      // },
       "web/scss": {
         transformGroup: "tokens-scss",
         buildPath: `build/${platform}/${brand}/`,
@@ -54,7 +54,7 @@ function getStyleDictionaryConfig(brand, platform) {
         ],
       },
       "web/css": {
-        transformGroup: "css",
+        transformGroup: "tokens-css",
         buildPath: `build/${platform}/${brand}/`,
         prefix: PREFIX,
         files: [
@@ -109,12 +109,12 @@ function getStyleDictionaryConfig(brand, platform) {
   };
 }
 
-StyleDictionary.registerFormat({
-  name: "json/flat",
-  formatter: function (dictionary) {
-    return JSON.stringify(dictionary.allProperties, null, 2);
-  },
-});
+// StyleDictionary.registerFormat({
+//   name: "json/flat",
+//   formatter: function (dictionary) {
+//     return JSON.stringify(dictionary.allProperties, null, 2);
+//   },
+// });
 
 StyleDictionary.registerFormat({
   name: "font-face",
@@ -122,23 +122,23 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerTransformGroup({
-  name: "styleguide",
-  transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"],
+  name: "tokens-css",
+  transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
 });
 
-StyleDictionary.registerTransformGroup({
-  name: "tokens-js",
-  transforms: ["name/cti/constant", "size/px", "color/hex"],
-});
+// StyleDictionary.registerTransformGroup({
+//   name: "tokens-js",
+//   transforms: ["name/cti/constant", "size/rem", "color/hex"],
+// });
 
-StyleDictionary.registerTransformGroup({
-  name: "tokens-json",
-  transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"],
-});
+// StyleDictionary.registerTransformGroup({
+//   name: "tokens-json",
+//   transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
+// });
 
 StyleDictionary.registerTransformGroup({
   name: "tokens-scss",
-  transforms: ["name/cti/kebab", "time/seconds", "size/px", "color/css"],
+  transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
 });
 
 PLATFORMS.map(function (platform) {
@@ -150,8 +150,8 @@ PLATFORMS.map(function (platform) {
     );
 
     if (platform === "web") {
-      instance.buildPlatform("web/js");
-      instance.buildPlatform("web/json");
+      // instance.buildPlatform("web/js");
+      // instance.buildPlatform("web/json");
       instance.buildPlatform("web/scss");
       instance.buildPlatform("web/css");
       instance.buildPlatform("web/css/font-face");

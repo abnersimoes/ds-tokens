@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "font": {
+      "lato": {
+        "value": "Lato",
+        "formats": ["woff2", "woff"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "Lato-Hairline",
+            "weight": "{font.weight.regular}",
+            "style": "{font.style.normal}"
+          },
+          {
+            "file": "Lato-Regular",
+            "weight": "{font.weight.semiBold}",
+            "style": "{font.style.normal}"
+          },
+          {
+            "file": "Lato-Black",
+            "weight": "{font.weight.bold}",
+            "style": "{font.style.normal}"
+          }
+        ]
+      }
+    }
+  }
+}

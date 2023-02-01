@@ -1,0 +1,19 @@
+{
+  "size": {
+    "border": {
+      "width": {
+        "none": { "value": 0 },
+        "hairline": { "value": 0.0625 },
+        "thin": { "value": 0.125 },
+        "thick": { "value": 0.25 },
+        "heavy": { "value": 0.5 }
+      },
+      "radius": {
+        "pill": { "value": 10 },
+        "large": { "value": 0.5 },
+        "medium": { "value": 0.25 },
+        "small": { "value": 0.25 }
+      }
+    }
+  }
+}

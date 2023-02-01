@@ -1,0 +1,13 @@
+{
+  "font": {
+    "family": { "value": "'Lato', Arial, sans-serif" },
+    "weight": {
+      "regular": { "value": 100 },
+      "semiBold": { "value": 400 },
+      "bold": { "value": 900 }
+    },
+    "style": {
+      "normal": { "value": "normal" }
+    }
+  }
+}
