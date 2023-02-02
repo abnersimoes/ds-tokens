@@ -1,0 +1,12 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "pure": { "value": "#99FFE2" },
+        "light": { "value": "#6BB39E" },
+        "medium": { "value": "#1F8568" },
+        "dark": { "value": "#2F4F46" }
+      }
+    }
+  }
+}

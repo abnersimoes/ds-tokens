@@ -1,4 +1,6 @@
 const StyleDictionary = require("style-dictionary");
+const { buildStylesFiles } = require("./helpers/dark-mode");
+const { buildFontFaceFiles } = require("./helpers/font-face");
 const { getChildrenOfFolder } = require("./utils/file");
 
 const BRAND_PATH = require("path").resolve(__dirname, "src/brand");
@@ -6,6 +8,7 @@ const PLATFORM_PATH = require("path").resolve(__dirname, "src/platform");
 const BRANDS = getChildrenOfFolder(BRAND_PATH);
 const PLATFORMS = getChildrenOfFolder(PLATFORM_PATH);
 const PREFIX = "";
+const MODES = ["light", "dark"];
 
 const styleDictionary = StyleDictionary.extend({
   action: {
@@ -19,90 +22,85 @@ const styleDictionary = StyleDictionary.extend({
   },
 });
 
-function getStyleDictionaryConfig(brand, platform) {
+function getPlatforms(brand, platform, isDarkMode) {
   const webPath = `build/${platform}/${brand}/`;
 
   return {
-    source: [
-      `src/brand/${brand}/*.json`,
-      "src/global/**/*.json",
-      `src/platforms/${platform}/*.json`,
-    ],
-    platforms: {
-      "web/assets": {
-        transforms: ["attribute/cti", "color/hex", "name/ti/camel"],
-        srcPath: `src/brand/${brand}/assets`,
-        buildPath: webPath,
-        actions: [`copyAssets`],
-      },
-      "web/styles": {
-        transforms: [
-          "attribute/cti",
-          "name/cti/kebab",
-          "size/rem",
-          "color/hex",
-        ],
-        buildPath: webPath,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: "tokens.css",
-            format: "css/variables",
-          },
-          {
-            destination: "tokens.scss",
-            format: "scss/variables",
-          },
-        ],
-      },
-      "web/font-face": {
-        transforms: ["attribute/font-face"],
-        buildPath: webPath,
-        files: [
-          {
-            destination: "font-face.css",
-            format: "fontFace",
-            filter: {
-              attributes: {
-                category: "asset",
-                type: "font",
-              },
-            },
-            options: {
-              fontPathPrefix: "./",
-            },
-          },
-          {
-            destination: "font-face.scss",
-            format: "fontFace",
-            filter: {
-              attributes: {
-                category: "asset",
-                type: "font",
-              },
-            },
-            options: {
-              fontPathPrefix: "#{$font-path}/",
-            },
-          },
-        ],
-      },
+    "web/assets": {
+      transforms: ["attribute/cti", "color/hex", "name/ti/camel"],
+      srcPath: `src/brand/${brand}/assets`,
+      buildPath: webPath,
+      actions: [`copyAssets`],
     },
+    "web/styles": {
+      transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
+      buildPath: webPath,
+      prefix: PREFIX,
+      files: buildStylesFiles(isDarkMode),
+    },
+    "web/font-face": {
+      transforms: ["attribute/font-face"],
+      buildPath: webPath,
+      files: buildFontFaceFiles(),
+    },
+  };
+}
+
+function lightModeBuilder(brand, platform) {
+  const isDarkMode = false;
+
+  return {
+    source: [
+      `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/global/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/platforms/${platform}/**/!(*.${MODES.join(`|*.`)}).json`,
+    ],
+    platforms: getPlatforms(brand, platform, isDarkMode),
+  };
+}
+
+function darkModeBuilder(brand, platform) {
+  const isDarkMode = true;
+
+  return {
+    include: [
+      `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/global/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/platforms/${platform}/**/!(*.${MODES.join(`|*.`)}).json`,
+    ],
+    source: [
+      `src/brand/${brand}/**/*.dark.json`,
+      `src/global/**/*.dark.json`,
+      `src/platforms/${platform}/**/*.dark.json`,
+    ],
+    platforms: getPlatforms(brand, platform, isDarkMode),
   };
 }
 
 PLATFORMS.map(function (platform) {
   BRANDS.map(function (brand) {
-    console.log(`\nProcessing: ${platform}/${brand}`);
+    console.log(`🌞 Building Light mode for: ${platform}/${brand}`);
 
-    const instance = styleDictionary.extend(
-      getStyleDictionaryConfig(brand, platform)
+    const lightModeInstance = styleDictionary.extend(
+      lightModeBuilder(brand, platform)
     );
 
     if (platform === "web") {
-      instance.buildPlatform("web/assets");
-      instance.buildPlatform("web/styles");
-      instance.buildPlatform("web/font-face");
+      lightModeInstance.buildPlatform("web/assets");
+      lightModeInstance.buildPlatform("web/styles");
+      lightModeInstance.buildPlatform("web/font-face");
+    }
+
+    console.log(`\n\n🌙 Building Dark mode: ${platform}/${brand}`);
+
+    const darkModeInstance = styleDictionary.extend(
+      darkModeBuilder(brand, platform)
+    );
+
+    if (platform === "web") {
+      darkModeInstance.buildPlatform("web/assets");
+      darkModeInstance.buildPlatform("web/styles");
+      darkModeInstance.buildPlatform("web/font-face");
     }
   });
 });
