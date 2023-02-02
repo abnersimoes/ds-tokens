@@ -7,7 +7,7 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "node ./build.js",
-    "watch": "chokidar 'src/**/*.json' -c 'node ./build.js'"
+    "start": "npm run build && chokidar 'src/**/*.json' -c 'node ./build.js'"
   },
   "author": "",
   "license": "ISC",

@@ -1,28 +1,4 @@
-const fs = require("fs-extra");
-const StyleDictionary = require("style-dictionary");
-
 const FONT_PATH_PREFIX_DEFAULT = "../";
-
-StyleDictionary.registerTransform({
-  name: "attribute/font",
-  type: "attribute",
-  transformer: (prop) => ({
-    category: prop.path[0],
-    type: prop.path[1],
-  }),
-});
-
-StyleDictionary.registerAction({
-  name: "copy_fonts",
-  do: function (_, config) {
-    console.log("Copying assets directory");
-    fs.copySync(config.srcPath, config.buildPath + "assets");
-  },
-  undo: function (_, config) {
-    console.log("Cleaning assets directory");
-    fs.removeSync(config.buildPath + "assets");
-  },
-});
 
 function buildFontFaceUrls(formats, prefix, filename) {
   const formatsMap = {
@@ -40,7 +16,7 @@ function buildFontFaceUrls(formats, prefix, filename) {
   );
 }
 
-function fontFaceFormatter({ dictionary: { allTokens }, options }) {
+module.exports = function ({ dictionary: { allTokens }, options }) {
   const fontPathPrefix = options.fontPathPrefix || FONT_PATH_PREFIX_DEFAULT;
 
   return allTokens
@@ -68,6 +44,4 @@ function fontFaceFormatter({ dictionary: { allTokens }, options }) {
       return fontList;
     }, [])
     .join("\n");
-}
-
-module.exports = { fontFaceFormatter };
+};

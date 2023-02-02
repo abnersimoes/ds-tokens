@@ -1,6 +1,5 @@
 const StyleDictionary = require("style-dictionary");
-const { fontFaceFormatter } = require("./config/font-face");
-const { getChildrenOfFolder } = require("./config/utils");
+const { getChildrenOfFolder } = require("./utils/file");
 
 const BRAND_PATH = require("path").resolve(__dirname, "src/brand");
 const PLATFORM_PATH = require("path").resolve(__dirname, "src/platform");
@@ -8,7 +7,21 @@ const BRANDS = getChildrenOfFolder(BRAND_PATH);
 const PLATFORMS = getChildrenOfFolder(PLATFORM_PATH);
 const PREFIX = "";
 
+const styleDictionary = StyleDictionary.extend({
+  action: {
+    copyAssets: require("./actions/copy-assets"),
+  },
+  transform: {
+    "attribute/font-face": require("./transforms/font-face"),
+  },
+  format: {
+    fontFace: require("./formats/font-face"),
+  },
+});
+
 function getStyleDictionaryConfig(brand, platform) {
+  const webPath = `build/${platform}/${brand}/`;
+
   return {
     source: [
       `src/brand/${brand}/*.json`,
@@ -16,62 +29,39 @@ function getStyleDictionaryConfig(brand, platform) {
       `src/platforms/${platform}/*.json`,
     ],
     platforms: {
-      // "web/js": {
-      //   transformGroup: "tokens-js",
-      //   buildPath: `build/${platform}/${brand}/`,
-      //   prefix: PREFIX,
-      //   files: [
-      //     {
-      //       destination: "tokens.cjs.js",
-      //       format: "javascript/module",
-      //     },
-      //     {
-      //       destination: "tokens.esm.js",
-      //       format: "javascript/es6",
-      //     },
-      //   ],
-      // },
-      // "web/json": {
-      //   transformGroup: "tokens-json",
-      //   buildPath: `build/${platform}/${brand}/`,
-      //   prefix: PREFIX,
-      //   files: [
-      //     {
-      //       destination: "tokens.json",
-      //       format: "json/flat",
-      //     },
-      //   ],
-      // },
-      "web/scss": {
-        transformGroup: "tokens-scss",
-        buildPath: `build/${platform}/${brand}/`,
-        prefix: PREFIX,
-        files: [
-          {
-            destination: "tokens.scss",
-            format: "scss/variables",
-          },
-        ],
+      "web/assets": {
+        transforms: ["attribute/cti", "color/hex", "name/ti/camel"],
+        srcPath: `src/brand/${brand}/assets`,
+        buildPath: webPath,
+        actions: [`copyAssets`],
       },
-      "web/css": {
-        transformGroup: "tokens-css",
-        buildPath: `build/${platform}/${brand}/`,
+      "web/styles": {
+        transforms: [
+          "attribute/cti",
+          "name/cti/kebab",
+          "size/rem",
+          "color/hex",
+        ],
+        buildPath: webPath,
         prefix: PREFIX,
         files: [
           {
             destination: "tokens.css",
             format: "css/variables",
           },
+          {
+            destination: "tokens.scss",
+            format: "scss/variables",
+          },
         ],
       },
-      "web/css/font-face": {
-        transforms: ["attribute/font"],
-        buildPath: `build/${platform}/${brand}/`,
-        // actions: ["copy_fonts"],
+      "web/font-face": {
+        transforms: ["attribute/font-face"],
+        buildPath: webPath,
         files: [
           {
             destination: "font-face.css",
-            format: "font-face",
+            format: "fontFace",
             filter: {
               attributes: {
                 category: "asset",
@@ -79,20 +69,12 @@ function getStyleDictionaryConfig(brand, platform) {
               },
             },
             options: {
-              fontPathPrefix: "var(--font-path)/",
+              fontPathPrefix: "./",
             },
           },
-        ],
-      },
-      "web/scss/font-face": {
-        transforms: ["attribute/font"],
-        srcPath: `src/brand/${brand}/assets`,
-        buildPath: `build/${platform}/${brand}/`,
-        actions: ["copy_fonts"],
-        files: [
           {
             destination: "font-face.scss",
-            format: "font-face",
+            format: "fontFace",
             filter: {
               attributes: {
                 category: "asset",
@@ -109,53 +91,18 @@ function getStyleDictionaryConfig(brand, platform) {
   };
 }
 
-// StyleDictionary.registerFormat({
-//   name: "json/flat",
-//   formatter: function (dictionary) {
-//     return JSON.stringify(dictionary.allProperties, null, 2);
-//   },
-// });
-
-StyleDictionary.registerFormat({
-  name: "font-face",
-  formatter: fontFaceFormatter,
-});
-
-StyleDictionary.registerTransformGroup({
-  name: "tokens-css",
-  transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
-});
-
-// StyleDictionary.registerTransformGroup({
-//   name: "tokens-js",
-//   transforms: ["name/cti/constant", "size/rem", "color/hex"],
-// });
-
-// StyleDictionary.registerTransformGroup({
-//   name: "tokens-json",
-//   transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
-// });
-
-StyleDictionary.registerTransformGroup({
-  name: "tokens-scss",
-  transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
-});
-
 PLATFORMS.map(function (platform) {
   BRANDS.map(function (brand) {
     console.log(`\nProcessing: ${platform}/${brand}`);
 
-    const instance = StyleDictionary.extend(
+    const instance = styleDictionary.extend(
       getStyleDictionaryConfig(brand, platform)
     );
 
     if (platform === "web") {
-      // instance.buildPlatform("web/js");
-      // instance.buildPlatform("web/json");
-      instance.buildPlatform("web/scss");
-      instance.buildPlatform("web/css");
-      instance.buildPlatform("web/css/font-face");
-      instance.buildPlatform("web/scss/font-face");
+      instance.buildPlatform("web/assets");
+      instance.buildPlatform("web/styles");
+      instance.buildPlatform("web/font-face");
     }
   });
 });
