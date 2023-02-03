@@ -1,5 +1,5 @@
 const StyleDictionary = require("style-dictionary");
-const { buildStylesFiles } = require("./helpers/dark-mode");
+const { buildStylesFiles } = require("./helpers/styles");
 const { buildFontFaceFiles } = require("./helpers/font-face");
 const { getChildrenOfFolder } = require("./utils/file");
 
@@ -18,7 +18,8 @@ const styleDictionary = StyleDictionary.extend({
     "attribute/font-face": require("./transforms/font-face"),
   },
   format: {
-    fontFace: require("./formats/font-face"),
+    "styles/font-face": require("./formats/font-face"),
+    "css/dark-variables": require("./formats/css-dark-variables"),
   },
 });
 

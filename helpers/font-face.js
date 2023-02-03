@@ -8,7 +8,7 @@ function buildFontFaceFiles() {
 
   return extensions.map((extension) => ({
     destination: `font-face.${extension}`,
-    format: "fontFace",
+    format: "styles/font-face",
     filter: {
       attributes: {
         category: "asset",
