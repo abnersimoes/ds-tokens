@@ -1,0 +1,10 @@
+{
+  "color": {
+    "background": {
+      "value": "{color.neutral.low.pure.value}"
+    },
+    "contrast": {
+      "value": "{color.neutral.high.pure.value}"
+    }
+  }
+}

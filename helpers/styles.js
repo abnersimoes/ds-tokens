@@ -8,20 +8,18 @@ function buildStylesFiles(isDarkMode) {
         {
           destination: "tokens.dark.css",
           format: "css/dark-variables",
-          format: "css/variables",
           filter: darkFilesFilter,
-          options: {
-            outputReferences: true,
-          },
+          // options: {
+          //   outputReferences: true,
+          // },
         },
         {
           destination: "tokens.dark.scss",
           format: "css/dark-variables",
-          // format: "scss/dark-variables",
           filter: darkFilesFilter,
-          options: {
-            outputReferences: true,
-          },
+          // options: {
+          //   outputReferences: true,
+          // },
         },
       ]
     : [
@@ -32,7 +30,6 @@ function buildStylesFiles(isDarkMode) {
         {
           destination: "tokens.scss",
           format: "css/variables",
-          // format: "scss/variables",
         },
       ];
 }
