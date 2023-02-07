@@ -54,6 +54,7 @@ function lightModeBuilder(brand, platform) {
     source: [
       `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
       `src/global/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/components/**/!(*.${MODES.join(`|*.`)}).json`,
       `src/platforms/${platform}/**/!(*.${MODES.join(`|*.`)}).json`,
     ],
     platforms: getPlatforms(brand, platform, isDarkMode),
@@ -67,16 +68,20 @@ function darkModeBuilder(brand, platform) {
     include: [
       `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
       `src/global/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/components/**/!(*.${MODES.join(`|*.`)}).json`,
       `src/platforms/${platform}/**/!(*.${MODES.join(`|*.`)}).json`,
     ],
     source: [
       `src/brand/${brand}/**/*.dark.json`,
       `src/global/**/*.dark.json`,
+      `src/components/**/*.dark.json`,
       `src/platforms/${platform}/**/*.dark.json`,
     ],
     platforms: getPlatforms(brand, platform, isDarkMode),
   };
 }
+
+console.log("========================================");
 
 PLATFORMS.map(function (platform) {
   BRANDS.map(function (brand) {
@@ -107,3 +112,4 @@ PLATFORMS.map(function (platform) {
 });
 
 console.log("\nBuild completed!");
+console.log("========================================");

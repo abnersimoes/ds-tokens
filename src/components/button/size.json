@@ -1,0 +1,14 @@
+{
+  "size": {
+    "font": {
+      "button": {
+        "sm": { "value": "{size.font.xs.value}" },
+        "md": { "value": "{size.font.sm.value}" },
+        "lg": { "value": "{size.font.md.value}" }
+      }
+    },
+    "border-radius": {
+      "button": { "value": "{size.border.radius.large}" }
+    }
+  }
+}

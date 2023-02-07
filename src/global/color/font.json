@@ -1,8 +1,0 @@
-{
-  "color": {
-    "font": {
-      "base": { "value": "{color.neutral.low.pure.value}" },
-      "primary": { "value": "{color.brand.primary.pure.value}" }
-    }
-  }
-}

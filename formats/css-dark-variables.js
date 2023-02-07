@@ -4,7 +4,7 @@ const {
 } = require("style-dictionary/lib/common/formatHelpers");
 
 module.exports = function ({ dictionary, options = {}, file }) {
-  const selector = options.selector ? options.selector : `:root`;
+  const selector = options.selector ? options.selector : `\n:root`;
   const { outputReferences } = options;
 
   return (
@@ -12,7 +12,7 @@ module.exports = function ({ dictionary, options = {}, file }) {
     `@media (prefers-color-scheme: dark) {\n` +
     `${selector} {\n` +
     formattedVariables({ format: "css", dictionary, outputReferences }) +
-    `\n}` +
+    `\n}\n` +
     `\n}\n`
   );
 };

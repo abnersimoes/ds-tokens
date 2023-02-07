@@ -1,0 +1,22 @@
+{
+  "color": {
+    "background": {
+      "button": {
+        "primary": {
+          "base": { "value": "{color.brand.primary.dark.value}" },
+          "hover": { "value": "{color.brand.primary.medium.value}" },
+          "focus": { "value": "{color.background.button.primary.hover.value}" },
+          "disabled": { "value": "{color.neutral.high.light.value}" }
+        }
+      }
+    },
+    "text": {
+      "button": {
+        "primary": {
+          "base": { "value": "{color.neutral.high.light.value}" },
+          "disabled": { "value": "{color.neutral.low.light.value}" }
+        }
+      }
+    }
+  }
+}

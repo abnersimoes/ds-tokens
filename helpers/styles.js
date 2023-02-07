@@ -9,17 +9,11 @@ function buildStylesFiles(isDarkMode) {
           destination: "tokens.dark.css",
           format: "css/dark-variables",
           filter: darkFilesFilter,
-          // options: {
-          //   outputReferences: true,
-          // },
         },
         {
           destination: "tokens.dark.scss",
           format: "css/dark-variables",
           filter: darkFilesFilter,
-          // options: {
-          //   outputReferences: true,
-          // },
         },
       ]
     : [
