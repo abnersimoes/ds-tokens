@@ -1,5 +1,5 @@
 {
-  "name": "@algemetric/ds-tokens",
+  "name": "@cirtemegla/ds-tokens",
   "version": "1.0.0",
   "description": "",
   "main": "build/web/algemetric/tokens.cjs.js",
@@ -7,7 +7,8 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "node ./build.js",
-    "start": "npm run build && chokidar 'src/**/*.json' -c 'node ./build.js'"
+    "start": "npm run build && chokidar 'src/**/*.json' -c 'node ./build.js'",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
