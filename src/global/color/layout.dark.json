@@ -1,0 +1,14 @@
+{
+  "color": {
+    "background": {
+      "layout": {
+        "pure": { "value": "{color.neutral.low.pure}" }
+      }
+    },
+    "text": {
+      "layout": {
+        "pure": { "value": "{color.neutral.high.pure}" }
+      }
+    }
+  }
+}
