@@ -11,7 +11,7 @@
       "secondary": {
         "lighter": { "value": "#E5F4FF" },
         "light": { "value": "#AAD3F2" },
-        "medium": { "value": "#AAD3F2" },
+        "medium": { "value": "#458EC4" },
         "dark": { "value": "#245578" },
         "darker": { "value": "#153145" }
       }
