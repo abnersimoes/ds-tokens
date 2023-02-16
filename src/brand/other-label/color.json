@@ -2,6 +2,7 @@
   "color": {
     "brand": {
       "primary": {
+        "lighter": { "value": "#E5F4FF" },
         "light": { "value": "#2F80B3" },
         "medium": { "value": "#034975" },
         "dark": { "value": "#022E49" },

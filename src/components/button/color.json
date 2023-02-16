@@ -21,6 +21,25 @@
         "text": {
           "default": { "value": "{color.neutral.high.light}" }
         }
+      },
+      "secondary": {
+        "background": {
+          "default": { "value": "{color.brand.primary.lighter}" },
+          "hover": { "value": "{color.brand.primary.light}" },
+          "pressed": { "value": "{color.brand.primary.medium}" }
+        },
+        "text": {
+          "default": { "value": "{color.brand.primary.dark}" }
+        }
+      },
+      "ghost": {
+        "background": {
+          "hover": { "value": "{color.brand.primary.lighter}" },
+          "pressed": { "value": "{color.brand.primary.light}" }
+        },
+        "text": {
+          "default": { "value": "{color.brand.primary.medium}" }
+        }
       }
     }
   }
