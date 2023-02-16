@@ -9,10 +9,12 @@
         "heavy": { "value": 0.5 }
       },
       "radius": {
-        "pill": { "value": 10 },
-        "large": { "value": 0.5 },
-        "medium": { "value": 0.25 },
-        "small": { "value": 0.25 }
+        "none": { "value": 0 },
+        "sm": { "value": 0.5 },
+        "md": { "value": 1 },
+        "lg": { "value": 1.5 },
+        "pill": { "value": 32 },
+        "circular": { "value": "{unit.percentage.50}" }
       }
     }
   }

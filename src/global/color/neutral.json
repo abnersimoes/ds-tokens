@@ -13,6 +13,9 @@
         "medium": { "value": "#E8E8E8" },
         "dark": { "value": "#D6D6D6" }
       }
+    },
+    "highlight": {
+      "pure": { "value": "#7BC7FF" }
     }
   }
 }

@@ -1,0 +1,11 @@
+{
+  "size": {
+    "screen": {
+      "sm": { "value": 40 },
+      "md": { "value": 48 },
+      "lg": { "value": 64 },
+      "xl": { "value": 80 },
+      "2xl": { "value": 96 }
+    }
+  }
+}

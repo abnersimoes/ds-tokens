@@ -5,7 +5,15 @@
         "pure": { "value": "#FC0E05" },
         "light": { "value": "#FECCCA" },
         "medium": { "value": "#E50D05" },
-        "dark": { "value": "#A90903" }
+        "dark": { "value": "#A90903" },
+        "darker": { "value": "#153145" }
+      },
+      "secondary": {
+        "lighter": { "value": "#FFF7F2" },
+        "light": { "value": "#FFCAA6" },
+        "medium": { "value": "#D15B0A" },
+        "dark": { "value": "#9E4000" },
+        "darker": { "value": "#522100" }
       }
     }
   }

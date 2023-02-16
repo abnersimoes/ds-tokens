@@ -1,0 +1,7 @@
+{
+  "font": {
+    "button": {
+      "weight": { "value": "{font.weight.semiBold}" }
+    }
+  }
+}

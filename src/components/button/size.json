@@ -1,14 +1,15 @@
 {
   "size": {
-    "font": {
-      "button": {
-        "sm": { "value": "{size.font.sm.value}" },
-        "md": { "value": "{size.font.md.value}" },
-        "lg": { "value": "{size.font.lg.value}" }
+    "button": {
+      "base": {
+        "font": { "value": "{size.font.sm}" },
+        "border-radius": { "value": "{size.border.radius.sm}" },
+        "height": { "value": 2.75 },
+        "padding-horizontal": { "value": "{size.spacing.lg}" }
+      },
+      "focus": {
+        "border-width": { "value": "{size.border.width.thin}" }
       }
-    },
-    "border-radius": {
-      "button": { "value": "{size.border.radius.large}" }
     }
   }
 }

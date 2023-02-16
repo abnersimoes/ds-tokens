@@ -2,10 +2,18 @@
   "color": {
     "brand": {
       "primary": {
-        "pure": { "value": "#99FFE2" },
-        "light": { "value": "#6BB39E" },
-        "medium": { "value": "#1F8568" },
-        "dark": { "value": "#2F4F46" }
+        "lighter": { "value": "#E5F4FF" },
+        "light": { "value": "#AAD3F2" },
+        "medium": { "value": "#AAD3F2" },
+        "dark": { "value": "#245578" },
+        "darker": { "value": "#153145" }
+      },
+      "secondary": {
+        "lighter": { "value": "#FFF7F2" },
+        "light": { "value": "#FFCAA6" },
+        "medium": { "value": "#D15B0A" },
+        "dark": { "value": "#9E4000" },
+        "darker": { "value": "#522100" }
       }
     }
   }

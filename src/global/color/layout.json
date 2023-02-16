@@ -7,7 +7,7 @@
     },
     "text": {
       "layout": {
-        "pure": { "value": "{color.neutral.low.pure}" }
+        "pure": { "value": "{color.neutral.low.dark}" }
       }
     }
   }
