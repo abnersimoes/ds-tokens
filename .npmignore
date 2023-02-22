@@ -5,3 +5,5 @@ formats/
 helpers/
 transforms/
 utils/
+build.js
+package.json
