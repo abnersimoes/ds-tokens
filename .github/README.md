@@ -1,9 +1,6 @@
-<img src="https://badge.fury.io/js/@cirtemegla%2Fds-tokens.svg" alt="package current version" />
-<img src="https://img.shields.io/node/v/hydrogen" alt="node version">
-<img src="https://img.shields.io/appveyor/build/abnersimoes/ds-tokens" alt="project build">
+<img src="https://badge.fury.io/js/@cirtemegla%2Fds-tokens.svg" alt="package current version" /> <img src="https://img.shields.io/node/v/hydrogen" alt="node version"> <img src="https://img.shields.io/appveyor/build/abnersimoes/ds-tokens" alt="project build">
 
-<img src="https://forthebadge.com/images/badges/uses-js.svg" />
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/uses-js.svg" /> <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 
 ---
 
@@ -49,7 +46,7 @@ npm run publish --access=public
 
 ### General architecture
 
-.
+```bash
 ├── actions/
 ├── formats/
 ├── helpers/
@@ -58,12 +55,13 @@ npm run publish --access=public
 ├── utils/
 ├── build.js
 └── package.json
+```
 
 ### How to create a new white label
 
 Just replicate the file architecture inside the `src/brand` folder
 
-.
+```bash
 ├── src/
 │ ├── brand/
 │ │ ├── brand-a/
@@ -76,12 +74,13 @@ Just replicate the file architecture inside the `src/brand` folder
 │ ├── components/
 │ ├── global/
 │ └── platform/
+```
 
 ### How to create component specific tokens
 
 Just create a folder with the name of the component inside the `src/components` folder. Once that's done, you can create files for each token category
 
-.
+```bash
 ├── src/
 │ ├── brand/
 │ ├── components/
@@ -91,12 +90,13 @@ Just create a folder with the name of the component inside the `src/components` 
 │ │ └── size.json
 │ ├── global/
 │ └── platform/
+```
 
 ### How to custom tokens for dark mode
 
 Copy the default style file (light mode) and add the `.dark` suffix. Once this is done, change the values of the tokens that will override the default values
 
-.
+```bash
 ├── src/
 │ ├── brand/
 │ ├── components/
@@ -106,10 +106,11 @@ Copy the default style file (light mode) and add the `.dark` suffix. Once this i
 │ │ └── ...
 │ ├── global/
 │ └── platform/
+```
 
 ### Folder to manage global tokens that will be reused by other tokens
 
-.
+```bash
 ├── src/
 │ ├── brand/
 │ ├── components/
@@ -124,10 +125,11 @@ Copy the default style file (light mode) and add the `.dark` suffix. Once this i
 │ │ ├── spacing.json
 │ │ └── ...
 │ └── platform/
+```
 
 ### Folder to manage tokens with different values for each platform (web, ios, android)
 
-.
+```bash
 ├── src/
 │ ├── brand/
 │ ├── components/
@@ -142,6 +144,7 @@ Copy the default style file (light mode) and add the `.dark` suffix. Once this i
 │ └── ios/
 │ ├── font.json
 │ └── ...
+```
 
 ## Contributors ✨
 
