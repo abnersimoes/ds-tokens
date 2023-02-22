@@ -1,3 +1,4 @@
+.github
 node_modules/
 src/
 actions/
@@ -6,4 +7,3 @@ helpers/
 transforms/
 utils/
 build.js
-package.json
