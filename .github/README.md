@@ -42,7 +42,7 @@ Just change version in the `package.json` to a version abose and run:
 npm run publish --access=public
 ```
 
-### 📁 Folder architecture
+### 🗂️ Folder architecture
 
 ### General architecture
 
