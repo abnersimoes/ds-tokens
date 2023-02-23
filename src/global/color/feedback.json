@@ -1,0 +1,31 @@
+{
+  "color": {
+    "feedback": {
+      "error": {
+        "pure": { "value": "#FC0E05" },
+        "light": { "value": "#FECCCA" },
+        "medium": { "value": "#E50D05" },
+        "dark": { "value": "#A90903" }
+      },
+      "warning": {
+        "pure": { "value": "#F89502" },
+        "lighter": { "value": "#FFF7EB" },
+        "light": { "value": "#FFCB82" },
+        "medium": { "value": "#EB8F46" },
+        "dark": { "value": "#BF5800" }
+      },
+      "helper": {
+        "pure": { "value": "#51ABCD" },
+        "light": { "value": "#B1E6F4" },
+        "medium": { "value": "#18AED1" },
+        "dark": { "value": "#005560" }
+      },
+      "success": {
+        "pure": { "value": "#00CB82" },
+        "light": { "value": "#79DFA8" },
+        "medium": { "value": "#45A672" },
+        "dark": { "value": "#308557" }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "color": {
+    "highlight": {
+      "pure": { "value": "#7BC7FF" },
+      "light": { "value": "#66A5D4" },
+      "medium": { "value": "#4C7B9E" },
+      "dark": { "value": "#1E303D" }
+    }
+  }
+}
