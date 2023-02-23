@@ -1,0 +1,11 @@
+{
+  "effect": {
+    "opacity": {
+      "semi-opaque": { "value": 0.72 },
+      "intense": { "value": 0.64 },
+      "medium": { "value": 0.32 },
+      "light": { "value": 0.16 },
+      "semi-transparent": { "value": 0.08 }
+    }
+  }
+}
