@@ -1,12 +1,12 @@
 {
   "color": {
     "chart": {
-      "color-1": { "value": "#63D8D0" },
-      "color-2": { "value": "#8BA8C2" },
-      "color-3": { "value": "#C3D7E9" },
-      "color-4": { "value": "#9670C8" },
-      "color-5": { "value": "#EB8851" },
-      "color-6": { "value": "#C7C95B" }
+      "1": { "value": "#63D8D0" },
+      "2": { "value": "#8BA8C2" },
+      "3": { "value": "#C3D7E9" },
+      "4": { "value": "#9670C8" },
+      "5": { "value": "#EB8851" },
+      "6": { "value": "#C7C95B" }
     }
   }
 }
