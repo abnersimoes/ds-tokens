@@ -1,10 +1,10 @@
 {
   "effect": {
     "box-shadow": {
-      "md": { "value": "0 0.25rem 0.5rem" },
-      "lg": { "value": "0 0.5rem 1.5rem" },
-      "xl": { "value": "0 1rem 2rem" },
-      "2xl": { "value": "0 1rem 3rem" }
+      "md": { "value": "0 0.25 0.5" },
+      "lg": { "value": "0 0.5 1.5" },
+      "xl": { "value": "0 1 2" },
+      "2xl": { "value": "0 1 3" }
     }
   }
 }

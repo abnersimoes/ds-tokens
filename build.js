@@ -2,6 +2,10 @@ const StyleDictionary = require("style-dictionary");
 const { buildStylesFiles } = require("./helpers/styles");
 const { buildFontFaceFiles } = require("./helpers/font-face");
 const { getChildrenOfFolder } = require("./utils/file");
+const {
+  multipleNumbersCSSTransform,
+  multipleNumbersSASSTransform,
+} = require("./transforms/multiple-numbers-to-rem");
 
 const BRAND_PATH = require("path").resolve(__dirname, "src/brand");
 const PLATFORM_PATH = require("path").resolve(__dirname, "src/platform");
@@ -16,6 +20,8 @@ const styleDictionary = StyleDictionary.extend({
   },
   transform: {
     "attribute/font-face": require("./transforms/font-face"),
+    "css/multiple-numbers-to-rem": multipleNumbersCSSTransform,
+    "sass/multiple-numbers-to-rem": multipleNumbersSASSTransform,
   },
   format: {
     "styles/font-face": require("./formats/font-face"),
@@ -34,7 +40,13 @@ function getPlatforms(brand, platform, isDarkMode) {
       actions: [`copyAssets`],
     },
     "web/styles": {
-      transforms: ["attribute/cti", "name/cti/kebab", "size/rem", "color/hex"],
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab",
+        "size/rem",
+        "color/hex",
+        "css/multiple-numbers-to-rem",
+      ],
       buildPath: webPath,
       prefix: PREFIX,
       files: buildStylesFiles(isDarkMode),
