@@ -3,8 +3,6 @@ const styleDictionary = require("style-dictionary");
 const toRem = (value) =>
   styleDictionary.transform["size/rem"].transformer({ value });
 
-// Add more verifications if you want to transform other tokens with multiple numbers
-// Example of usage: "0 2 2.5" becomes "0rem 2rem 2.5rem"
 const multipleNumbersMatcher = (prop) =>
   prop.attributes.type.includes("shadow") &&
   prop.attributes.category === "effect";
