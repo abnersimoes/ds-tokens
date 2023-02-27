@@ -27,7 +27,7 @@ Just import the files from the `build/web/{white-label}/` folder:
 Create a `.env` file:
 
 ```bash
-DESIGN_TOKENS_SRC=./node_modules/@cirtemegla/ds-tokens/build/web/
+DESIGN_TOKENS_SRC=./node_modules/@algemetric/chroma-tokens/build/web/
 DESIGN_TOKENS_BRAND=algemetric
 ```
 

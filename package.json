@@ -1,6 +1,6 @@
 {
-  "name": "@cirtemegla/ds-tokens",
-  "version": "1.0.3",
+  "name": "@algemetric/chroma-tokens",
+  "version": "1.0.0",
   "description": "This project is responsible for centralizing the design tokens of the Chroma design system. Also managing white label tokens",
   "main": "build/web/algemetric/tokens.cjs.js",
   "module": "build/web/algemetric/tokens.esm.js",
@@ -13,7 +13,7 @@
   "author": "Abner Simões <asimoes@algemetric.com> (https://github.com/abnersimoes)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abnersimoes/ds-tokens"
+    "url": "https://github.com/Algemetric/chroma-tokens"
   },
   "keywords": [
     "algemetric",
