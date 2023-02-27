@@ -1,4 +1,4 @@
-<img src="https://badge.fury.io/js/@cirtemegla%2Fds-tokens.svg" alt="package current version" /> <img src="https://img.shields.io/node/v/hydrogen" alt="node version"> <img src="https://img.shields.io/appveyor/build/abnersimoes/ds-tokens" alt="project build">
+<img src="https://badge.fury.io/js/@algemetric%2Fchroma-tokens.svg" alt="package current version" /> <img src="https://img.shields.io/node/v/hydrogen" alt="node version"> <img src="https://img.shields.io/appveyor/build/algemetric/chroma-tokens" alt="project build">
 
 <img src="https://forthebadge.com/images/badges/uses-js.svg" /> <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 
