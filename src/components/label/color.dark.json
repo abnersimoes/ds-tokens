@@ -1,0 +1,11 @@
+{
+  "color": {
+    "label": {
+      "base": {
+        "text": {
+          "value": "{color.brand.secondary.lighter}"
+        }
+      }
+    }
+  }
+}
