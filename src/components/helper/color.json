@@ -1,0 +1,11 @@
+{
+  "color": {
+    "helper": {
+      "error": {
+        "text": {
+          "value": "{color.feedback.error.medium}"
+        }
+      }
+    }
+  }
+}
