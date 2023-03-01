@@ -1,0 +1,13 @@
+{
+  "size": {
+    "field": {
+      "base": {
+        "font": { "value": "{size.paragraph.sm}" },
+        "height": { "value": 3 },
+        "padding": { "value": "{size.spacing.md}" },
+        "border-width": { "value": "{size.border.width.thin}" },
+        "border-radius": { "value": "{size.border.radius.sm}" }
+      }
+    }
+  }
+}

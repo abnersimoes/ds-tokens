@@ -1,0 +1,9 @@
+{
+  "size": {
+    "paragraph": {
+      "sm": { "value": "{size.font.sm}" },
+      "md": { "value": "{size.font.default}" },
+      "lg": { "value": "{size.font.lg}" }
+    }
+  }
+}

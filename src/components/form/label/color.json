@@ -5,6 +5,11 @@
         "text": {
           "value": "{color.brand.secondary.dark}"
         }
+      },
+      "disabled": {
+        "text": {
+          "value": "{color.neutral.high.dark}"
+        }
       }
     }
   }
