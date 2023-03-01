@@ -1,9 +1,16 @@
 {
   "size": {
     "paragraph": {
-      "sm": { "value": "{size.font.sm}" },
-      "md": { "value": "{size.font.default}" },
-      "lg": { "value": "{size.font.lg}" }
+      "font": {
+        "sm": { "value": "{size.font.sm}" },
+        "md": { "value": "{size.font.default}" },
+        "lg": { "value": "{size.font.lg}" }
+      },
+      "line-height": {
+        "sm": { "value": "{font.line-height.sm}" },
+        "md": { "value": "{font.line-height.lg}" },
+        "lg": { "value": "{font.line-height.xl}" }
+      }
     }
   }
 }
