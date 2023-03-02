@@ -3,10 +3,18 @@
     "field": {
       "base": {
         "font": { "value": "{size.paragraph.font.sm}" },
-        "height": { "value": 3 },
-        "padding": { "value": "{size.spacing.md}" },
+        "padding": {
+          "x": { "value": "{size.spacing.md}" },
+          "y": { "value": 0.75 }
+        },
         "border-width": { "value": "{size.border.width.thin}" },
         "border-radius": { "value": "{size.border.radius.sm}" }
+      },
+      "text": {
+        "height": { "value": 3 }
+      },
+      "multiline": {
+        "height": { "value": 3.5 }
       }
     }
   }
