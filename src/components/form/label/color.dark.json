@@ -5,6 +5,11 @@
         "text": {
           "value": "{color.brand.secondary.lighter}"
         }
+      },
+      "disabled": {
+        "text": {
+          "value": "{color.neutral.low.pure}"
+        }
       }
     }
   }
