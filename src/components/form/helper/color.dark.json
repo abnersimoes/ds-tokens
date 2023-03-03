@@ -3,7 +3,7 @@
     "helper": {
       "base": {
         "text": {
-          "value": "{color.brand.secondary.lighter}"
+          "value": "{color.neutral.low.light}"
         }
       },
       "disabled": {
