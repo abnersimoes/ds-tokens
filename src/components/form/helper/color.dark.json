@@ -1,14 +1,14 @@
 {
   "color": {
     "helper": {
-      "error": {
+      "base": {
         "text": {
-          "value": "{color.feedback.error.medium}"
+          "value": "{color.neutral.low.light}"
         }
       },
       "disabled": {
         "text": {
-          "value": "{color.neutral.high.dark}"
+          "value": "{color.neutral.low.pure}"
         }
       }
     }
