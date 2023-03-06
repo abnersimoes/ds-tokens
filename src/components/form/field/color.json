@@ -11,6 +11,9 @@
           "active": { "value": "{color.brand.primary.light}" }
         }
       },
+      "select": {
+        "arrow": { "value": "{color.brand.secondary.dark}" }
+      },
       "disabled": {
         "background": { "value": "{color.neutral.high.light}" },
         "border": { "value": "{color.neutral.high.light}" },
