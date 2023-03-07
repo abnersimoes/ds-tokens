@@ -19,9 +19,9 @@
         "arrow": { "value": "{color.neutral.high.dark}" }
       },
       "error": {
-        "background": { "value": "{color.feedback.error.light}" },
         "border": { "value": "{color.feedback.error.medium}" },
-        "arrow": { "value": "{color.feedback.error.medium}" }
+        "arrow": { "value": "{color.feedback.error.medium}" },
+        "text": { "value": "{color.neutral.low.dark}" }
       }
     }
   }
