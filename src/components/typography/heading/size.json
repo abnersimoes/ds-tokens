@@ -9,15 +9,6 @@
         "xl": { "value": "{size.font.xl}" },
         "2xl": { "value": "{size.font.2xl}" },
         "display": { "value": "{size.font.7xl}" }
-      },
-      "line-height": {
-        "xs": { "value": "{font.line-height.default}" },
-        "sm": { "value": "{font.line-height.xs}" },
-        "md": { "value": "{font.line-height.default}" },
-        "lg": { "value": "{font.line-height.lg}" },
-        "xl": { "value": "{font.line-height.default}" },
-        "2xl": { "value": "{font.line-height.default}" },
-        "display": { "value": "{font.line-height.default}" }
       }
     }
   }
