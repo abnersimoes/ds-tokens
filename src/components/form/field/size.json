@@ -19,8 +19,8 @@
       "select": {
         "arrow": {
           "width": { "value": 0.75 },
-          "half-width": { "value": 0.375 },
-          "spacing": { "value": "{size.spacing.xs}" }
+          "half-width": { "value": 0.429 },
+          "spacing": { "value": "{size.spacing.sm}" }
         }
       }
     }
