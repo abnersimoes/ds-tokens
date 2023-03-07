@@ -2,16 +2,21 @@
   "color": {
     "field": {
       "base": {
-        "placeholder": { "value": "{color.neutral.low.pure}" },
+        "placeholder": { "value": "{color.neutral.low.medium}" },
         "text": { "value": "{color.neutral.high.pure}" },
         "border": {
           "default": { "value": "{color.neutral.low.pure}" }
-        }
+        },
+        "arrow": { "value": "{color.brand.secondary.light}" }
       },
       "disabled": {
         "background": { "value": "{color.neutral.low.pure}" },
         "border": { "value": "{color.neutral.low.pure}" },
-        "text": { "value": "{color.neutral.low.dark}" }
+        "text": { "value": "{color.neutral.low.dark}" },
+        "arrow": { "value": "{color.neutral.low.dark}" }
+      },
+      "error": {
+        "text": { "value": "{color.neutral.high.pure}" }
       }
     }
   }
