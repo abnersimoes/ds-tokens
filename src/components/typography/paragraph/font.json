@@ -1,0 +1,11 @@
+{
+  "font": {
+    "paragraph": {
+      "line-height": {
+        "sm": { "value": "{font.line-height.sm}" },
+        "md": { "value": "{font.line-height.lg}" },
+        "lg": { "value": "{font.line-height.xl}" }
+      }
+    }
+  }
+}

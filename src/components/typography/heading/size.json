@@ -1,0 +1,15 @@
+{
+  "size": {
+    "heading": {
+      "font": {
+        "xs": { "value": "{size.font.xs}" },
+        "sm": { "value": "{size.font.sm}" },
+        "md": { "value": "{size.font.default}" },
+        "lg": { "value": "{size.font.lg}" },
+        "xl": { "value": "{size.font.xl}" },
+        "2xl": { "value": "{size.font.2xl}" },
+        "display": { "value": "{size.font.7xl}" }
+      }
+    }
+  }
+}

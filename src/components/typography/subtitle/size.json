@@ -1,0 +1,13 @@
+{
+  "size": {
+    "subtitle": {
+      "font": {
+        "xs": { "value": "{size.font.xs}" },
+        "sm": { "value": "{size.font.sm}" },
+        "md": { "value": "{size.font.default}" },
+        "lg": { "value": "{size.font.lg}" },
+        "xl": { "value": "{size.font.xl}" }
+      }
+    }
+  }
+}
