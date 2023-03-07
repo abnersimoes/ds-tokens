@@ -1,0 +1,15 @@
+{
+  "font": {
+    "heading": {
+      "weight": {
+        "xs": { "value": "{font.weight.semiBold}" },
+        "sm": { "value": "{font.weight.semiBold}" },
+        "md": { "value": "{font.weight.semiBold}" },
+        "lg": { "value": "{font.weight.bold}" },
+        "xl": { "value": "{font.weight.bold}" },
+        "2xl": { "value": "{font.weight.bold}" },
+        "display": { "value": "{font.weight.bold}" }
+      }
+    }
+  }
+}
