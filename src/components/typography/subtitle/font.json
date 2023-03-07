@@ -1,0 +1,20 @@
+{
+  "font": {
+    "subtitle": {
+      "line-height": {
+        "xs": { "value": "{font.line-height.xs}" },
+        "sm": { "value": "{font.line-height.sm}" },
+        "md": { "value": "{font.line-height.lg}" },
+        "lg": { "value": "{font.line-height.lg}" },
+        "xl": { "value": "{font.line-height.xl}" }
+      },
+      "weight": {
+        "xs": { "value": "{font.weight.regular}" },
+        "sm": { "value": "{font.weight.regular}" },
+        "md": { "value": "{font.weight.regular}" },
+        "lg": { "value": "{font.weight.regular}" },
+        "xl": { "value": "{font.weight.regular}" }
+      }
+    }
+  }
+}
