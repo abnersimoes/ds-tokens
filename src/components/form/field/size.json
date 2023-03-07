@@ -15,6 +15,13 @@
       },
       "multiline": {
         "height": { "value": 3.5 }
+      },
+      "select": {
+        "arrow": {
+          "width": { "value": 0.75 },
+          "half-width": { "value": 0.429 },
+          "spacing": { "value": "{size.spacing.sm}" }
+        }
       }
     }
   }
