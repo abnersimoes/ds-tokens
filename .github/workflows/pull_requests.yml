@@ -24,12 +24,33 @@ jobs:
         with:
           cmd: build
 
-      - name: Check package version
-        id: cpv
-        uses: PostHog/check-package-version@v2
-
-      - name: Echo output
+      - name: Check PR version
+        shell: bash
+        id: check
         run: |
-          echo "Committed version: ${{ steps.cpv.outputs.committed-version }}"
-          echo "Published version: ${{ steps.cpv.outputs.published-version }}"
-          echo "is it a new version? ${{ steps.cpv.outputs.is-new-version }}"
+          pr="$(jq -r '.version' < ./package.json)"
+          latest="$(git describe --tag --abbrev=0)"
+          php -r 'echo"::set-output name=valid::".(version_compare("'"$pr"'","'"$latest"'",">")?"valid":"invalid").PHP_EOL;'
+
+      - name: Step that always run
+        shell: bash
+        run: |
+          echo "PR is ${{ steps.check.outputs.valid }}"
+          if [ "${{ steps.check.outputs.valid }}" = "valid" ]
+          then
+            echo "im valid"
+          else
+            echo "im invalid"
+          fi
+
+      - name: Step that run at valid
+        if: steps.check.outputs.valid == 'valid'
+        shell: bash
+        run: |
+          echo "PR is ${{ steps.check.outputs.valid }}"
+
+      - name: Step that run at invalid
+        if: steps.check.outputs.valid != 'valid'
+        shell: bash
+        run: |
+          echo "PR is ${{ steps.check.outputs.valid }}"
