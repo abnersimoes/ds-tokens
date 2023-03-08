@@ -24,6 +24,12 @@ jobs:
         with:
           cmd: build
 
-      - name: Match Tag to package version
-        id: matchTagToPackage
-        uses: geritol/match-tag-to-package-version@0.2.0
+      - name: Check package version
+        id: cpv
+        uses: PostHog/check-package-version@v2
+
+      - name: Echo output
+        run: |
+          echo "Committed version: ${{ steps.cpv.outputs.committed-version }}"
+          echo "Published version: ${{ steps.cpv.outputs.published-version }}"
+          echo "is it a new version? ${{ steps.cpv.outputs.is-new-version }}"
