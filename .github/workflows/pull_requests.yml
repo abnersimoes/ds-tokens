@@ -58,7 +58,7 @@ jobs:
   #   run: |
   #     echo "PR is ${{ steps.check.outputs.valid }}"
 
-  version-check:
+  checkPRVersion:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -66,12 +66,12 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Check package version
-        id: cpv
+      - name: Get package version
+        id: package-version
         uses: PostHog/check-package-version@v2
 
-      - name: Echo output
+      - name: Compare main and PR package versions
+        if: ${{ steps.package-version.outputs.is-new-version }} == 'false'
         run: |
-          echo "Committed version: ${{ steps.cpv.outputs.committed-version }}"
-          echo "Published version: ${{ steps.cpv.outputs.published-version }}"
-          echo "Is new version: ${{ steps.cpv.outputs.is-new-version }}"
+          echo "Please, update the package.json version."
+          exit 1
