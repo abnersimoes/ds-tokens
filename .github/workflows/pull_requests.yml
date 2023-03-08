@@ -34,7 +34,7 @@ jobs:
 
       - name: Get package.json version
         id: package-version
-        uses: martinbeentjes/npm-get-version-action@main
+        uses: Saionaro/extract-package-version@v1.2.1
 
       - name: "Get Previous tag"
         id: tag-version
@@ -43,7 +43,7 @@ jobs:
       - name: Step that always run
         shell: bash
         run: |
-          echo "Package.json version is ${{ steps.package-version.outputs}}"
+          echo "Package.json version is ${{ steps.package-version.outputs.version}}"
           echo "Tag version is ${{ steps.tag-version.outputs.tag }}"
 
       # - name: Step that run at valid
