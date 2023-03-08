@@ -1,0 +1,43 @@
+name: Test Pull Request
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  setupEnvironment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set NodeJS 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Run install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+
+      - name: Run build
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
+
+  checkPRVersion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Get package version
+        id: package-version
+        uses: PostHog/check-package-version@v2
+
+      - name: Compare main and PR package versions
+        if: steps.package-version.outputs.is-new-version == 'false'
+        run: |
+          echo "Please, update the version of your package.json (${{ steps.package-version.outputs.committed-version }})"
+          exit 1
