@@ -61,15 +61,15 @@ jobs:
   version-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v2
 
-      - name: Branch name
-        run: echo running on branch ${GITHUB_HEAD_REF}
+      - name: Check package version
+        id: cpv
+        uses: PostHog/check-package-version@v2
 
-      - name: Build
-        run: docker build -t tedmiston/tag-example:${GITHUB_HEAD_REF}
-
-      - name: Get package.json version
-        id: package-version
-        uses: Saionaro/extract-package-version@v1.2.1
+      - name: Echo output
+        run: |
+          echo "Committed version: ${{ steps.cpv.outputs.committed-version }}"
+          echo "Published version: ${{ steps.cpv.outputs.published-version }}"
+          echo "Is new version: ${{ steps.cpv.outputs.is-new-version }}"
