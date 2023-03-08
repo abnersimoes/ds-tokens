@@ -25,6 +25,7 @@ jobs:
           cmd: build
 
   checkPRVersion:
+    needs: setupEnvironment
     runs-on: ubunti-latest
     steps:
       - name: Check PR version
