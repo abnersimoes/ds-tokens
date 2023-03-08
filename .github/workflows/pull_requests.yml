@@ -24,41 +24,8 @@ jobs:
         with:
           cmd: build
 
-  # checkPRVersion:
-  #   needs: setupEnvironment
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #       with:
-  #         fetch-depth: 0
-
-  #     - name: Get package.json version
-  #       id: package-version
-  #       uses: Saionaro/extract-package-version@v1.2.1
-
-  #     - name: "Get Previous tag"
-  #       id: tag-version
-  #       uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-  #     - name: Step that always run
-  #       shell: bash
-  #       run: |
-  #         echo "Package.json version is ${{ steps.package-version.outputs.version}}"
-  #         echo "Tag version is ${{ steps.tag-version.outputs.tag }}"
-
-  # - name: Step that run at valid
-  #   if: steps.check.outputs.valid == 'valid'
-  #   shell: bash
-  #   run: |
-  #     echo "PR is ${{ steps.check.outputs.valid }}"
-
-  # - name: Step that run at invalid
-  #   if: steps.check.outputs.valid != 'valid'
-  #   shell: bash
-  #   run: |
-  #     echo "PR is ${{ steps.check.outputs.valid }}"
-
   checkPRVersion:
+    needs: setupEnvironment
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
