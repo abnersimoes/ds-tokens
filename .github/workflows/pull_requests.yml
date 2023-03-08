@@ -43,7 +43,7 @@ jobs:
       - name: Step that always run
         shell: bash
         run: |
-          echo "Package.json version is ${{ steps.package-version.outputs.current-version}}"
+          echo "Package.json version is ${{ steps.package-version.outputs}}"
           echo "Tag version is ${{ steps.tag-version.outputs.tag }}"
 
       # - name: Step that run at valid
