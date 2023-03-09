@@ -2,7 +2,7 @@
   "color": {
     "field": {
       "base": {
-        "placeholder": { "value": "{color.neutral.low.light}" },
+        "placeholder": { "value": "{color.neutral.low.medium}" },
         "text": { "value": "{color.neutral.low.dark}" },
         "border": {
           "default": { "value": "{color.neutral.high.medium}" },
