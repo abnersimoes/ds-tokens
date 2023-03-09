@@ -15,8 +15,8 @@
       "primary": {
         "background": {
           "default": { "value": "{color.brand.primary.medium}" },
-          "hover": { "value": "{color.brand.primary.dark}" },
-          "pressed": { "value": "{color.brand.primary.darker}" }
+          "hover": { "value": "{color.brand.primary.mid-dark}" },
+          "pressed": { "value": "{color.brand.primary.dark}" }
         },
         "text": {
           "default": { "value": "{color.neutral.high.light}" }
@@ -26,7 +26,7 @@
         "background": {
           "default": { "value": "{color.brand.primary.lighter}" },
           "hover": { "value": "{color.brand.primary.light}" },
-          "pressed": { "value": "{color.brand.primary.medium}" }
+          "pressed": { "value": "{color.brand.primary.mid-light}" }
         },
         "text": {
           "default": { "value": "{color.brand.primary.dark}" }
