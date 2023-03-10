@@ -13,6 +13,7 @@
         "arrow": { "value": "{color.brand.secondary.dark}" }
       },
       "disabled": {
+        "placeholder": { "value": "{color.neutral.high.dark}" },
         "background": { "value": "{color.neutral.high.light}" },
         "border": { "value": "{color.neutral.high.light}" },
         "text": { "value": "{color.neutral.high.dark}" },
