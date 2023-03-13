@@ -17,6 +17,7 @@
         "height": { "value": 3.5 }
       },
       "select": {
+        "padding-right": { "value": "{size.spacing.2xl}" },
         "arrow": {
           "width": { "value": 0.75 },
           "half-width": { "value": 0.429 },
