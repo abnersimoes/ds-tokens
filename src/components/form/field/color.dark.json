@@ -15,9 +15,6 @@
         "border": { "value": "{color.neutral.low.pure}" },
         "text": { "value": "{color.neutral.low.dark}" },
         "arrow": { "value": "{color.neutral.low.dark}" }
-      },
-      "error": {
-        "text": { "value": "{color.neutral.high.pure}" }
       }
     }
   }
