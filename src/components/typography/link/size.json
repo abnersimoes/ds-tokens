@@ -1,0 +1,10 @@
+{
+  "size": {
+    "link": {
+      "focus": {
+        "border-width": { "value": "{size.border.width.thin}" },
+        "border-radius": { "value": "0.125rem" }
+      }
+    }
+  }
+}
