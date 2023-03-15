@@ -4,8 +4,7 @@
       "base": {
         "text": {
           "default": { "value": "{color.brand.primary.light}" },
-          "active": { "value": "{color.neutral.high.pure}" },
-          "disabled": { "value": "{color.neutral.low.pure}" }
+          "active": { "value": "{color.neutral.high.pure}" }
         },
         "border": {
           "focus": { "value": "{color.highlight.pure}" }
