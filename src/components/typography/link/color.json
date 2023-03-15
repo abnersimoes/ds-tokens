@@ -1,0 +1,16 @@
+{
+  "color": {
+    "link": {
+      "base": {
+        "text": {
+          "default": { "value": "{color.brand.primary.medium}" },
+          "active": { "value": "{color.neutral.low.pure}" },
+          "disabled": { "value": "{color.neutral.low.light}" }
+        },
+        "border": {
+          "focus": { "value": "{color.highlight.pure}" }
+        }
+      }
+    }
+  }
+}
