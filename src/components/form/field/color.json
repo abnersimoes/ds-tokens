@@ -21,8 +21,7 @@
       },
       "error": {
         "border": { "value": "{color.feedback.error.medium}" },
-        "arrow": { "value": "{color.feedback.error.medium}" },
-        "text": { "value": "{color.neutral.low.dark}" }
+        "arrow": { "value": "{color.feedback.error.medium}" }
       }
     }
   }
