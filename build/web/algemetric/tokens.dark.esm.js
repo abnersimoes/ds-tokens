@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Mon, 20 Mar 2023 12:34:29 GMT
- */
-
 export const COLOR_BACKGROUND_LAYOUT_PURE = "#1C1C1B";
 export const COLOR_TEXT_LAYOUT_PURE = "#FFFFFF";
 export const COLOR_BUTTON_BASE_BACKGROUND_DISABLED = "#383836";

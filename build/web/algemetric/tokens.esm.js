@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Mon, 20 Mar 2023 12:34:29 GMT
- */
-
 export const COLOR_BRAND_PRIMARY_LIGHTER = "#FEF3EC";
 export const COLOR_BRAND_PRIMARY_LIGHT = "#FFCAA6";
 export const COLOR_BRAND_PRIMARY_MID_LIGHT = "#FF8533";

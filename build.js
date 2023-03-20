@@ -1,9 +1,9 @@
 const StyleDictionary = require("style-dictionary");
 const {
-  buildStylesFiles,
-  buildJsonFiles,
-  buildJsFiles,
-} = require("./helpers/dark-mode");
+  LIGHT_MODE,
+  DARK_MODE,
+  colorScheme,
+} = require("./helpers/color-scheme");
 const { buildFontFaceFiles } = require("./helpers/font-face");
 const { getChildrenOfFolder } = require("./utils/file");
 const {
@@ -33,7 +33,7 @@ const styleDictionary = StyleDictionary.extend({
   },
 });
 
-function getPlatforms(brand, platform, isDarkMode) {
+function getPlatforms(brand, platform, colorMode) {
   const webPath = `build/${platform}/${brand}/`;
 
   return {
@@ -53,7 +53,7 @@ function getPlatforms(brand, platform, isDarkMode) {
       ],
       buildPath: webPath,
       prefix: PREFIX,
-      files: buildStylesFiles(isDarkMode),
+      files: colorScheme[colorMode].stylesheets,
     },
     "web/font-face": {
       transforms: ["attribute/font-face"],
@@ -64,20 +64,18 @@ function getPlatforms(brand, platform, isDarkMode) {
       transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"],
       buildPath: webPath,
       prefix: PREFIX,
-      files: buildJsonFiles(isDarkMode),
+      files: colorScheme[colorMode].json,
     },
     "web/js": {
       transforms: ["name/cti/constant", "size/px", "color/hex"],
       buildPath: webPath,
       prefix: PREFIX,
-      files: buildJsFiles(isDarkMode),
+      files: colorScheme[colorMode].js,
     },
   };
 }
 
 function lightModeBuilder(brand, platform) {
-  const isDarkMode = false;
-
   return {
     source: [
       `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
@@ -85,13 +83,11 @@ function lightModeBuilder(brand, platform) {
       `src/components/**/!(*.${MODES.join(`|*.`)}).json`,
       `src/platforms/${platform}/**/!(*.${MODES.join(`|*.`)}).json`,
     ],
-    platforms: getPlatforms(brand, platform, isDarkMode),
+    platforms: getPlatforms(brand, platform, LIGHT_MODE),
   };
 }
 
 function darkModeBuilder(brand, platform) {
-  const isDarkMode = true;
-
   return {
     include: [
       `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
@@ -105,7 +101,7 @@ function darkModeBuilder(brand, platform) {
       `src/components/**/*.dark.json`,
       `src/platforms/${platform}/**/*.dark.json`,
     ],
-    platforms: getPlatforms(brand, platform, isDarkMode),
+    platforms: getPlatforms(brand, platform, DARK_MODE),
   };
 }
 
