@@ -45,4 +45,41 @@ function buildJsonFiles(isDarkMode) {
       ];
 }
 
-module.exports = { buildStylesFiles, buildJsonFiles };
+[
+  {
+    destination: "tokens.cjs.js",
+    format: "javascript/module",
+  },
+  {
+    destination: "tokens.esm.js",
+    format: "javascript/es6",
+  },
+];
+
+function buildJsFiles(isDarkMode) {
+  return isDarkMode
+    ? [
+        {
+          destination: "tokens.dark.cjs.js",
+          format: "javascript/module",
+          filter: darkFilesFilter,
+        },
+        {
+          destination: "tokens.dark.esm.js",
+          format: "javascript/es6",
+          filter: darkFilesFilter,
+        },
+      ]
+    : [
+        {
+          destination: "tokens.cjs.js",
+          format: "javascript/module",
+        },
+        {
+          destination: "tokens.esm.js",
+          format: "javascript/es6",
+        },
+      ];
+}
+
+module.exports = { buildStylesFiles, buildJsonFiles, buildJsFiles };

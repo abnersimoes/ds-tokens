@@ -1,5 +1,9 @@
 const StyleDictionary = require("style-dictionary");
-const { buildStylesFiles, buildJsonFiles } = require("./helpers/styles");
+const {
+  buildStylesFiles,
+  buildJsonFiles,
+  buildJsFiles,
+} = require("./helpers/dark-mode");
 const { buildFontFaceFiles } = require("./helpers/font-face");
 const { getChildrenOfFolder } = require("./utils/file");
 const {
@@ -62,6 +66,12 @@ function getPlatforms(brand, platform, isDarkMode) {
       prefix: PREFIX,
       files: buildJsonFiles(isDarkMode),
     },
+    "web/js": {
+      transforms: ["name/cti/constant", "size/px", "color/hex"],
+      buildPath: webPath,
+      prefix: PREFIX,
+      files: buildJsFiles(isDarkMode),
+    },
   };
 }
 
@@ -114,6 +124,7 @@ PLATFORMS.map(function (platform) {
       lightModeInstance.buildPlatform("web/styles");
       lightModeInstance.buildPlatform("web/font-face");
       lightModeInstance.buildPlatform("web/json");
+      lightModeInstance.buildPlatform("web/js");
     }
 
     console.log(`\n\n🌙 Building Dark mode: ${platform}/${brand}`);
@@ -127,6 +138,7 @@ PLATFORMS.map(function (platform) {
       darkModeInstance.buildPlatform("web/styles");
       darkModeInstance.buildPlatform("web/font-face");
       darkModeInstance.buildPlatform("web/json");
+      darkModeInstance.buildPlatform("web/js");
     }
   });
 });
