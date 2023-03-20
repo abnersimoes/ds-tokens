@@ -28,4 +28,21 @@ function buildStylesFiles(isDarkMode) {
       ];
 }
 
-module.exports = { buildStylesFiles };
+function buildJsonFiles(isDarkMode) {
+  return isDarkMode
+    ? [
+        {
+          destination: "tokens.dark.json",
+          format: "json/flat",
+          filter: darkFilesFilter,
+        },
+      ]
+    : [
+        {
+          destination: "tokens.json",
+          format: "json/flat",
+        },
+      ];
+}
+
+module.exports = { buildStylesFiles, buildJsonFiles };
