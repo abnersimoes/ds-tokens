@@ -61,13 +61,13 @@ function getPlatforms(brand, platform, colorMode) {
       files: buildFontFaceFiles(),
     },
     "web/json": {
-      transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"],
+      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
       buildPath: webPath,
       prefix: PREFIX,
       files: colorScheme[colorMode].json,
     },
     "web/js": {
-      transforms: ["name/cti/constant", "size/px", "color/hex"],
+      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
       buildPath: webPath,
       prefix: PREFIX,
       files: colorScheme[colorMode].js,
