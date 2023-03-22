@@ -3,14 +3,19 @@ module.exports = {
     "background": {
       "layout": {
         "pure": {
-          "value": "#1C1C1B",
+          "value": "#1c1c1b",
           "filePath": "src/global/color/layout.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.low.dark}"
           },
-          "name": "COLOR_BACKGROUND_LAYOUT_PURE",
-          "attributes": {},
+          "name": "colorBackgroundLayoutPure",
+          "attributes": {
+            "category": "color",
+            "type": "background",
+            "item": "layout",
+            "subitem": "pure"
+          },
           "path": [
             "color",
             "background",
@@ -23,14 +28,19 @@ module.exports = {
     "text": {
       "layout": {
         "pure": {
-          "value": "#FFFFFF",
+          "value": "#ffffff",
           "filePath": "src/global/color/layout.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.high.pure}"
           },
-          "name": "COLOR_TEXT_LAYOUT_PURE",
-          "attributes": {},
+          "name": "colorTextLayoutPure",
+          "attributes": {
+            "category": "color",
+            "type": "text",
+            "item": "layout",
+            "subitem": "pure"
+          },
           "path": [
             "color",
             "text",
@@ -50,8 +60,14 @@ module.exports = {
             "original": {
               "value": "{color.neutral.low.pure}"
             },
-            "name": "COLOR_BUTTON_BASE_BACKGROUND_DISABLED",
-            "attributes": {},
+            "name": "colorButtonBaseBackgroundDisabled",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "base",
+              "subitem": "background",
+              "state": "disabled"
+            },
             "path": [
               "color",
               "button",
@@ -63,14 +79,20 @@ module.exports = {
         },
         "text": {
           "disabled": {
-            "value": "#1C1C1B",
+            "value": "#1c1c1b",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.neutral.low.dark}"
             },
-            "name": "COLOR_BUTTON_BASE_TEXT_DISABLED",
-            "attributes": {},
+            "name": "colorButtonBaseTextDisabled",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "base",
+              "subitem": "text",
+              "state": "disabled"
+            },
             "path": [
               "color",
               "button",
@@ -84,14 +106,20 @@ module.exports = {
       "primary": {
         "background": {
           "hover": {
-            "value": "#FF8533",
+            "value": "#ff8533",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.mid-light}"
             },
-            "name": "COLOR_BUTTON_PRIMARY_BACKGROUND_HOVER",
-            "attributes": {},
+            "name": "colorButtonPrimaryBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "background",
+              "state": "hover"
+            },
             "path": [
               "color",
               "button",
@@ -101,14 +129,20 @@ module.exports = {
             ]
           },
           "pressed": {
-            "value": "#FFCAA6",
+            "value": "#ffcaa6",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.light}"
             },
-            "name": "COLOR_BUTTON_PRIMARY_BACKGROUND_PRESSED",
-            "attributes": {},
+            "name": "colorButtonPrimaryBackgroundPressed",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "background",
+              "state": "pressed"
+            },
             "path": [
               "color",
               "button",
@@ -120,14 +154,20 @@ module.exports = {
         },
         "text": {
           "default": {
-            "value": "#FEF3EC",
+            "value": "#fef3ec",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.lighter}"
             },
-            "name": "COLOR_BUTTON_PRIMARY_TEXT_DEFAULT",
-            "attributes": {},
+            "name": "colorButtonPrimaryTextDefault",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "text",
+              "state": "default"
+            },
             "path": [
               "color",
               "button",
@@ -141,14 +181,20 @@ module.exports = {
       "secondary": {
         "background": {
           "default": {
-            "value": "#331E0F",
+            "value": "#331e0f",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.darker}"
             },
-            "name": "COLOR_BUTTON_SECONDARY_BACKGROUND_DEFAULT",
-            "attributes": {},
+            "name": "colorButtonSecondaryBackgroundDefault",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "background",
+              "state": "default"
+            },
             "path": [
               "color",
               "button",
@@ -164,8 +210,14 @@ module.exports = {
             "original": {
               "value": "{color.brand.primary.dark}"
             },
-            "name": "COLOR_BUTTON_SECONDARY_BACKGROUND_HOVER",
-            "attributes": {},
+            "name": "colorButtonSecondaryBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "background",
+              "state": "hover"
+            },
             "path": [
               "color",
               "button",
@@ -175,14 +227,20 @@ module.exports = {
             ]
           },
           "pressed": {
-            "value": "#9E4000",
+            "value": "#9e4000",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.mid-dark}"
             },
-            "name": "COLOR_BUTTON_SECONDARY_BACKGROUND_PRESSED",
-            "attributes": {},
+            "name": "colorButtonSecondaryBackgroundPressed",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "background",
+              "state": "pressed"
+            },
             "path": [
               "color",
               "button",
@@ -194,14 +252,20 @@ module.exports = {
         },
         "text": {
           "default": {
-            "value": "#FEF3EC",
+            "value": "#fef3ec",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.lighter}"
             },
-            "name": "COLOR_BUTTON_SECONDARY_TEXT_DEFAULT",
-            "attributes": {},
+            "name": "colorButtonSecondaryTextDefault",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "text",
+              "state": "default"
+            },
             "path": [
               "color",
               "button",
@@ -215,14 +279,20 @@ module.exports = {
       "ghost": {
         "background": {
           "hover": {
-            "value": "#331E0F",
+            "value": "#331e0f",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.darker}"
             },
-            "name": "COLOR_BUTTON_GHOST_BACKGROUND_HOVER",
-            "attributes": {},
+            "name": "colorButtonGhostBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "ghost",
+              "subitem": "background",
+              "state": "hover"
+            },
             "path": [
               "color",
               "button",
@@ -238,8 +308,14 @@ module.exports = {
             "original": {
               "value": "{color.brand.primary.dark}"
             },
-            "name": "COLOR_BUTTON_GHOST_BACKGROUND_PRESSED",
-            "attributes": {},
+            "name": "colorButtonGhostBackgroundPressed",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "ghost",
+              "subitem": "background",
+              "state": "pressed"
+            },
             "path": [
               "color",
               "button",
@@ -251,14 +327,20 @@ module.exports = {
         },
         "text": {
           "default": {
-            "value": "#FEF3EC",
+            "value": "#fef3ec",
             "filePath": "src/components/button/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.lighter}"
             },
-            "name": "COLOR_BUTTON_GHOST_TEXT_DEFAULT",
-            "attributes": {},
+            "name": "colorButtonGhostTextDefault",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "ghost",
+              "subitem": "text",
+              "state": "default"
+            },
             "path": [
               "color",
               "button",
@@ -273,14 +355,19 @@ module.exports = {
     "field": {
       "base": {
         "placeholder": {
-          "value": "#6E6E6C",
+          "value": "#6e6e6c",
           "filePath": "src/components/form/field/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.low.medium}"
           },
-          "name": "COLOR_FIELD_BASE_PLACEHOLDER",
-          "attributes": {},
+          "name": "colorFieldBasePlaceholder",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "base",
+            "subitem": "placeholder"
+          },
           "path": [
             "color",
             "field",
@@ -289,14 +376,19 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#FFFFFF",
+          "value": "#ffffff",
           "filePath": "src/components/form/field/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.high.pure}"
           },
-          "name": "COLOR_FIELD_BASE_TEXT",
-          "attributes": {},
+          "name": "colorFieldBaseText",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "base",
+            "subitem": "text"
+          },
           "path": [
             "color",
             "field",
@@ -312,8 +404,14 @@ module.exports = {
             "original": {
               "value": "{color.neutral.low.pure}"
             },
-            "name": "COLOR_FIELD_BASE_BORDER_DEFAULT",
-            "attributes": {},
+            "name": "colorFieldBaseBorderDefault",
+            "attributes": {
+              "category": "color",
+              "type": "field",
+              "item": "base",
+              "subitem": "border",
+              "state": "default"
+            },
             "path": [
               "color",
               "field",
@@ -324,14 +422,19 @@ module.exports = {
           }
         },
         "arrow": {
-          "value": "#B8D2E5",
+          "value": "#b8d2e5",
           "filePath": "src/components/form/field/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.brand.secondary.light}"
           },
-          "name": "COLOR_FIELD_BASE_ARROW",
-          "attributes": {},
+          "name": "colorFieldBaseArrow",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "base",
+            "subitem": "arrow"
+          },
           "path": [
             "color",
             "field",
@@ -342,14 +445,19 @@ module.exports = {
       },
       "disabled": {
         "placeholder": {
-          "value": "#1C1C1B",
+          "value": "#1c1c1b",
           "filePath": "src/components/form/field/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.low.dark}"
           },
-          "name": "COLOR_FIELD_DISABLED_PLACEHOLDER",
-          "attributes": {},
+          "name": "colorFieldDisabledPlaceholder",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "disabled",
+            "subitem": "placeholder"
+          },
           "path": [
             "color",
             "field",
@@ -364,8 +472,13 @@ module.exports = {
           "original": {
             "value": "{color.neutral.low.pure}"
           },
-          "name": "COLOR_FIELD_DISABLED_BACKGROUND",
-          "attributes": {},
+          "name": "colorFieldDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "disabled",
+            "subitem": "background"
+          },
           "path": [
             "color",
             "field",
@@ -380,8 +493,13 @@ module.exports = {
           "original": {
             "value": "{color.neutral.low.pure}"
           },
-          "name": "COLOR_FIELD_DISABLED_BORDER",
-          "attributes": {},
+          "name": "colorFieldDisabledBorder",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "disabled",
+            "subitem": "border"
+          },
           "path": [
             "color",
             "field",
@@ -390,14 +508,19 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#1C1C1B",
+          "value": "#1c1c1b",
           "filePath": "src/components/form/field/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.low.dark}"
           },
-          "name": "COLOR_FIELD_DISABLED_TEXT",
-          "attributes": {},
+          "name": "colorFieldDisabledText",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "disabled",
+            "subitem": "text"
+          },
           "path": [
             "color",
             "field",
@@ -406,14 +529,19 @@ module.exports = {
           ]
         },
         "arrow": {
-          "value": "#1C1C1B",
+          "value": "#1c1c1b",
           "filePath": "src/components/form/field/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.low.dark}"
           },
-          "name": "COLOR_FIELD_DISABLED_ARROW",
-          "attributes": {},
+          "name": "colorFieldDisabledArrow",
+          "attributes": {
+            "category": "color",
+            "type": "field",
+            "item": "disabled",
+            "subitem": "arrow"
+          },
           "path": [
             "color",
             "field",
@@ -432,8 +560,13 @@ module.exports = {
           "original": {
             "value": "{color.neutral.low.pure}"
           },
-          "name": "COLOR_HELPER_DISABLED_TEXT",
-          "attributes": {},
+          "name": "colorHelperDisabledText",
+          "attributes": {
+            "category": "color",
+            "type": "helper",
+            "item": "disabled",
+            "subitem": "text"
+          },
           "path": [
             "color",
             "helper",
@@ -444,14 +577,19 @@ module.exports = {
       },
       "base": {
         "text": {
-          "value": "#B3B3B3",
+          "value": "#b3b3b3",
           "filePath": "src/components/form/helper/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.neutral.low.light}"
           },
-          "name": "COLOR_HELPER_BASE_TEXT",
-          "attributes": {},
+          "name": "colorHelperBaseText",
+          "attributes": {
+            "category": "color",
+            "type": "helper",
+            "item": "base",
+            "subitem": "text"
+          },
           "path": [
             "color",
             "helper",
@@ -464,14 +602,19 @@ module.exports = {
     "label": {
       "base": {
         "text": {
-          "value": "#E6EDF2",
+          "value": "#e6edf2",
           "filePath": "src/components/form/label/color.dark.json",
           "isSource": true,
           "original": {
             "value": "{color.brand.secondary.lighter}"
           },
-          "name": "COLOR_LABEL_BASE_TEXT",
-          "attributes": {},
+          "name": "colorLabelBaseText",
+          "attributes": {
+            "category": "color",
+            "type": "label",
+            "item": "base",
+            "subitem": "text"
+          },
           "path": [
             "color",
             "label",
@@ -488,8 +631,13 @@ module.exports = {
           "original": {
             "value": "{color.neutral.low.pure}"
           },
-          "name": "COLOR_LABEL_DISABLED_TEXT",
-          "attributes": {},
+          "name": "colorLabelDisabledText",
+          "attributes": {
+            "category": "color",
+            "type": "label",
+            "item": "disabled",
+            "subitem": "text"
+          },
           "path": [
             "color",
             "label",
@@ -503,14 +651,20 @@ module.exports = {
       "base": {
         "text": {
           "default": {
-            "value": "#FFCAA6",
+            "value": "#ffcaa6",
             "filePath": "src/components/typography/link/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.brand.primary.light}"
             },
-            "name": "COLOR_LINK_BASE_TEXT_DEFAULT",
-            "attributes": {},
+            "name": "colorLinkBaseTextDefault",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "base",
+              "subitem": "text",
+              "state": "default"
+            },
             "path": [
               "color",
               "link",
@@ -520,14 +674,20 @@ module.exports = {
             ]
           },
           "active": {
-            "value": "#FFFFFF",
+            "value": "#ffffff",
             "filePath": "src/components/typography/link/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.neutral.high.pure}"
             },
-            "name": "COLOR_LINK_BASE_TEXT_ACTIVE",
-            "attributes": {},
+            "name": "colorLinkBaseTextActive",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "base",
+              "subitem": "text",
+              "state": "active"
+            },
             "path": [
               "color",
               "link",
@@ -539,14 +699,20 @@ module.exports = {
         },
         "border": {
           "focus": {
-            "value": "#7BC7FF",
+            "value": "#7bc7ff",
             "filePath": "src/components/typography/link/color.dark.json",
             "isSource": true,
             "original": {
               "value": "{color.highlight.pure}"
             },
-            "name": "COLOR_LINK_BASE_BORDER_FOCUS",
-            "attributes": {},
+            "name": "colorLinkBaseBorderFocus",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "base",
+              "subitem": "border",
+              "state": "focus"
+            },
             "path": [
               "color",
               "link",

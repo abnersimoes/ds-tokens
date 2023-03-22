@@ -39,6 +39,18 @@ const lightModeConfig = {
       options,
     },
   ],
+  ts: [
+    {
+      destination: "tokens.cjs.d.ts",
+      format: "typescript/module-declarations",
+      options,
+    },
+    {
+      destination: "tokens.esm.d.ts",
+      format: "typescript/es6-declarations",
+      options,
+    },
+  ],
 };
 
 const darkModeConfig = {

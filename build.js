@@ -61,16 +61,22 @@ function getPlatforms(brand, platform, colorMode) {
       files: buildFontFaceFiles(),
     },
     "web/json": {
-      transforms: ["attribute/cti", "name/cti/kebab", "size/px", "color/css"],
+      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
       buildPath: webPath,
       prefix: PREFIX,
       files: colorScheme[colorMode].json,
     },
     "web/js": {
-      transforms: ["name/cti/constant", "size/px", "color/hex"],
+      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
       buildPath: webPath,
       prefix: PREFIX,
       files: colorScheme[colorMode].js,
+    },
+    "web/ts": {
+      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
+      buildPath: webPath,
+      prefix: PREFIX,
+      files: colorScheme[colorMode].ts,
     },
   };
 }
@@ -121,6 +127,7 @@ PLATFORMS.map(function (platform) {
       lightModeInstance.buildPlatform("web/font-face");
       lightModeInstance.buildPlatform("web/json");
       lightModeInstance.buildPlatform("web/js");
+      lightModeInstance.buildPlatform("web/ts");
     }
 
     console.log(`\n\n🌙 Building Dark mode: ${platform}/${brand}`);
