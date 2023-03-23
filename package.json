@@ -1,6 +1,6 @@
 {
   "name": "@algemetric/chroma-tokens",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "This project is responsible for centralizing the design tokens of the Chroma design system. Also managing white label tokens",
   "main": "build/web/algemetric/tokens.cjs.js",
   "module": "build/web/algemetric/tokens.esm.js",
@@ -9,7 +9,8 @@
     "prebuild": "rm -rf build",
     "build": "node ./build.js",
     "start": "npm run build && chokidar 'src/**/*.json' -c 'node ./build.js'",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "husky install"
   },
   "author": "Abner Simões <asimoes@algemetric.com> (https://github.com/abnersimoes)",
   "repository": {
@@ -24,6 +25,7 @@
   "license": "ISC",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
-    "style-dictionary": "^3.7.2"
+    "style-dictionary": "^3.7.2",
+    "husky": "^8.0.0"
   }
 }
