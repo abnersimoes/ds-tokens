@@ -3007,7 +3007,7 @@ module.exports = {
     "border": {
       "width": {
         "none": {
-          "value": "0rem",
+          "value": "0px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3028,7 +3028,7 @@ module.exports = {
           ]
         },
         "hairline": {
-          "value": "0.0625rem",
+          "value": "1px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3049,7 +3049,7 @@ module.exports = {
           ]
         },
         "thin": {
-          "value": "0.125rem",
+          "value": "2px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3070,7 +3070,7 @@ module.exports = {
           ]
         },
         "thick": {
-          "value": "0.25rem",
+          "value": "4px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3091,7 +3091,7 @@ module.exports = {
           ]
         },
         "heavy": {
-          "value": "0.5rem",
+          "value": "8px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3114,7 +3114,7 @@ module.exports = {
       },
       "radius": {
         "none": {
-          "value": "0rem",
+          "value": "0px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3135,7 +3135,7 @@ module.exports = {
           ]
         },
         "sm": {
-          "value": "0.5rem",
+          "value": "8px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3156,7 +3156,7 @@ module.exports = {
           ]
         },
         "md": {
-          "value": "1rem",
+          "value": "16px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3177,7 +3177,7 @@ module.exports = {
           ]
         },
         "lg": {
-          "value": "1.5rem",
+          "value": "24px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3198,7 +3198,7 @@ module.exports = {
           ]
         },
         "pill": {
-          "value": "32rem",
+          "value": "512px",
           "filePath": "src/global/size/border.json",
           "isSource": true,
           "original": {
@@ -3243,7 +3243,7 @@ module.exports = {
     },
     "font": {
       "xs": {
-        "value": "0.75rem",
+        "value": "12px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3262,7 +3262,7 @@ module.exports = {
         ]
       },
       "sm": {
-        "value": "0.875rem",
+        "value": "14px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3281,7 +3281,7 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "1rem",
+        "value": "16px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3300,7 +3300,7 @@ module.exports = {
         ]
       },
       "lg": {
-        "value": "1.25rem",
+        "value": "20px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3319,7 +3319,7 @@ module.exports = {
         ]
       },
       "xl": {
-        "value": "1.5rem",
+        "value": "24px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3338,7 +3338,7 @@ module.exports = {
         ]
       },
       "2xl": {
-        "value": "2rem",
+        "value": "32px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3357,7 +3357,7 @@ module.exports = {
         ]
       },
       "3xl": {
-        "value": "2.5rem",
+        "value": "40px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3376,7 +3376,7 @@ module.exports = {
         ]
       },
       "4xl": {
-        "value": "3rem",
+        "value": "48px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3395,7 +3395,7 @@ module.exports = {
         ]
       },
       "5xl": {
-        "value": "4rem",
+        "value": "64px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3414,7 +3414,7 @@ module.exports = {
         ]
       },
       "6xl": {
-        "value": "5rem",
+        "value": "80px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3433,7 +3433,7 @@ module.exports = {
         ]
       },
       "7xl": {
-        "value": "6rem",
+        "value": "96px",
         "filePath": "src/global/size/font.json",
         "isSource": true,
         "original": {
@@ -3454,7 +3454,7 @@ module.exports = {
     },
     "screen": {
       "sm": {
-        "value": "40rem",
+        "value": "640px",
         "filePath": "src/global/size/screen.json",
         "isSource": true,
         "original": {
@@ -3473,7 +3473,7 @@ module.exports = {
         ]
       },
       "md": {
-        "value": "48rem",
+        "value": "768px",
         "filePath": "src/global/size/screen.json",
         "isSource": true,
         "original": {
@@ -3492,7 +3492,7 @@ module.exports = {
         ]
       },
       "lg": {
-        "value": "64rem",
+        "value": "1024px",
         "filePath": "src/global/size/screen.json",
         "isSource": true,
         "original": {
@@ -3511,7 +3511,7 @@ module.exports = {
         ]
       },
       "xl": {
-        "value": "80rem",
+        "value": "1280px",
         "filePath": "src/global/size/screen.json",
         "isSource": true,
         "original": {
@@ -3530,7 +3530,7 @@ module.exports = {
         ]
       },
       "2xl": {
-        "value": "96rem",
+        "value": "1536px",
         "filePath": "src/global/size/screen.json",
         "isSource": true,
         "original": {
@@ -3551,7 +3551,7 @@ module.exports = {
     },
     "spacing": {
       "xs": {
-        "value": "0.25rem",
+        "value": "4px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3570,7 +3570,7 @@ module.exports = {
         ]
       },
       "sm": {
-        "value": "0.5rem",
+        "value": "8px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3589,7 +3589,7 @@ module.exports = {
         ]
       },
       "md": {
-        "value": "1rem",
+        "value": "16px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3608,7 +3608,7 @@ module.exports = {
         ]
       },
       "lg": {
-        "value": "1.5rem",
+        "value": "24px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3627,7 +3627,7 @@ module.exports = {
         ]
       },
       "xl": {
-        "value": "2rem",
+        "value": "32px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3646,7 +3646,7 @@ module.exports = {
         ]
       },
       "2xl": {
-        "value": "2.5rem",
+        "value": "40px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3665,7 +3665,7 @@ module.exports = {
         ]
       },
       "3xl": {
-        "value": "3rem",
+        "value": "48px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3684,7 +3684,7 @@ module.exports = {
         ]
       },
       "4xl": {
-        "value": "3.5rem",
+        "value": "56px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3703,7 +3703,7 @@ module.exports = {
         ]
       },
       "5xl": {
-        "value": "4rem",
+        "value": "64px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3722,7 +3722,7 @@ module.exports = {
         ]
       },
       "6xl": {
-        "value": "5rem",
+        "value": "80px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3741,7 +3741,7 @@ module.exports = {
         ]
       },
       "7xl": {
-        "value": "7.5rem",
+        "value": "120px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3760,7 +3760,7 @@ module.exports = {
         ]
       },
       "8xl": {
-        "value": "10rem",
+        "value": "160px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3779,7 +3779,7 @@ module.exports = {
         ]
       },
       "9xl": {
-        "value": "12.5rem",
+        "value": "200px",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
@@ -3801,7 +3801,7 @@ module.exports = {
     "button": {
       "base": {
         "font": {
-          "value": "0.875rem",
+          "value": "14px",
           "filePath": "src/components/button/size.json",
           "isSource": true,
           "original": {
@@ -3822,7 +3822,7 @@ module.exports = {
           ]
         },
         "border-radius": {
-          "value": "0.5rem",
+          "value": "8px",
           "filePath": "src/components/button/size.json",
           "isSource": true,
           "original": {
@@ -3843,7 +3843,7 @@ module.exports = {
           ]
         },
         "height": {
-          "value": "2.75rem",
+          "value": "44px",
           "filePath": "src/components/button/size.json",
           "isSource": true,
           "original": {
@@ -3864,7 +3864,7 @@ module.exports = {
           ]
         },
         "padding-horizontal": {
-          "value": "1.5rem",
+          "value": "24px",
           "filePath": "src/components/button/size.json",
           "isSource": true,
           "original": {
@@ -3887,7 +3887,7 @@ module.exports = {
       },
       "focus": {
         "border-width": {
-          "value": "0.125rem",
+          "value": "2px",
           "filePath": "src/components/button/size.json",
           "isSource": true,
           "original": {
@@ -3912,7 +3912,7 @@ module.exports = {
     "field": {
       "base": {
         "font": {
-          "value": "0.875rem",
+          "value": "14px",
           "filePath": "src/components/form/field/size.json",
           "isSource": true,
           "original": {
@@ -3934,7 +3934,7 @@ module.exports = {
         },
         "padding": {
           "x": {
-            "value": "1rem",
+            "value": "16px",
             "filePath": "src/components/form/field/size.json",
             "isSource": true,
             "original": {
@@ -3957,7 +3957,7 @@ module.exports = {
             ]
           },
           "y": {
-            "value": "0.75rem",
+            "value": "12px",
             "filePath": "src/components/form/field/size.json",
             "isSource": true,
             "original": {
@@ -3981,7 +3981,7 @@ module.exports = {
           }
         },
         "border-width": {
-          "value": "0.125rem",
+          "value": "2px",
           "filePath": "src/components/form/field/size.json",
           "isSource": true,
           "original": {
@@ -4002,7 +4002,7 @@ module.exports = {
           ]
         },
         "border-radius": {
-          "value": "0.5rem",
+          "value": "8px",
           "filePath": "src/components/form/field/size.json",
           "isSource": true,
           "original": {
@@ -4025,7 +4025,7 @@ module.exports = {
       },
       "text": {
         "height": {
-          "value": "3rem",
+          "value": "48px",
           "filePath": "src/components/form/field/size.json",
           "isSource": true,
           "original": {
@@ -4048,7 +4048,7 @@ module.exports = {
       },
       "multiline": {
         "height": {
-          "value": "3.5rem",
+          "value": "56px",
           "filePath": "src/components/form/field/size.json",
           "isSource": true,
           "original": {
@@ -4071,7 +4071,7 @@ module.exports = {
       },
       "select": {
         "padding-right": {
-          "value": "2.5rem",
+          "value": "40px",
           "filePath": "src/components/form/field/size.json",
           "isSource": true,
           "original": {
@@ -4093,7 +4093,7 @@ module.exports = {
         },
         "arrow": {
           "width": {
-            "value": "0.75rem",
+            "value": "12px",
             "filePath": "src/components/form/field/size.json",
             "isSource": true,
             "original": {
@@ -4116,7 +4116,7 @@ module.exports = {
             ]
           },
           "half-width": {
-            "value": "0.429rem",
+            "value": "7px",
             "filePath": "src/components/form/field/size.json",
             "isSource": true,
             "original": {
@@ -4139,7 +4139,7 @@ module.exports = {
             ]
           },
           "spacing": {
-            "value": "0.5rem",
+            "value": "8px",
             "filePath": "src/components/form/field/size.json",
             "isSource": true,
             "original": {
@@ -4167,7 +4167,7 @@ module.exports = {
     "heading": {
       "font": {
         "xs": {
-          "value": "0.75rem",
+          "value": "12px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4188,7 +4188,7 @@ module.exports = {
           ]
         },
         "sm": {
-          "value": "0.875rem",
+          "value": "14px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4209,7 +4209,7 @@ module.exports = {
           ]
         },
         "md": {
-          "value": "1rem",
+          "value": "16px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4230,7 +4230,7 @@ module.exports = {
           ]
         },
         "lg": {
-          "value": "1.25rem",
+          "value": "20px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4251,7 +4251,7 @@ module.exports = {
           ]
         },
         "xl": {
-          "value": "1.5rem",
+          "value": "24px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4272,7 +4272,7 @@ module.exports = {
           ]
         },
         "2xl": {
-          "value": "2rem",
+          "value": "32px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4293,7 +4293,7 @@ module.exports = {
           ]
         },
         "display": {
-          "value": "6rem",
+          "value": "96px",
           "filePath": "src/components/typography/heading/size.json",
           "isSource": true,
           "original": {
@@ -4318,7 +4318,7 @@ module.exports = {
     "link": {
       "focus": {
         "border-width": {
-          "value": "0.125rem",
+          "value": "2px",
           "filePath": "src/components/typography/link/size.json",
           "isSource": true,
           "original": {
@@ -4339,7 +4339,7 @@ module.exports = {
           ]
         },
         "border-radius": {
-          "value": "0.125rem",
+          "value": "2px",
           "filePath": "src/components/typography/link/size.json",
           "isSource": true,
           "original": {
@@ -4364,7 +4364,7 @@ module.exports = {
     "paragraph": {
       "font": {
         "sm": {
-          "value": "0.875rem",
+          "value": "14px",
           "filePath": "src/components/typography/paragraph/size.json",
           "isSource": true,
           "original": {
@@ -4385,7 +4385,7 @@ module.exports = {
           ]
         },
         "md": {
-          "value": "1rem",
+          "value": "16px",
           "filePath": "src/components/typography/paragraph/size.json",
           "isSource": true,
           "original": {
@@ -4406,7 +4406,7 @@ module.exports = {
           ]
         },
         "lg": {
-          "value": "1.25rem",
+          "value": "20px",
           "filePath": "src/components/typography/paragraph/size.json",
           "isSource": true,
           "original": {
@@ -4431,7 +4431,7 @@ module.exports = {
     "subtitle": {
       "font": {
         "xs": {
-          "value": "0.75rem",
+          "value": "12px",
           "filePath": "src/components/typography/subtitle/size.json",
           "isSource": true,
           "original": {
@@ -4452,7 +4452,7 @@ module.exports = {
           ]
         },
         "sm": {
-          "value": "0.875rem",
+          "value": "14px",
           "filePath": "src/components/typography/subtitle/size.json",
           "isSource": true,
           "original": {
@@ -4473,7 +4473,7 @@ module.exports = {
           ]
         },
         "md": {
-          "value": "1rem",
+          "value": "16px",
           "filePath": "src/components/typography/subtitle/size.json",
           "isSource": true,
           "original": {
@@ -4494,7 +4494,7 @@ module.exports = {
           ]
         },
         "lg": {
-          "value": "1.25rem",
+          "value": "20px",
           "filePath": "src/components/typography/subtitle/size.json",
           "isSource": true,
           "original": {
@@ -4515,7 +4515,7 @@ module.exports = {
           ]
         },
         "xl": {
-          "value": "1.5rem",
+          "value": "24px",
           "filePath": "src/components/typography/subtitle/size.json",
           "isSource": true,
           "original": {

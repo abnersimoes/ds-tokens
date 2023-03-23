@@ -67,13 +67,18 @@ function getPlatforms(brand, platform, colorMode) {
       files: colorScheme[colorMode].json,
     },
     "web/js": {
-      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
+      transforms: [
+        "attribute/cti",
+        "name/cti/camel",
+        "size/remToPx",
+        "color/hex",
+      ],
       buildPath: webPath,
       prefix: PREFIX,
       files: colorScheme[colorMode].js,
     },
     "web/ts": {
-      transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
+      transforms: ["attribute/cti", "name/cti/camel", "size/remToPx"],
       buildPath: webPath,
       prefix: PREFIX,
       files: colorScheme[colorMode].ts,
