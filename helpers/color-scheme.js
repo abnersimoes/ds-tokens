@@ -30,7 +30,7 @@ const lightModeConfig = {
   js: [
     {
       destination: "tokens.cjs.js",
-      format: "javascript/module",
+      format: "javascript/module-flat",
       options,
     },
     {
@@ -79,7 +79,7 @@ const darkModeConfig = {
   js: [
     {
       destination: "tokens.dark.cjs.js",
-      format: "javascript/module",
+      format: "javascript/module-flat",
       filter: darkFilesFilter,
       options,
     },
