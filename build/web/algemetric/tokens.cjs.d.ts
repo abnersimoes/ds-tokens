@@ -44,7 +44,13 @@ declare const tokens: {
       "3": DesignToken,
       "4": DesignToken,
       "5": DesignToken,
-      "6": DesignToken
+      "6": DesignToken,
+      "7": DesignToken,
+      "8": DesignToken,
+      "9": DesignToken,
+      "10": DesignToken,
+      "11": DesignToken,
+      "12": DesignToken
     },
     "feedback": {
       "error": {
