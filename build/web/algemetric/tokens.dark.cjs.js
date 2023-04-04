@@ -26,6 +26,7 @@ module.exports = {
   "colorHelperBaseText": "#b3b3b3",
   "colorLabelBaseText": "#e6edf2",
   "colorLabelDisabledText": "#383836",
+  "colorTagBaseBackgroundDefault": "#383836",
   "colorLinkBaseTextDefault": "#ffcaa6",
   "colorLinkBaseTextActive": "#ffffff",
   "colorLinkBaseBorderFocus": "#7bc7ff"

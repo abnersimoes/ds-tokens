@@ -191,6 +191,16 @@ declare const tokens: {
         "text": DesignToken
       }
     },
+    "tag": {
+      "base": {
+        "background": {
+          "default": DesignToken
+        },
+        "text": {
+          "default": DesignToken
+        }
+      }
+    },
     "link": {
       "base": {
         "text": {
@@ -228,6 +238,9 @@ declare const tokens: {
       "xxl": DesignToken
     },
     "button": {
+      "weight": DesignToken
+    },
+    "tag": {
       "weight": DesignToken
     },
     "heading": {
@@ -300,6 +313,7 @@ declare const tokens: {
       },
       "radius": {
         "none": DesignToken,
+        "xs": DesignToken,
         "sm": DesignToken,
         "md": DesignToken,
         "lg": DesignToken,
@@ -376,6 +390,14 @@ declare const tokens: {
           "half-width": DesignToken,
           "spacing": DesignToken
         }
+      }
+    },
+    "tag": {
+      "base": {
+        "border-radius": DesignToken,
+        "font": DesignToken,
+        "padding-horizontal": DesignToken,
+        "padding-vertical": DesignToken
       }
     },
     "heading": {

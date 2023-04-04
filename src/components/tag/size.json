@@ -1,0 +1,12 @@
+{
+  "size": {
+    "tag": {
+      "base": {
+        "border-radius": { "value": "{size.border.radius.xs}" },
+        "font": { "value": "{size.font.xs}" },
+        "padding-horizontal": { "value": "{size.spacing.sm}" },
+        "padding-vertical": { "value": "{size.spacing.xs}" }
+      }
+    }
+  }
+}
