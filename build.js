@@ -87,12 +87,14 @@ function getPlatforms(brand, platform, colorMode) {
 }
 
 function lightModeBuilder(brand, platform) {
+  const file = `!(*.${MODES.join(`|*.`)}).json`;
+
   return {
     source: [
-      `src/brand/${brand}/**/!(*.${MODES.join(`|*.`)}).json`,
-      `src/global/**/!(*.${MODES.join(`|*.`)}).json`,
-      `src/components/**/!(*.${MODES.join(`|*.`)}).json`,
-      `src/platforms/${platform}/**/!(*.${MODES.join(`|*.`)}).json`,
+      `src/brand/${brand}/**/${file}`,
+      `src/global/**/${file}`,
+      `src/components/**/${file}`,
+      `src/platforms/${platform}/**/${file}`,
     ],
     platforms: getPlatforms(brand, platform, LIGHT_MODE),
   };

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	src: url("#{$font-path}/Lato-Regular.woff2") format("woff2"),
+			 url("#{$font-path}/Lato-Regular.woff") format("woff");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	src: url("#{$font-path}/Lato-Regular.woff2") format("woff2"),
+			 url("#{$font-path}/Lato-Regular.woff") format("woff");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	src: url("#{$font-path}/Lato-Black.woff2") format("woff2"),
+			 url("#{$font-path}/Lato-Black.woff") format("woff");
+	font-display: fallback;
+}
