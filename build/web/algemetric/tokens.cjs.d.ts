@@ -205,7 +205,7 @@ declare const tokens: {
   },
   "asset": {
     "font": {
-      "poppins": DesignToken
+      "family": DesignToken
     }
   },
   "font": {

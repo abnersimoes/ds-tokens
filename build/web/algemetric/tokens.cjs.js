@@ -91,7 +91,7 @@ module.exports = {
   "colorLinkBaseTextDefault": "#d15b0a",
   "colorLinkBaseTextActive": "#383836",
   "colorLinkBaseBorderFocus": "#7bc7ff",
-  "assetFontPoppins": "Poppins",
+  "assetFontFamily": "Poppins",
   "fontFamily": "'Poppins', Arial, sans-serif",
   "fontWeightRegular": 400,
   "fontWeightSemiBold": 600,

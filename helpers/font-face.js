@@ -1,5 +1,5 @@
 const PREFIX_FONT_PATH = {
-  css: "./",
+  css: "./assets/fonts/",
   scss: "#{$font-path}/",
 };
 

@@ -90,7 +90,7 @@ export const colorLabelDisabledText : string;
 export const colorLinkBaseTextDefault : string;
 export const colorLinkBaseTextActive : string;
 export const colorLinkBaseBorderFocus : string;
-export const assetFontPoppins : string;
+export const assetFontFamily : string;
 export const fontFamily : string;
 export const fontWeightRegular : number;
 export const fontWeightSemiBold : number;
