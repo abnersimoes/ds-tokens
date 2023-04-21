@@ -19,11 +19,11 @@ function getTokensContent({ dictionary, options = {}, lineSeparator = "\n" }) {
 module.exports = function ({ file, ...props }) {
   return (
     fileHeader({ file }) +
-    `@media (prefers-color-scheme: dark) {\n` +
-    `  :root {\n  ` +
-    getTokensContent({ lineSeparator: "\n  ", ...props }) +
-    `\n  }\n` +
-    `}\n\n` +
+    // `@media (prefers-color-scheme: dark) {\n` +
+    // `  :root {\n  ` +
+    // getTokensContent({ lineSeparator: "\n  ", ...props }) +
+    // `\n  }\n` +
+    // `}\n\n` +
     `[data-color-scheme="dark"] {\n` +
     getTokensContent(props) +
     `\n}\n`
