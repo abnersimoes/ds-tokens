@@ -34,13 +34,18 @@ const styleDictionary = StyleDictionary.extend({
 });
 
 function getPlatforms(brand, platform, colorMode) {
-  const webPath = `build/${platform}/${brand}/`;
+  const basePath = `build/${platform}`;
+  const themePath = `${basePath}/themes/${brand}/`;
 
   return {
-    "web/assets": {
-      transforms: ["attribute/cti", "color/hex", "name/ti/camel"],
+    "web/global/assets": {
+      srcPath: `src/global/assets/`,
+      buildPath: `${basePath}/`,
+      actions: [`copyAssets`],
+    },
+    "web/theme/assets": {
       srcPath: `src/brand/${brand}/assets`,
-      buildPath: webPath,
+      buildPath: themePath,
       actions: [`copyAssets`],
     },
     "web/styles": {
@@ -51,18 +56,18 @@ function getPlatforms(brand, platform, colorMode) {
         "color/hex",
         "css/multiple-numbers-to-rem",
       ],
-      buildPath: webPath,
+      buildPath: themePath,
       prefix: PREFIX,
       files: colorScheme[colorMode].stylesheets,
     },
     "web/font-face": {
       transforms: ["attribute/font-face"],
-      buildPath: webPath,
+      buildPath: themePath,
       files: buildFontFaceFiles(),
     },
     "web/json": {
       transforms: ["attribute/cti", "name/cti/camel", "size/rem", "color/hex"],
-      buildPath: webPath,
+      buildPath: themePath,
       prefix: PREFIX,
       files: colorScheme[colorMode].json,
     },
@@ -73,13 +78,13 @@ function getPlatforms(brand, platform, colorMode) {
         "size/remToPx",
         "color/hex",
       ],
-      buildPath: webPath,
+      buildPath: themePath,
       prefix: PREFIX,
       files: colorScheme[colorMode].js,
     },
     "web/ts": {
       transforms: ["attribute/cti", "name/cti/camel", "size/remToPx"],
-      buildPath: webPath,
+      buildPath: themePath,
       prefix: PREFIX,
       files: colorScheme[colorMode].ts,
     },
@@ -129,7 +134,8 @@ PLATFORMS.map(function (platform) {
     );
 
     if (platform === "web") {
-      lightModeInstance.buildPlatform("web/assets");
+      lightModeInstance.buildPlatform("web/global/assets");
+      lightModeInstance.buildPlatform("web/theme/assets");
       lightModeInstance.buildPlatform("web/styles");
       lightModeInstance.buildPlatform("web/font-face");
       lightModeInstance.buildPlatform("web/json");
@@ -144,7 +150,8 @@ PLATFORMS.map(function (platform) {
     );
 
     if (platform === "web") {
-      darkModeInstance.buildPlatform("web/assets");
+      darkModeInstance.buildPlatform("web/global/assets");
+      darkModeInstance.buildPlatform("web/theme/assets");
       darkModeInstance.buildPlatform("web/styles");
       darkModeInstance.buildPlatform("web/font-face");
       darkModeInstance.buildPlatform("web/json");
