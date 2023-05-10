@@ -91,6 +91,8 @@
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
+  --color-tag-base-text-default: #ffffff;
+  --color-tag-base-background-default: #6e6e6c;
   --asset-font-family: "Poppins";
   --font-family: 'Poppins', Arial, sans-serif;
   --font-weight-regular: 400;
@@ -132,6 +134,7 @@
   --font-subtitle-weight-md: 400;
   --font-subtitle-weight-lg: 400;
   --font-subtitle-weight-xl: 400;
+  --font-tag-weight: 600;
   --effect-opacity-semi-opaque: 0.72;
   --effect-opacity-intense: 0.64;
   --effect-opacity-medium: 0.32;
@@ -214,6 +217,9 @@
   --size-subtitle-font-md: 1rem;
   --size-subtitle-font-lg: 1.25rem;
   --size-subtitle-font-xl: 1.5rem;
+  --size-tag-font: 0.75rem;
+  --size-tag-border-radius: 0.25rem;
+  --size-tag-padding: 0.25rem 0.5rem;
   --unit-percentage-50: 50%;
   --unit-percentage-100: 100%;
 }

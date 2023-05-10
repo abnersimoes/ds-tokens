@@ -28,3 +28,4 @@ export const colorLabelDisabledText = "#383836";
 export const colorLinkBaseTextDefault = "#ffcaa6";
 export const colorLinkBaseTextActive = "#ffffff";
 export const colorLinkBaseBorderFocus = "#7bc7ff";
+export const colorTagBaseBackgroundDefault = "#383836";
