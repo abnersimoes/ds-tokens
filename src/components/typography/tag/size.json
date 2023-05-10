@@ -2,7 +2,7 @@
   "size": {
     "tag": {
       "font": { "value": "{size.font.xs}" },
-      "border-radius": { "value": "0.25rem" },
+      "border-radius": { "value": 0.25 },
       "padding": { "value": "{size.spacing.xs} {size.spacing.sm}" }
     }
   }
