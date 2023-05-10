@@ -1,0 +1,14 @@
+{
+  "color": {
+    "tag": {
+      "base": {
+        "text": {
+          "default": { "value": "{color.neutral.high.pure}" }
+        },
+        "background": {
+          "default": { "value": "{color.neutral.low.medium}" }
+        }
+      }
+    }
+  }
+}

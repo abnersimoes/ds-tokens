@@ -28,5 +28,6 @@ module.exports = {
   "colorLabelDisabledText": "#383836",
   "colorLinkBaseTextDefault": "#ffcaa6",
   "colorLinkBaseTextActive": "#ffffff",
-  "colorLinkBaseBorderFocus": "#7bc7ff"
+  "colorLinkBaseBorderFocus": "#7bc7ff",
+  "colorTagBaseBackgroundDefault": "#383836"
 };

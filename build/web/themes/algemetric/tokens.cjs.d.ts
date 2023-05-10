@@ -201,6 +201,16 @@ declare const tokens: {
           "focus": DesignToken
         }
       }
+    },
+    "tag": {
+      "base": {
+        "text": {
+          "default": DesignToken
+        },
+        "background": {
+          "default": DesignToken
+        }
+      }
     }
   },
   "asset": {
@@ -272,6 +282,9 @@ declare const tokens: {
         "lg": DesignToken,
         "xl": DesignToken
       }
+    },
+    "tag": {
+      "weight": DesignToken
     }
   },
   "effect": {
@@ -410,6 +423,11 @@ declare const tokens: {
         "lg": DesignToken,
         "xl": DesignToken
       }
+    },
+    "tag": {
+      "font": DesignToken,
+      "border-radius": DesignToken,
+      "padding": DesignToken
     }
   },
   "unit": {

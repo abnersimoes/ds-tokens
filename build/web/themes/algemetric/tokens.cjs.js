@@ -91,6 +91,8 @@ module.exports = {
   "colorLinkBaseTextDefault": "#d15b0a",
   "colorLinkBaseTextActive": "#383836",
   "colorLinkBaseBorderFocus": "#7bc7ff",
+  "colorTagBaseTextDefault": "#ffffff",
+  "colorTagBaseBackgroundDefault": "#6e6e6c",
   "assetFontFamily": "Poppins",
   "fontFamily": "'Poppins', Arial, sans-serif",
   "fontWeightRegular": 400,
@@ -132,6 +134,7 @@ module.exports = {
   "fontSubtitleWeightMd": 400,
   "fontSubtitleWeightLg": 400,
   "fontSubtitleWeightXl": 400,
+  "fontTagWeight": 600,
   "effectOpacitySemiOpaque": 0.72,
   "effectOpacityIntense": 0.64,
   "effectOpacityMedium": 0.32,
@@ -214,6 +217,9 @@ module.exports = {
   "sizeSubtitleFontMd": "16px",
   "sizeSubtitleFontLg": "20px",
   "sizeSubtitleFontXl": "24px",
+  "sizeTagFont": "12px",
+  "sizeTagBorderRadius": "4px",
+  "sizeTagPadding": "4px 8px",
   "unitPercentage50": "50%",
   "unitPercentage100": "100%"
 };
