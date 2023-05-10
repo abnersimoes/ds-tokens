@@ -1,0 +1,9 @@
+{
+  "size": {
+    "tag": {
+      "font": { "value": "{size.font.xs}" },
+      "border-radius": { "value": "0.25rem" },
+      "padding": { "value": "{size.spacing.xs} {size.spacing.sm}" }
+    }
+  }
+}

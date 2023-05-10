@@ -1,0 +1,11 @@
+{
+  "color": {
+    "tag": {
+      "base": {
+        "background": {
+          "default": { "value": "{color.neutral.low.pure}" }
+        }
+      }
+    }
+  }
+}
