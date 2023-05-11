@@ -88,6 +88,7 @@
   --color-helper-disabled-text: #d6d6d6;
   --color-label-base-text: #194666;
   --color-label-disabled-text: #d6d6d6;
+  --color-card-border: #e8e8e8;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
@@ -140,10 +141,11 @@
   --effect-opacity-medium: 0.32;
   --effect-opacity-light: 0.16;
   --effect-opacity-semi-transparent: 0.08;
-  --effect-box-shadow-md: 0rem 0.25rem 0.5rem;
-  --effect-box-shadow-lg: 0rem 0.5rem 1.5rem;
-  --effect-box-shadow-xl: 0rem 1rem 2rem;
-  --effect-box-shadow-2xl: 0rem 1rem 3rem;
+  --effect-shadow-box-md: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
+  --effect-shadow-box-lg: 0rem 0.5rem 1.5rem rgba(0, 0, 0, 0.16);
+  --effect-shadow-box-xl: 0rem 1rem 2rem rgba(0, 0, 0, 0.16);
+  --effect-shadow-box-2xl: 0rem 1rem 3rem rgba(0, 0, 0, 0.24);
+  --effect-card-shadow-box: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
   --size-border-width-none: 0rem;
   --size-border-width-hairline: 0.0625rem;
   --size-border-width-thin: 0.125rem;
@@ -200,6 +202,9 @@
   --size-field-select-arrow-width: 0.75rem;
   --size-field-select-arrow-half-width: 0.429rem;
   --size-field-select-arrow-spacing: 0.5rem;
+  --size-card-border-width: 0.0625rem;
+  --size-card-border-radius: 0.5rem;
+  --size-card-padding-md: 1.5rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;
