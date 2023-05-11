@@ -191,6 +191,9 @@ declare const tokens: {
         "text": DesignToken
       }
     },
+    "card": {
+      "border": DesignToken
+    },
     "link": {
       "base": {
         "text": {
@@ -295,11 +298,18 @@ declare const tokens: {
       "light": DesignToken,
       "semi-transparent": DesignToken
     },
-    "box-shadow": {
-      "md": DesignToken,
-      "lg": DesignToken,
-      "xl": DesignToken,
-      "2xl": DesignToken
+    "shadow": {
+      "box": {
+        "md": DesignToken,
+        "lg": DesignToken,
+        "xl": DesignToken,
+        "2xl": DesignToken
+      }
+    },
+    "card": {
+      "shadow": {
+        "box": DesignToken
+      }
     }
   },
   "size": {
@@ -389,6 +399,15 @@ declare const tokens: {
           "half-width": DesignToken,
           "spacing": DesignToken
         }
+      }
+    },
+    "card": {
+      "border": {
+        "width": DesignToken,
+        "radius": DesignToken
+      },
+      "padding": {
+        "md": DesignToken
       }
     },
     "heading": {

@@ -1,0 +1,7 @@
+{
+  "color": {
+    "card": {
+      "border": { "value": "{color.neutral.high.medium}" }
+    }
+  }
+}

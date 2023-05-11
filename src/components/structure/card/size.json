@@ -1,0 +1,13 @@
+{
+  "size": {
+    "card": {
+      "border": {
+        "width": { "value": "{size.border.width.hairline}" },
+        "radius": { "value": "{size.border.radius.sm}" }
+      },
+      "padding": {
+        "md": { "value": "{size.spacing.lg}" }
+      }
+    }
+  }
+}
