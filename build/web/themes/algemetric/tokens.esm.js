@@ -206,6 +206,7 @@ export const sizeCardBorderWidth = "1px";
 export const sizeCardBorderRadius = "8px";
 export const sizeCardPaddingMd = "24px";
 export const sizeDividerHeight = "1px";
+export const sizeDividerMargin = "16px";
 export const sizeHeadingFontXs = "12px";
 export const sizeHeadingFontSm = "14px";
 export const sizeHeadingFontMd = "16px";

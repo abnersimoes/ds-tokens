@@ -206,6 +206,7 @@ export const sizeCardBorderWidth : string;
 export const sizeCardBorderRadius : string;
 export const sizeCardPaddingMd : string;
 export const sizeDividerHeight : string;
+export const sizeDividerMargin : string;
 export const sizeHeadingFontXs : string;
 export const sizeHeadingFontSm : string;
 export const sizeHeadingFontMd : string;

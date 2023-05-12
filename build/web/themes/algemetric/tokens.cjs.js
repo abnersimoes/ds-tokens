@@ -207,6 +207,7 @@ module.exports = {
   "sizeCardBorderRadius": "8px",
   "sizeCardPaddingMd": "24px",
   "sizeDividerHeight": "1px",
+  "sizeDividerMargin": "16px",
   "sizeHeadingFontXs": "12px",
   "sizeHeadingFontSm": "14px",
   "sizeHeadingFontMd": "16px",

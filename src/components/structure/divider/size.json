@@ -1,7 +1,8 @@
 {
   "size": {
     "divider": {
-      "height": { "value": "{size.border.width.hairline}" }
+      "height": { "value": "{size.border.width.hairline}" },
+      "margin": { "value": "{size.spacing.md}" }
     }
   }
 }

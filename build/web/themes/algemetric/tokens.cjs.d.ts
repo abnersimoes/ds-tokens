@@ -414,7 +414,8 @@ declare const tokens: {
       }
     },
     "divider": {
-      "height": DesignToken
+      "height": DesignToken,
+      "margin": DesignToken
     },
     "heading": {
       "font": {
