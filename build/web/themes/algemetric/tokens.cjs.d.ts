@@ -194,6 +194,9 @@ declare const tokens: {
     "card": {
       "border": DesignToken
     },
+    "divider": {
+      "base": DesignToken
+    },
     "link": {
       "base": {
         "text": {
@@ -409,6 +412,10 @@ declare const tokens: {
       "padding": {
         "md": DesignToken
       }
+    },
+    "divider": {
+      "height": DesignToken,
+      "margin": DesignToken
     },
     "heading": {
       "font": {
