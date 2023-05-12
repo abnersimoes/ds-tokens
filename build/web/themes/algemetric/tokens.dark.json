@@ -27,6 +27,7 @@
   "colorLabelBaseText": "#e6edf2",
   "colorLabelDisabledText": "#383836",
   "colorCardBorder": "#383836",
+  "colorDividerBase": "#383836",
   "colorLinkBaseTextDefault": "#ffcaa6",
   "colorLinkBaseTextActive": "#ffffff",
   "colorLinkBaseBorderFocus": "#7bc7ff",

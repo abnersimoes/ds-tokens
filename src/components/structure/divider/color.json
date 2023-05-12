@@ -1,0 +1,9 @@
+{
+  "color": {
+    "divider": {
+      "base": {
+        "value": "{color.neutral.high.medium}"
+      }
+    }
+  }
+}

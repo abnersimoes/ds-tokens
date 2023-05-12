@@ -1,0 +1,7 @@
+{
+  "size": {
+    "divider": {
+      "height": { "value": "{size.border.width.hairline}" }
+    }
+  }
+}

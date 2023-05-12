@@ -89,6 +89,7 @@
   --color-label-base-text: #194666;
   --color-label-disabled-text: #d6d6d6;
   --color-card-border: #e8e8e8;
+  --color-divider-base: #e8e8e8;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
@@ -205,6 +206,7 @@
   --size-card-border-width: 0.0625rem;
   --size-card-border-radius: 0.5rem;
   --size-card-padding-md: 1.5rem;
+  --size-divider-height: 0.0625rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;
