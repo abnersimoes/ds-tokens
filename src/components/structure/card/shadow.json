@@ -1,0 +1,11 @@
+{
+  "effect": {
+    "card": {
+      "shadow": {
+        "box": {
+          "value": "{effect.shadow.box.md}"
+        }
+      }
+    }
+  }
+}
