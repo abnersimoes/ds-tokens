@@ -1,0 +1,8 @@
+{
+  "color": {
+    "table": {
+      "background": { "value": "{color.neutral.low.pure}" },
+      "text": { "value": "{color.neutral.high.dark}" }
+    }
+  }
+}

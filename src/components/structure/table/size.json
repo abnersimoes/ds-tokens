@@ -1,0 +1,20 @@
+{
+  "size": {
+    "table": {
+      "wrapper": {
+        "border-radius": { "value": "{size.border.radius.sm}" },
+        "padding": {
+          "value": "{size.spacing.xl} {size.spacing.xl} {size.spacing.lg}"
+        }
+      },
+      "column": {
+        "padding": {
+          "value": "{size.spacing.sm} {size.spacing.3xl} {size.spacing.sm} 0"
+        },
+        "min-width": {
+          "value": "{size.spacing.8xl}"
+        }
+      }
+    }
+  }
+}

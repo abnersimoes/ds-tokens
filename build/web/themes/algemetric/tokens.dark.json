@@ -28,6 +28,8 @@
   "colorLabelDisabledText": "#383836",
   "colorCardBorder": "#383836",
   "colorDividerBase": "#383836",
+  "colorTableBackground": "#383836",
+  "colorTableText": "#d6d6d6",
   "colorLinkBaseTextDefault": "#ffcaa6",
   "colorLinkBaseTextActive": "#ffffff",
   "colorLinkBaseBorderFocus": "#7bc7ff",

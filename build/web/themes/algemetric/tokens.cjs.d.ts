@@ -197,6 +197,9 @@ declare const tokens: {
     "divider": {
       "base": DesignToken
     },
+    "table": {
+      "background": DesignToken
+    },
     "link": {
       "base": {
         "text": {
@@ -424,6 +427,16 @@ declare const tokens: {
     "divider": {
       "height": DesignToken,
       "margin": DesignToken
+    },
+    "table": {
+      "wrapper": {
+        "border-radius": DesignToken,
+        "padding": DesignToken
+      },
+      "column": {
+        "padding": DesignToken,
+        "min-width": DesignToken
+      }
     },
     "heading": {
       "font": {

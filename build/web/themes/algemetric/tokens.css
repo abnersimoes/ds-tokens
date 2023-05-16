@@ -90,6 +90,7 @@
   --color-label-disabled-text: #d6d6d6;
   --color-card-border: #e8e8e8;
   --color-divider-base: #e8e8e8;
+  --color-table-background: #f6f6f6;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
@@ -210,6 +211,10 @@
   --size-chart-card-header-spacing: 0.5rem;
   --size-divider-height: 0.0625rem;
   --size-divider-margin: 1rem;
+  --size-table-wrapper-border-radius: 0.5rem;
+  --size-table-wrapper-padding: 2rem 2rem 1.5rem;
+  --size-table-column-padding: 0.5rem 3rem 0.5rem 0;
+  --size-table-column-min-width: 10rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;

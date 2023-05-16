@@ -1,0 +1,7 @@
+{
+  "color": {
+    "table": {
+      "background": { "value": "{color.neutral.high.light}" }
+    }
+  }
+}
