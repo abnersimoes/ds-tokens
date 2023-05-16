@@ -1,0 +1,12 @@
+{
+  "size": {
+    "chart-card": {
+      "wrapper": {
+        "spacing": { "value": "{size.spacing.lg}" }
+      },
+      "header": {
+        "spacing": { "value": "{size.spacing.sm}" }
+      }
+    }
+  }
+}
