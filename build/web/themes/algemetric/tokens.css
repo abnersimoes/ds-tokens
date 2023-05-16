@@ -207,6 +207,8 @@
   --size-card-border-width: 0.0625rem;
   --size-card-border-radius: 0.5rem;
   --size-card-padding-md: 1.5rem;
+  --size-chart-card-wrapper-spacing: 1.5rem;
+  --size-chart-card-header-spacing: 0.5rem;
   --size-divider-height: 0.0625rem;
   --size-divider-margin: 1rem;
   --size-table-wrapper-border-radius: 0.5rem;

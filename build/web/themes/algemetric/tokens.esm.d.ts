@@ -206,6 +206,8 @@ export const sizeFieldSelectArrowSpacing : string;
 export const sizeCardBorderWidth : string;
 export const sizeCardBorderRadius : string;
 export const sizeCardPaddingMd : string;
+export const sizeChartCardWrapperSpacing : string;
+export const sizeChartCardHeaderSpacing : string;
 export const sizeDividerHeight : string;
 export const sizeDividerMargin : string;
 export const sizeTableWrapperBorderRadius : string;

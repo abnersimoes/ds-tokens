@@ -207,6 +207,8 @@ module.exports = {
   "sizeCardBorderWidth": "1px",
   "sizeCardBorderRadius": "8px",
   "sizeCardPaddingMd": "24px",
+  "sizeChartCardWrapperSpacing": "24px",
+  "sizeChartCardHeaderSpacing": "8px",
   "sizeDividerHeight": "1px",
   "sizeDividerMargin": "16px",
   "sizeTableWrapperBorderRadius": "8px",
