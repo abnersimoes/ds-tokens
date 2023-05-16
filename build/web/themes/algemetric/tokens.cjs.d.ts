@@ -413,6 +413,14 @@ declare const tokens: {
         "md": DesignToken
       }
     },
+    "chart-card": {
+      "wrapper": {
+        "spacing": DesignToken
+      },
+      "header": {
+        "spacing": DesignToken
+      }
+    },
     "divider": {
       "height": DesignToken,
       "margin": DesignToken
