@@ -26,6 +26,7 @@ export const colorHelperBaseText = "#b3b3b3";
 export const colorLabelBaseText = "#e6edf2";
 export const colorLabelDisabledText = "#383836";
 export const colorCardBorder = "#383836";
+export const colorDividerBase = "#383836";
 export const colorTableBackground = "#383836";
 export const colorTableText = "#d6d6d6";
 export const colorLinkBaseTextDefault = "#ffcaa6";

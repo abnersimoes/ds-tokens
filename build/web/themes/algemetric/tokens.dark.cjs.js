@@ -27,6 +27,7 @@ module.exports = {
   "colorLabelBaseText": "#e6edf2",
   "colorLabelDisabledText": "#383836",
   "colorCardBorder": "#383836",
+  "colorDividerBase": "#383836",
   "colorTableBackground": "#383836",
   "colorTableText": "#d6d6d6",
   "colorLinkBaseTextDefault": "#ffcaa6",

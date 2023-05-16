@@ -194,6 +194,9 @@ declare const tokens: {
     "card": {
       "border": DesignToken
     },
+    "divider": {
+      "base": DesignToken
+    },
     "table": {
       "background": DesignToken
     },
@@ -412,6 +415,10 @@ declare const tokens: {
       "padding": {
         "md": DesignToken
       }
+    },
+    "divider": {
+      "height": DesignToken,
+      "margin": DesignToken
     },
     "table": {
       "wrapper": {
