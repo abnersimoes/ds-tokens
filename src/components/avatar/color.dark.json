@@ -1,0 +1,8 @@
+{
+  "color": {
+    "avatar": {
+      "background": { "value": "{color.neutral.low.pure}" },
+      "color": { "value": "{color.neutral.high.pure}" }
+    }
+  }
+}

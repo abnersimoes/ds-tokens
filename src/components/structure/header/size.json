@@ -1,0 +1,14 @@
+{
+  "size": {
+    "header": {
+      "height": { "value": "{size.spacing.5xl}" },
+      "padding": { "value": "{size.spacing.md}" },
+      "logo": {
+        "gap": { "value": "{size.spacing.sm}" }
+      },
+      "actions": {
+        "gap": { "value": "{size.spacing.md}" }
+      }
+    }
+  }
+}

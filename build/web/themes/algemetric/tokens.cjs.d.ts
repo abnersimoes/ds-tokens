@@ -109,6 +109,10 @@ declare const tokens: {
         "dark": DesignToken
       }
     },
+    "avatar": {
+      "background": DesignToken,
+      "color": DesignToken
+    },
     "button": {
       "base": {
         "background": {
@@ -197,6 +201,10 @@ declare const tokens: {
     "divider": {
       "base": DesignToken
     },
+    "header": {
+      "background": DesignToken,
+      "text": DesignToken
+    },
     "table": {
       "background": DesignToken
     },
@@ -245,6 +253,10 @@ declare const tokens: {
       "lg": DesignToken,
       "xl": DesignToken,
       "xxl": DesignToken
+    },
+    "avatar": {
+      "weight": DesignToken,
+      "line-height": DesignToken
     },
     "button": {
       "weight": DesignToken
@@ -316,6 +328,11 @@ declare const tokens: {
       "shadow": {
         "box": DesignToken
       }
+    },
+    "header": {
+      "shadow": {
+        "box": DesignToken
+      }
     }
   },
   "size": {
@@ -370,6 +387,14 @@ declare const tokens: {
       "7xl": DesignToken,
       "8xl": DesignToken,
       "9xl": DesignToken
+    },
+    "avatar": {
+      "width": DesignToken,
+      "height": DesignToken,
+      "font": DesignToken,
+      "border": {
+        "radius": DesignToken
+      }
     },
     "button": {
       "base": {
@@ -427,6 +452,16 @@ declare const tokens: {
     "divider": {
       "height": DesignToken,
       "margin": DesignToken
+    },
+    "header": {
+      "height": DesignToken,
+      "padding": DesignToken,
+      "logo": {
+        "gap": DesignToken
+      },
+      "actions": {
+        "gap": DesignToken
+      }
     },
     "table": {
       "wrapper": {
