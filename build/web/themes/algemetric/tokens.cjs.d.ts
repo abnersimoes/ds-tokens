@@ -205,6 +205,9 @@ declare const tokens: {
       "background": DesignToken,
       "text": DesignToken
     },
+    "table": {
+      "background": DesignToken
+    },
     "link": {
       "base": {
         "text": {
@@ -458,6 +461,16 @@ declare const tokens: {
       },
       "actions": {
         "gap": DesignToken
+      }
+    },
+    "table": {
+      "wrapper": {
+        "border-radius": DesignToken,
+        "padding": DesignToken
+      },
+      "column": {
+        "padding": DesignToken,
+        "min-width": DesignToken
       }
     },
     "heading": {

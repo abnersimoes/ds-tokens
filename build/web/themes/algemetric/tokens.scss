@@ -94,6 +94,7 @@
   --color-divider-base: #e8e8e8;
   --color-header-background: #383836;
   --color-header-text: #ffffff;
+  --color-table-background: #f6f6f6;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
@@ -225,6 +226,10 @@
   --size-header-padding: 1rem;
   --size-header-logo-gap: 0.5rem;
   --size-header-actions-gap: 1rem;
+  --size-table-wrapper-border-radius: 0.5rem;
+  --size-table-wrapper-padding: 2rem 2rem 1.5rem;
+  --size-table-column-padding: 0.5rem 3rem 0.5rem 0;
+  --size-table-column-min-width: 10rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;
