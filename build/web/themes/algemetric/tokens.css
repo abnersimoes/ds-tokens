@@ -56,6 +56,8 @@
   --color-neutral-high-light: #f6f6f6;
   --color-neutral-high-medium: #e8e8e8;
   --color-neutral-high-dark: #d6d6d6;
+  --color-avatar-background: #e8e8e8;
+  --color-avatar-color: #383836;
   --color-button-base-background-disabled: #f6f6f6;
   --color-button-base-text-disabled: #b3b3b3;
   --color-button-base-border-focus: #7bc7ff;
@@ -90,6 +92,8 @@
   --color-label-disabled-text: #d6d6d6;
   --color-card-border: #e8e8e8;
   --color-divider-base: #e8e8e8;
+  --color-header-background: #383836;
+  --color-header-text: #ffffff;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
@@ -108,6 +112,8 @@
   --font-line-height-lg: 1.5;
   --font-line-height-xl: 1.7;
   --font-line-height-xxl: 2;
+  --font-avatar-weight: 600;
+  --font-avatar-line-height: 1.15;
   --font-button-weight: 600;
   --font-heading-line-height-xs: 1;
   --font-heading-line-height-sm: 1.15;
@@ -147,6 +153,7 @@
   --effect-shadow-box-xl: 0rem 1rem 2rem rgba(0, 0, 0, 0.16);
   --effect-shadow-box-2xl: 0rem 1rem 3rem rgba(0, 0, 0, 0.24);
   --effect-card-shadow-box: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
+  --effect-header-shadow-box: 0;
   --size-border-width-none: 0rem;
   --size-border-width-hairline: 0.0625rem;
   --size-border-width-thin: 0.125rem;
@@ -187,6 +194,10 @@
   --size-spacing-7xl: 7.5rem;
   --size-spacing-8xl: 10rem;
   --size-spacing-9xl: 12.5rem;
+  --size-avatar-width: 2rem;
+  --size-avatar-height: 2rem;
+  --size-avatar-font: 0.875rem;
+  --size-avatar-border-radius: 50%;
   --size-button-base-font: 0.875rem;
   --size-button-base-border-radius: 0.5rem;
   --size-button-base-height: 2.75rem;
@@ -210,6 +221,10 @@
   --size-chart-card-header-spacing: 0.5rem;
   --size-divider-height: 0.0625rem;
   --size-divider-margin: 1rem;
+  --size-header-height: 4rem;
+  --size-header-padding: 1rem;
+  --size-header-logo-gap: 0.5rem;
+  --size-header-actions-gap: 1rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;

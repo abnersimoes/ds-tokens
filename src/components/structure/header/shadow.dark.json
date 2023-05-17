@@ -1,0 +1,11 @@
+{
+  "effect": {
+    "header": {
+      "shadow": {
+        "box": {
+          "value": "0 {size.border.width.hairline} 0 {color.neutral.low.pure}"
+        }
+      }
+    }
+  }
+}

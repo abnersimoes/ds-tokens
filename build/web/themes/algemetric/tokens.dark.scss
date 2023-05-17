@@ -1,6 +1,8 @@
 [data-color-scheme="dark"] {
   --color-background-layout-pure: #1c1c1b;
   --color-text-layout-pure: #ffffff;
+  --color-avatar-background: #383836;
+  --color-avatar-color: #ffffff;
   --color-button-base-background-disabled: #383836;
   --color-button-base-text-disabled: #1c1c1b;
   --color-button-primary-background-hover: #ff8533;
@@ -28,9 +30,11 @@
   --color-label-disabled-text: #383836;
   --color-card-border: #383836;
   --color-divider-base: #383836;
+  --color-header-background: #1c1c1b;
   --color-link-base-text-default: #ffcaa6;
   --color-link-base-text-active: #ffffff;
   --color-link-base-border-focus: #7bc7ff;
   --color-tag-base-background-default: #383836;
   --effect-card-shadow-box: 0rem 0.5rem 1.5rem rgba(0, 0, 0, 0.16);
+  --effect-header-shadow-box: 0 0.0625rem 0 #383836;
 }

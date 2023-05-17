@@ -1,0 +1,8 @@
+{
+  "color": {
+    "header": {
+      "background": { "value": "{color.neutral.low.pure}" },
+      "text": { "value": "{color.neutral.high.pure}" }
+    }
+  }
+}

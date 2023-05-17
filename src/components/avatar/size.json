@@ -1,0 +1,12 @@
+{
+  "size": {
+    "avatar": {
+      "width": { "value": "{size.spacing.xl}" },
+      "height": { "value": "{size.spacing.xl}" },
+      "font": { "value": "{size.font.sm}" },
+      "border": {
+        "radius": { "value": "{size.border.radius.circular}" }
+      }
+    }
+  }
+}
