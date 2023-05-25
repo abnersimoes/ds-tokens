@@ -195,6 +195,18 @@ declare const tokens: {
         "text": DesignToken
       }
     },
+    "modal": {
+      "dialog": {
+        "background": DesignToken,
+        "text": DesignToken,
+        "header": {
+          "close-icon": DesignToken
+        }
+      }
+    },
+    "progress-bar": {
+      "background": DesignToken
+    },
     "card": {
       "border": DesignToken
     },
@@ -316,12 +328,44 @@ declare const tokens: {
       "light": DesignToken,
       "semi-transparent": DesignToken
     },
+    "scale": {
+      "sm": DesignToken,
+      "md": DesignToken,
+      "lg": DesignToken
+    },
     "shadow": {
       "box": {
         "md": DesignToken,
         "lg": DesignToken,
         "xl": DesignToken,
         "2xl": DesignToken
+      }
+    },
+    "transition": {
+      "duration": {
+        "slow": DesignToken,
+        "default": DesignToken
+      },
+      "type": {
+        "fade-in": DesignToken,
+        "fade-out": DesignToken
+      },
+      "default": DesignToken
+    },
+    "modal": {
+      "shadow": {
+        "box": DesignToken
+      },
+      "dialog": {
+        "transition": DesignToken,
+        "opened": {
+          "opacity": DesignToken,
+          "transform": DesignToken
+        },
+        "closed": {
+          "opacity": DesignToken,
+          "transform": DesignToken
+        }
       }
     },
     "card": {
@@ -432,6 +476,27 @@ declare const tokens: {
         }
       }
     },
+    "modal": {
+      "width": {
+        "max": DesignToken
+      },
+      "spacing": {
+        "vertical": DesignToken,
+        "horizontal": DesignToken
+      },
+      "border": {
+        "radius": DesignToken
+      },
+      "progress-bar": {
+        "spacing": DesignToken
+      },
+      "footer": {
+        "gap": DesignToken
+      }
+    },
+    "progress-bar": {
+      "height": DesignToken
+    },
     "card": {
       "border": {
         "width": DesignToken,
@@ -510,6 +575,9 @@ declare const tokens: {
       "font": DesignToken,
       "border-radius": DesignToken,
       "padding": DesignToken
+    },
+    "title-group": {
+      "gap": DesignToken
     }
   },
   "unit": {

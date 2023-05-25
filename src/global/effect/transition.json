@@ -1,0 +1,17 @@
+{
+  "effect": {
+    "transition": {
+      "duration": {
+        "slow": { "value": "0.5s" },
+        "default": { "value": "0.15s" }
+      },
+      "type": {
+        "fade-in": { "value": "ease-out" },
+        "fade-out": { "value": "ease-in" }
+      },
+      "default": {
+        "value": "{effect.transition.duration.default} all {effect.transition.type.fade-in}"
+      }
+    }
+  }
+}

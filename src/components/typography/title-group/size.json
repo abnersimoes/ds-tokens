@@ -1,0 +1,7 @@
+{
+  "size": {
+    "title-group": {
+      "gap": { "value": "{size.spacing.sm}" }
+    }
+  }
+}

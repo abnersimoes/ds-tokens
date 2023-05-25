@@ -1,0 +1,22 @@
+{
+  "size": {
+    "modal": {
+      "width": {
+        "max": { "value": 40 }
+      },
+      "spacing": {
+        "vertical": { "value": "{size.spacing.lg}" },
+        "horizontal": { "value": "{size.spacing.xl}" }
+      },
+      "border": {
+        "radius": { "value": "{size.border.radius.sm}" }
+      },
+      "progress-bar": {
+        "spacing": { "value": "{size.spacing.sm}" }
+      },
+      "footer": {
+        "gap": { "value": "{size.spacing.md}" }
+      }
+    }
+  }
+}

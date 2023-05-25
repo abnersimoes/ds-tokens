@@ -1,0 +1,7 @@
+{
+  "size": {
+    "progress-bar": {
+      "height": { "value": "{size.spacing.xs}" }
+    }
+  }
+}
