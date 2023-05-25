@@ -1,0 +1,9 @@
+{
+  "effect": {
+    "scale": {
+      "sm": { "value": 0.95 },
+      "md": { "value": 1 },
+      "lg": { "value": 1.05 }
+    }
+  }
+}

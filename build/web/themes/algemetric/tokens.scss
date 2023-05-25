@@ -90,6 +90,10 @@
   --color-helper-disabled-text: #d6d6d6;
   --color-label-base-text: #194666;
   --color-label-disabled-text: #d6d6d6;
+  --color-modal-dialog-background: #ffffff;
+  --color-modal-dialog-text: #1c1c1b;
+  --color-modal-dialog-header-close-icon: #d15b0a;
+  --color-progress-bar-background: linear-gradient(90deg, rgba(255, 133, 51, 0.25), rgba(255, 133, 51, 1));
   --color-card-border: #e8e8e8;
   --color-divider-base: #e8e8e8;
   --color-header-background: #383836;
@@ -149,10 +153,24 @@
   --effect-opacity-medium: 0.32;
   --effect-opacity-light: 0.16;
   --effect-opacity-semi-transparent: 0.08;
+  --effect-scale-sm: 0.95;
+  --effect-scale-md: 1;
+  --effect-scale-lg: 1.05;
   --effect-shadow-box-md: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
   --effect-shadow-box-lg: 0rem 0.5rem 1.5rem rgba(0, 0, 0, 0.16);
   --effect-shadow-box-xl: 0rem 1rem 2rem rgba(0, 0, 0, 0.16);
   --effect-shadow-box-2xl: 0rem 1rem 3rem rgba(0, 0, 0, 0.24);
+  --effect-transition-duration-slow: 0.5s;
+  --effect-transition-duration-default: 0.15s;
+  --effect-transition-type-fade-in: ease-out;
+  --effect-transition-type-fade-out: ease-in;
+  --effect-transition-default: 0.15s all ease-out;
+  --effect-modal-shadow-box: 0rem 0.5rem 1.5rem rgba(0, 0, 0, 0.16);
+  --effect-modal-dialog-transition: 0.15s all ease-out;
+  --effect-modal-dialog-opened-opacity: 1;
+  --effect-modal-dialog-opened-transform: scale(1) translateY(0);
+  --effect-modal-dialog-closed-opacity: 0;
+  --effect-modal-dialog-closed-transform: scale(0.95) translateY(1rem);
   --effect-card-shadow-box: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
   --effect-header-shadow-box: 0;
   --size-border-width-none: 0rem;
@@ -215,6 +233,13 @@
   --size-field-select-arrow-width: 0.75rem;
   --size-field-select-arrow-half-width: 0.429rem;
   --size-field-select-arrow-spacing: 0.5rem;
+  --size-modal-width-max: 40rem;
+  --size-modal-spacing-vertical: 1.5rem;
+  --size-modal-spacing-horizontal: 2rem;
+  --size-modal-border-radius: 0.5rem;
+  --size-modal-progress-bar-spacing: 0.5rem;
+  --size-modal-footer-gap: 1rem;
+  --size-progress-bar-height: 0.25rem;
   --size-card-border-width: 0.0625rem;
   --size-card-border-radius: 0.5rem;
   --size-card-padding-md: 1.5rem;
@@ -250,6 +275,7 @@
   --size-tag-font: 0.75rem;
   --size-tag-border-radius: 0.25rem;
   --size-tag-padding: 0.25rem 0.5rem;
+  --size-title-group-gap: 0.5rem;
   --unit-percentage-50: 50%;
   --unit-percentage-100: 100%;
 }

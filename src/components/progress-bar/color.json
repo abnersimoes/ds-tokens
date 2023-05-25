@@ -1,0 +1,11 @@
+{
+  "color": {
+    "progress-bar": {
+      "background": {
+        "start-alfa": 0.25,
+        "end-alfa": 1,
+        "value": "linear-gradient(90deg, rgba({color.brand.primary.mid-light.rgb}, {color.progress-bar.background.start-alfa}), rgba({color.brand.primary.mid-light.rgb}, {color.progress-bar.background.end-alfa}))"
+      }
+    }
+  }
+}

@@ -4,7 +4,11 @@
       "primary": {
         "lighter": { "value": "#FEF3EC" },
         "light": { "value": "#FFCAA6" },
-        "mid-light": { "value": "#FF8533" },
+        "mid-light": {
+          "rgb": "255, 133, 51",
+          "alpha": "1",
+          "value": "#FF8533"
+        },
         "medium": { "value": "#D15B0A" },
         "mid-dark": { "value": "#9E4000" },
         "dark": { "value": "#522100" },

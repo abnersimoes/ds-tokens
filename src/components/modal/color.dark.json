@@ -1,0 +1,13 @@
+{
+  "color": {
+    "modal": {
+      "dialog": {
+        "background": { "value": "{color.background.layout.pure}" },
+        "text": { "value": "{color.text.layout.pure}" },
+        "header": {
+          "close-icon": { "value": "{color.button.ghost.text.default}" }
+        }
+      }
+    }
+  }
+}
