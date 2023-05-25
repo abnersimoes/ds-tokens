@@ -6,7 +6,6 @@
         "light": { "value": "#FFCAA6" },
         "mid-light": {
           "rgb": "255, 133, 51",
-          "alpha": "1",
           "value": "#FF8533"
         },
         "medium": { "value": "#D15B0A" },
