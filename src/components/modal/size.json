@@ -13,9 +13,6 @@
       },
       "progress-bar": {
         "spacing": { "value": "{size.spacing.sm}" }
-      },
-      "footer": {
-        "gap": { "value": "{size.spacing.md}" }
       }
     }
   }
