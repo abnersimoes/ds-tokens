@@ -476,6 +476,12 @@ declare const tokens: {
         }
       }
     },
+    "form": {
+      "gap": DesignToken,
+      "footer": {
+        "padding": DesignToken
+      }
+    },
     "modal": {
       "width": {
         "max": DesignToken
@@ -489,9 +495,6 @@ declare const tokens: {
       },
       "progress-bar": {
         "spacing": DesignToken
-      },
-      "footer": {
-        "gap": DesignToken
       }
     },
     "progress-bar": {

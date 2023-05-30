@@ -1,0 +1,10 @@
+{
+  "size": {
+    "form": {
+      "gap": { "value": "{size.spacing.md}" },
+      "footer": {
+        "padding": { "value": "{size.spacing.lg}" }
+      }
+    }
+  }
+}
