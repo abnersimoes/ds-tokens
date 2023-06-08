@@ -445,7 +445,8 @@ declare const tokens: {
         "font": DesignToken,
         "border-radius": DesignToken,
         "height": DesignToken,
-        "padding-horizontal": DesignToken
+        "padding-horizontal": DesignToken,
+        "column-gap": DesignToken
       },
       "focus": {
         "border-width": DesignToken

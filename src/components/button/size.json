@@ -5,7 +5,8 @@
         "font": { "value": "{size.font.sm}" },
         "border-radius": { "value": "{size.border.radius.sm}" },
         "height": { "value": 2.75 },
-        "padding-horizontal": { "value": "{size.spacing.lg}" }
+        "padding-horizontal": { "value": "{size.spacing.lg}" },
+        "column-gap": { "value": "{size.spacing.sm}" }
       },
       "focus": {
         "border-width": { "value": "{size.border.width.thin}" }

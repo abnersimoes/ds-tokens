@@ -221,6 +221,7 @@
   --size-button-base-border-radius: 0.5rem;
   --size-button-base-height: 2.75rem;
   --size-button-base-padding-horizontal: 1.5rem;
+  --size-button-base-column-gap: 0.5rem;
   --size-button-focus-border-width: 0.125rem;
   --size-field-base-font: 0.875rem;
   --size-field-base-padding-x: 1rem;

@@ -220,6 +220,7 @@ export const sizeButtonBaseFont = "14px";
 export const sizeButtonBaseBorderRadius = "8px";
 export const sizeButtonBaseHeight = "44px";
 export const sizeButtonBasePaddingHorizontal = "24px";
+export const sizeButtonBaseColumnGap = "8px";
 export const sizeButtonFocusBorderWidth = "2px";
 export const sizeFieldBaseFont = "14px";
 export const sizeFieldBasePaddingX = "16px";
