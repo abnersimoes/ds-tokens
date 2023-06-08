@@ -221,6 +221,7 @@ module.exports = {
   "sizeButtonBaseBorderRadius": "8px",
   "sizeButtonBaseHeight": "44px",
   "sizeButtonBasePaddingHorizontal": "24px",
+  "sizeButtonBaseColumnGap": "8px",
   "sizeButtonFocusBorderWidth": "2px",
   "sizeFieldBaseFont": "14px",
   "sizeFieldBasePaddingX": "16px",
