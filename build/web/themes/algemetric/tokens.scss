@@ -96,8 +96,8 @@
   --color-progress-bar-background: linear-gradient(90deg, rgba(255, 133, 51, 0.25), rgba(255, 133, 51, 1));
   --color-card-border: #e8e8e8;
   --color-divider-base: #e8e8e8;
-  --color-header-background: #383836;
-  --color-header-text: #ffffff;
+  --color-header-background: #f6f6f6;
+  --color-header-text: #383836;
   --color-table-background: #f6f6f6;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
@@ -172,7 +172,7 @@
   --effect-modal-dialog-closed-opacity: 0;
   --effect-modal-dialog-closed-transform: scale(0.95) translateY(1rem);
   --effect-card-shadow-box: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
-  --effect-header-shadow-box: 0;
+  --effect-header-shadow-box: 0 0.0625rem 0 #e8e8e8;
   --size-border-width-none: 0rem;
   --size-border-width-hairline: 0.0625rem;
   --size-border-width-thin: 0.125rem;

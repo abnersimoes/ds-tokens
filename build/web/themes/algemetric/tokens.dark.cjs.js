@@ -34,6 +34,7 @@ module.exports = {
   "colorCardBorder": "#383836",
   "colorDividerBase": "#383836",
   "colorHeaderBackground": "#1c1c1b",
+  "colorHeaderText": "#ffffff",
   "colorTableBackground": "#383836",
   "colorTableText": "#d6d6d6",
   "colorLinkBaseTextDefault": "#ffcaa6",

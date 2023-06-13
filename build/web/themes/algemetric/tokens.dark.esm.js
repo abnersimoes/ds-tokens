@@ -33,6 +33,7 @@ export const colorModalDialogHeaderCloseIcon = "#fef3ec";
 export const colorCardBorder = "#383836";
 export const colorDividerBase = "#383836";
 export const colorHeaderBackground = "#1c1c1b";
+export const colorHeaderText = "#ffffff";
 export const colorTableBackground = "#383836";
 export const colorTableText = "#d6d6d6";
 export const colorLinkBaseTextDefault = "#ffcaa6";
