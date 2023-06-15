@@ -485,11 +485,13 @@ declare const tokens: {
     },
     "modal": {
       "width": {
-        "max": DesignToken
+        "max": DesignToken,
+        "video-max": DesignToken
       },
       "spacing": {
         "vertical": DesignToken,
-        "horizontal": DesignToken
+        "horizontal": DesignToken,
+        "button-close": DesignToken
       },
       "border": {
         "radius": DesignToken
