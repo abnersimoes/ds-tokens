@@ -2,11 +2,13 @@
   "size": {
     "modal": {
       "width": {
-        "max": { "value": 40 }
+        "max": { "value": 40 },
+        "video-max": { "value": 55 }
       },
       "spacing": {
         "vertical": { "value": "{size.spacing.lg}" },
-        "horizontal": { "value": "{size.spacing.xl}" }
+        "horizontal": { "value": "{size.spacing.xl}" },
+        "button-close": { "value": "{size.spacing.md}" }
       },
       "border": {
         "radius": { "value": "{size.border.radius.sm}" }
