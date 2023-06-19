@@ -208,6 +208,7 @@ declare const tokens: {
       "background": DesignToken
     },
     "card": {
+      "background": DesignToken,
       "border": DesignToken
     },
     "divider": {
@@ -509,7 +510,9 @@ declare const tokens: {
         "radius": DesignToken
       },
       "padding": {
-        "md": DesignToken
+        "md": DesignToken,
+        "lg": DesignToken,
+        "3xl": DesignToken
       }
     },
     "chart-card": {

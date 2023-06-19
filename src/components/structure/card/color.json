@@ -1,6 +1,7 @@
 {
   "color": {
     "card": {
+      "background": { "value": "{color.background.layout.pure}" },
       "border": { "value": "{color.neutral.high.medium}" }
     }
   }

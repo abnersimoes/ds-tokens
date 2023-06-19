@@ -94,6 +94,7 @@
   --color-modal-dialog-text: #1c1c1b;
   --color-modal-dialog-header-close-icon: #d15b0a;
   --color-progress-bar-background: linear-gradient(90deg, rgba(255, 133, 51, 0.25), rgba(255, 133, 51, 1));
+  --color-card-background: #ffffff;
   --color-card-border: #e8e8e8;
   --color-divider-base: #e8e8e8;
   --color-header-background: #f6f6f6;
@@ -124,8 +125,8 @@
   --font-heading-line-height-sm: 1.15;
   --font-heading-line-height-md: 1;
   --font-heading-line-height-lg: 1.5;
-  --font-heading-line-height-xl: 1;
-  --font-heading-line-height-2xl: 1;
+  --font-heading-line-height-xl: 1.5;
+  --font-heading-line-height-2xl: 1.5;
   --font-heading-line-height-display: 1;
   --font-heading-weight-xs: 600;
   --font-heading-weight-sm: 600;
@@ -235,7 +236,7 @@
   --size-field-select-arrow-half-width: 0.429rem;
   --size-field-select-arrow-spacing: 0.5rem;
   --size-form-gap: 1rem;
-  --size-form-footer-padding: 1.5rem;
+  --size-form-footer-padding: 1rem;
   --size-modal-width-max: 40rem;
   --size-modal-width-video-max: 55rem;
   --size-modal-spacing-vertical: 1.5rem;
@@ -246,7 +247,9 @@
   --size-progress-bar-height: 0.25rem;
   --size-card-border-width: 0.0625rem;
   --size-card-border-radius: 0.5rem;
-  --size-card-padding-md: 1.5rem;
+  --size-card-padding-md: 1rem;
+  --size-card-padding-lg: 1.5rem;
+  --size-card-padding-3xl: 3rem;
   --size-chart-card-wrapper-spacing: 1.5rem;
   --size-chart-card-header-spacing: 0.5rem;
   --size-divider-height: 0.0625rem;
