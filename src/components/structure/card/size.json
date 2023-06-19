@@ -6,7 +6,9 @@
         "radius": { "value": "{size.border.radius.sm}" }
       },
       "padding": {
-        "md": { "value": "{size.spacing.lg}" }
+        "md": { "value": "{size.spacing.md}" },
+        "lg": { "value": "{size.spacing.lg}" },
+        "3xl": { "value": "{size.spacing.3xl}" }
       }
     }
   }

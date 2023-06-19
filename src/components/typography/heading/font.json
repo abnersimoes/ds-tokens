@@ -6,8 +6,8 @@
         "sm": { "value": "{font.line-height.xs}" },
         "md": { "value": "{font.line-height.default}" },
         "lg": { "value": "{font.line-height.lg}" },
-        "xl": { "value": "{font.line-height.default}" },
-        "2xl": { "value": "{font.line-height.default}" },
+        "xl": { "value": "{font.line-height.lg}" },
+        "2xl": { "value": "{font.line-height.lg}" },
         "display": { "value": "{font.line-height.default}" }
       },
       "weight": {

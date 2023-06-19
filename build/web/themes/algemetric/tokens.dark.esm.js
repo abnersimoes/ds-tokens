@@ -30,6 +30,7 @@ export const colorLabelDisabledText = "#383836";
 export const colorModalDialogBackground = "#1c1c1b";
 export const colorModalDialogText = "#ffffff";
 export const colorModalDialogHeaderCloseIcon = "#fef3ec";
+export const colorCardBackground = "#1c1c1b";
 export const colorCardBorder = "#383836";
 export const colorDividerBase = "#383836";
 export const colorHeaderBackground = "#1c1c1b";
