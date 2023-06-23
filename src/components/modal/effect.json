@@ -2,9 +2,6 @@
   "effect": {
     "modal": {
       "transition": { "value": "{effect.transition.default}" },
-      "backdrop": {
-        "filter": { "value": "blur(0.2rem) saturate(50%)" }
-      },
       "dialog": {
         "shadow": {
           "box": { "value": "{effect.shadow.box.xl}" }

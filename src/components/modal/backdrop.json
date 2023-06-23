@@ -1,0 +1,14 @@
+{
+  "effect": {
+    "backdrop": {
+      "filter": { "value": "blur(0.2rem) saturate(50%)" }
+    }
+  },
+  "color": {
+    "backdrop": {
+      "background": {
+        "value": "rgba({color.neutral.low.dark.rgb}, {effect.opacity.intense})"
+      }
+    }
+  }
+}

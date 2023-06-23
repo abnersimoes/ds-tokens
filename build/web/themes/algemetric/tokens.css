@@ -1,3 +1,8 @@
+::backdrop {
+  --color-backdrop-background: rgba(28, 28, 27, 0.64);
+  --effect-backdrop-filter: blur(0.2rem) saturate(50%);
+}
+
 :root {
   --color-brand-primary-lighter: #fef3ec;
   --color-brand-primary-light: #ffcaa6;
@@ -90,7 +95,7 @@
   --color-helper-disabled-text: #d6d6d6;
   --color-label-base-text: #194666;
   --color-label-disabled-text: #d6d6d6;
-  --color-modal-backdrop-background: rgba(28, 28, 27, 0.64);
+  --color-backdrop-background: rgba(28, 28, 27, 0.64);
   --color-modal-dialog-background: #ffffff;
   --color-modal-dialog-text: #1c1c1b;
   --color-modal-dialog-header-close-icon: #d15b0a;
@@ -167,12 +172,10 @@
   --effect-transition-type-fade-in: ease-out;
   --effect-transition-type-fade-out: ease-in;
   --effect-transition-default: 0.15s all ease-out;
+  --effect-backdrop-filter: blur(0.2rem) saturate(50%);
   --effect-modal-transition: 0.15s all ease-out;
-  --effect-modal-backdrop-filter: blur(0.2rem) saturate(50%);
   --effect-modal-dialog-shadow-box: 0rem 1rem 2rem rgba(0, 0, 0, 0.16);
-  --effect-modal-dialog-opened-opacity: 1;
   --effect-modal-dialog-opened-transform: scale(1) translateY(0);
-  --effect-modal-dialog-closed-opacity: 0;
   --effect-modal-dialog-closed-transform: scale(0.95) translateY(1rem);
   --effect-card-shadow-box: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
   --effect-header-shadow-box: 0 0.0625rem 0 #e8e8e8;
