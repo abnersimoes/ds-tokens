@@ -1,5 +1,5 @@
 ::backdrop {
-  --color-backdrop-background: rgba(28, 28, 27, 0.64);
+  --color-backdrop-background: rgba(0, 0, 0, 0.64);
   --effect-backdrop-filter: blur(0.2rem) saturate(50%);
   --effect-backdrop-transition: 0.15s all ease-out;
 }
@@ -96,7 +96,7 @@
   --color-helper-disabled-text: #d6d6d6;
   --color-label-base-text: #194666;
   --color-label-disabled-text: #d6d6d6;
-  --color-backdrop-background: rgba(28, 28, 27, 0.64);
+  --color-backdrop-background: rgba(0, 0, 0, 0.64);
   --color-modal-dialog-background: #ffffff;
   --color-modal-dialog-text: #1c1c1b;
   --color-modal-dialog-header-close-icon: #d15b0a;

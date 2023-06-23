@@ -90,7 +90,7 @@ module.exports = {
   "colorHelperDisabledText": "#d6d6d6",
   "colorLabelBaseText": "#194666",
   "colorLabelDisabledText": "#d6d6d6",
-  "colorBackdropBackground": "rgba(28, 28, 27, 0.64)",
+  "colorBackdropBackground": "rgba(0, 0, 0, 0.64)",
   "colorModalDialogBackground": "#ffffff",
   "colorModalDialogText": "#1c1c1b",
   "colorModalDialogHeaderCloseIcon": "#d15b0a",
