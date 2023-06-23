@@ -90,6 +90,7 @@
   --color-helper-disabled-text: #d6d6d6;
   --color-label-base-text: #194666;
   --color-label-disabled-text: #d6d6d6;
+  --color-modal-backdrop-background: rgba(28, 28, 27, 0.64);
   --color-modal-dialog-background: #ffffff;
   --color-modal-dialog-text: #1c1c1b;
   --color-modal-dialog-header-close-icon: #d15b0a;
@@ -166,8 +167,9 @@
   --effect-transition-type-fade-in: ease-out;
   --effect-transition-type-fade-out: ease-in;
   --effect-transition-default: 0.15s all ease-out;
-  --effect-modal-shadow-box: 0rem 0.5rem 1.5rem rgba(0, 0, 0, 0.16);
-  --effect-modal-dialog-transition: 0.15s all ease-out;
+  --effect-modal-transition: 0.15s all ease-out;
+  --effect-modal-backdrop-filter: blur(0.2rem) saturate(50%);
+  --effect-modal-dialog-shadow-box: 0rem 1rem 2rem rgba(0, 0, 0, 0.16);
   --effect-modal-dialog-opened-opacity: 1;
   --effect-modal-dialog-opened-transform: scale(1) translateY(0);
   --effect-modal-dialog-closed-opacity: 0;

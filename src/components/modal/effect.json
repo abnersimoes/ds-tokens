@@ -1,17 +1,18 @@
 {
   "effect": {
     "modal": {
-      "shadow": {
-        "box": { "value": "{effect.shadow.box.lg}" }
+      "transition": { "value": "{effect.transition.default}" },
+      "backdrop": {
+        "filter": { "value": "blur(0.2rem) saturate(50%)" }
       },
       "dialog": {
-        "transition": { "value": "{effect.transition.default}" },
+        "shadow": {
+          "box": { "value": "{effect.shadow.box.xl}" }
+        },
         "opened": {
-          "opacity": { "value": 1 },
           "transform": { "value": "scale({effect.scale.md}) translateY(0)" }
         },
         "closed": {
-          "opacity": { "value": 0 },
           "transform": {
             "value": "scale({effect.scale.sm}) translateY({size.spacing.md})"
           }

@@ -196,6 +196,9 @@ declare const tokens: {
       }
     },
     "modal": {
+      "backdrop": {
+        "background": DesignToken
+      },
       "dialog": {
         "background": DesignToken,
         "text": DesignToken,
@@ -354,11 +357,14 @@ declare const tokens: {
       "default": DesignToken
     },
     "modal": {
-      "shadow": {
-        "box": DesignToken
+      "transition": DesignToken,
+      "backdrop": {
+        "filter": DesignToken
       },
       "dialog": {
-        "transition": DesignToken,
+        "shadow": {
+          "box": DesignToken
+        },
         "opened": {
           "opacity": DesignToken,
           "transform": DesignToken

@@ -1,6 +1,11 @@
 {
   "color": {
     "modal": {
+      "backdrop": {
+        "background": {
+          "value": "rgba({color.neutral.low.dark.rgb}, {effect.opacity.intense})"
+        }
+      },
       "dialog": {
         "background": { "value": "{color.background.layout.pure}" },
         "text": { "value": "{color.text.layout.pure}" },

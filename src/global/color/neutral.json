@@ -5,10 +5,16 @@
         "pure": { "value": "#383836" },
         "light": { "value": "#B3B3B3" },
         "medium": { "value": "#6E6E6C" },
-        "dark": { "value": "#1C1C1B" }
+        "dark": {
+          "rgb": "28, 28, 27",
+          "value": "#1C1C1B"
+        }
       },
       "high": {
-        "pure": { "value": "#FFFFFF" },
+        "pure": {
+          "rgb": "255, 255, 255",
+          "value": "#FFFFFF"
+        },
         "light": { "value": "#F6F6F6" },
         "medium": { "value": "#E8E8E8" },
         "dark": { "value": "#D6D6D6" }
