@@ -167,6 +167,7 @@ export const effectTransitionTypeFadeIn = "ease-out";
 export const effectTransitionTypeFadeOut = "ease-in";
 export const effectTransitionDefault = "0.15s all ease-out";
 export const effectBackdropFilter = "blur(0.2rem) saturate(50%)";
+export const effectBackdropTransition = "0.15s all ease-out";
 export const effectModalTransition = "0.15s all ease-out";
 export const effectModalDialogShadowBox = "0 1 2 rgba(0, 0, 0, 0.16)";
 export const effectModalDialogOpenedTransform = "scale(1) translateY(0)";

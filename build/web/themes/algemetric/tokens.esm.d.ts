@@ -167,6 +167,7 @@ export const effectTransitionTypeFadeIn : string;
 export const effectTransitionTypeFadeOut : string;
 export const effectTransitionDefault : string;
 export const effectBackdropFilter : string;
+export const effectBackdropTransition : string;
 export const effectModalTransition : string;
 export const effectModalDialogShadowBox : string;
 export const effectModalDialogOpenedTransform : string;

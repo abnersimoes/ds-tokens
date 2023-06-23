@@ -357,7 +357,8 @@ declare const tokens: {
       "default": DesignToken
     },
     "backdrop": {
-      "filter": DesignToken
+      "filter": DesignToken,
+      "transition": DesignToken
     },
     "modal": {
       "transition": DesignToken,

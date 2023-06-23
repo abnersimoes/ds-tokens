@@ -1,7 +1,8 @@
 {
   "effect": {
     "backdrop": {
-      "filter": { "value": "blur(0.2rem) saturate(50%)" }
+      "filter": { "value": "blur(0.2rem) saturate(50%)" },
+      "transition": { "value": "{effect.transition.default}" }
     }
   },
   "color": {

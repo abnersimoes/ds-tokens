@@ -168,6 +168,7 @@ module.exports = {
   "effectTransitionTypeFadeOut": "ease-in",
   "effectTransitionDefault": "0.15s all ease-out",
   "effectBackdropFilter": "blur(0.2rem) saturate(50%)",
+  "effectBackdropTransition": "0.15s all ease-out",
   "effectModalTransition": "0.15s all ease-out",
   "effectModalDialogShadowBox": "0 1 2 rgba(0, 0, 0, 0.16)",
   "effectModalDialogOpenedTransform": "scale(1) translateY(0)",
