@@ -29,6 +29,7 @@ const styleDictionary = StyleDictionary.extend({
   },
   format: {
     "styles/font-face": require("./formats/font-face"),
+    "css-variables": require("./formats/css-variables"),
     "css/dark-variables": require("./formats/css-dark-variables"),
   },
 });

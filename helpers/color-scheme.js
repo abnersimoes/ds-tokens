@@ -11,12 +11,12 @@ const lightModeConfig = {
   stylesheets: [
     {
       destination: "tokens.css",
-      format: "css/variables",
+      format: "css-variables",
       options,
     },
     {
       destination: "tokens.scss",
-      format: "css/variables",
+      format: "css-variables",
       options,
     },
   ],
