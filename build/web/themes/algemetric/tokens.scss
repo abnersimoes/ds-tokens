@@ -1,7 +1,7 @@
 ::backdrop {
   --color-backdrop-background: rgba(0, 0, 0, 0.64);
   --effect-backdrop-filter: blur(0.2rem) saturate(50%);
-  --effect-backdrop-transition: 0.15s all ease-out;
+  --effect-backdrop-transition: 0.05s all ease-out;
 }
 
 :root {
@@ -174,7 +174,7 @@
   --effect-transition-type-fade-out: ease-in;
   --effect-transition-default: 0.15s all ease-out;
   --effect-backdrop-filter: blur(0.2rem) saturate(50%);
-  --effect-backdrop-transition: 0.15s all ease-out;
+  --effect-backdrop-transition: 0.05s all ease-out;
   --effect-modal-transition: 0.15s all ease-out;
   --effect-modal-dialog-shadow-box: 0rem 1rem 2rem rgba(0, 0, 0, 0.16);
   --effect-modal-dialog-opened-transform: scale(1) translateY(0);

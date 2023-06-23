@@ -2,7 +2,7 @@
   "effect": {
     "backdrop": {
       "filter": { "value": "blur(0.2rem) saturate(50%)" },
-      "transition": { "value": "{effect.transition.default}" }
+      "transition": { "value": "0.05s all {effect.transition.type.fade-in}" }
     }
   },
   "color": {
