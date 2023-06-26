@@ -201,10 +201,7 @@ declare const tokens: {
     "modal": {
       "dialog": {
         "background": DesignToken,
-        "text": DesignToken,
-        "header": {
-          "close-icon": DesignToken
-        }
+        "text": DesignToken
       }
     },
     "progress-bar": {
@@ -513,11 +510,6 @@ declare const tokens: {
       "border": {
         "width": DesignToken,
         "radius": DesignToken
-      },
-      "padding": {
-        "md": DesignToken,
-        "lg": DesignToken,
-        "3xl": DesignToken
       }
     },
     "chart-card": {
@@ -550,6 +542,19 @@ declare const tokens: {
       "column": {
         "padding": DesignToken,
         "min-width": DesignToken
+      }
+    },
+    "toast": {
+      "max-width": DesignToken,
+      "gap": DesignToken,
+      "icon": {
+        "width": DesignToken,
+        "border": {
+          "radius": DesignToken
+        }
+      },
+      "transition": {
+        "displacement": DesignToken
       }
     },
     "heading": {
