@@ -99,7 +99,6 @@
   --color-backdrop-background: rgba(0, 0, 0, 0.64);
   --color-modal-dialog-background: #ffffff;
   --color-modal-dialog-text: #1c1c1b;
-  --color-modal-dialog-header-close-icon: #d15b0a;
   --color-progress-bar-background: linear-gradient(90deg, rgba(255, 133, 51, 0.25), rgba(255, 133, 51, 1));
   --color-card-background: #ffffff;
   --color-card-border: #e8e8e8;
@@ -107,6 +106,9 @@
   --color-header-background: #f6f6f6;
   --color-header-text: #383836;
   --color-table-background: #f6f6f6;
+  --color-toast-icon-success: #45a672;
+  --color-toast-icon-warning: #f89502;
+  --color-toast-icon-error: #e50d05;
   --color-link-base-text-default: #d15b0a;
   --color-link-base-text-active: #383836;
   --color-link-base-border-focus: #7bc7ff;
@@ -254,9 +256,6 @@
   --size-progress-bar-height: 0.25rem;
   --size-card-border-width: 0.0625rem;
   --size-card-border-radius: 0.5rem;
-  --size-card-padding-md: 1rem;
-  --size-card-padding-lg: 1.5rem;
-  --size-card-padding-3xl: 3rem;
   --size-chart-card-wrapper-spacing: 1.5rem;
   --size-chart-card-header-spacing: 0.5rem;
   --size-divider-height: 0.0625rem;
@@ -269,6 +268,11 @@
   --size-table-wrapper-padding: 2rem 2rem 1.5rem;
   --size-table-column-padding: 0.5rem 3rem 0.5rem 0;
   --size-table-column-min-width: 10rem;
+  --size-toast-max-width: 50rem;
+  --size-toast-gap: 1rem;
+  --size-toast-icon-width: 2.75rem;
+  --size-toast-icon-border-radius: 50%;
+  --size-toast-transition-displacement: 2.5rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;

@@ -1,0 +1,17 @@
+{
+  "size": {
+    "toast": {
+      "max-width": { "value": 50 },
+      "gap": { "value": "{size.spacing.md}" },
+      "icon": {
+        "width": { "value": 2.75 },
+        "border": {
+          "radius": { "value": "{size.border.radius.circular}" }
+        }
+      },
+      "transition": {
+        "displacement": { "value": "{size.spacing.2xl}" }
+      }
+    }
+  }
+}

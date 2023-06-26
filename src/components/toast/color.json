@@ -1,0 +1,11 @@
+{
+  "color": {
+    "toast": {
+      "icon": {
+        "success": { "value": "{color.feedback.success.medium}" },
+        "warning": { "value": "{color.feedback.warning.pure}" },
+        "error": { "value": "{color.feedback.error.medium}" }
+      }
+    }
+  }
+}
