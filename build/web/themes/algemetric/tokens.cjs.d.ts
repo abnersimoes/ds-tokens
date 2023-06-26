@@ -221,6 +221,13 @@ declare const tokens: {
     "table": {
       "background": DesignToken
     },
+    "toast": {
+      "icon": {
+        "success": DesignToken,
+        "warning": DesignToken,
+        "error": DesignToken
+      }
+    },
     "link": {
       "base": {
         "text": {
