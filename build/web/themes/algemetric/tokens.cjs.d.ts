@@ -223,6 +223,7 @@ declare const tokens: {
     },
     "toast": {
       "icon": {
+        "fill": DesignToken,
         "success": DesignToken,
         "warning": DesignToken,
         "error": DesignToken
@@ -387,6 +388,9 @@ declare const tokens: {
       "shadow": {
         "box": DesignToken
       }
+    },
+    "toast": {
+      "transition": DesignToken
     }
   },
   "size": {
@@ -552,7 +556,7 @@ declare const tokens: {
       }
     },
     "toast": {
-      "max-width": DesignToken,
+      "max-size": DesignToken,
       "gap": DesignToken,
       "icon": {
         "width": DesignToken,
@@ -561,7 +565,7 @@ declare const tokens: {
         }
       },
       "transition": {
-        "displacement": DesignToken
+        "movement": DesignToken
       }
     },
     "heading": {

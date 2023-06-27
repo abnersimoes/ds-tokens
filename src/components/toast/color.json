@@ -2,6 +2,7 @@
   "color": {
     "toast": {
       "icon": {
+        "fill": { "value": "{color.neutral.high.pure}" },
         "success": { "value": "{color.feedback.success.medium}" },
         "warning": { "value": "{color.feedback.warning.pure}" },
         "error": { "value": "{color.feedback.error.medium}" }

@@ -1,0 +1,9 @@
+{
+  "effect": {
+    "toast": {
+      "transition": {
+        "value": "{effect.transition.duration.slow} {effect.transition.type.fade-in}"
+      }
+    }
+  }
+}

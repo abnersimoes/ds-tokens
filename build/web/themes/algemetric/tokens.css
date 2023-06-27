@@ -106,6 +106,7 @@
   --color-header-background: #f6f6f6;
   --color-header-text: #383836;
   --color-table-background: #f6f6f6;
+  --color-toast-icon-fill: #ffffff;
   --color-toast-icon-success: #45a672;
   --color-toast-icon-warning: #f89502;
   --color-toast-icon-error: #e50d05;
@@ -183,6 +184,7 @@
   --effect-modal-dialog-closed-transform: scale(0.95) translateY(1rem);
   --effect-card-shadow-box: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.08);
   --effect-header-shadow-box: 0 0.0625rem 0 #e8e8e8;
+  --effect-toast-transition: 0.5s ease-out;
   --size-border-width-none: 0rem;
   --size-border-width-hairline: 0.0625rem;
   --size-border-width-thin: 0.125rem;
@@ -268,11 +270,11 @@
   --size-table-wrapper-padding: 2rem 2rem 1.5rem;
   --size-table-column-padding: 0.5rem 3rem 0.5rem 0;
   --size-table-column-min-width: 10rem;
-  --size-toast-max-width: 50rem;
+  --size-toast-max-size: 50rem;
   --size-toast-gap: 1rem;
   --size-toast-icon-width: 2.75rem;
   --size-toast-icon-border-radius: 50%;
-  --size-toast-transition-displacement: 2.5rem;
+  --size-toast-transition-movement: 2.5rem;
   --size-heading-font-xs: 0.75rem;
   --size-heading-font-sm: 0.875rem;
   --size-heading-font-md: 1rem;
