@@ -1,7 +1,7 @@
 {
   "size": {
     "toast": {
-      "max-width": { "value": 50 },
+      "max-size": { "value": 50 },
       "gap": { "value": "{size.spacing.md}" },
       "icon": {
         "width": { "value": 2.75 },
@@ -10,7 +10,7 @@
         }
       },
       "transition": {
-        "displacement": { "value": "{size.spacing.2xl}" }
+        "movement": { "value": "{size.spacing.2xl}" }
       }
     }
   }
