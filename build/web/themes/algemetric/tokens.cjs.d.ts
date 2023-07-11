@@ -384,6 +384,14 @@ declare const tokens: {
         "box": DesignToken
       }
     },
+    "dropdown": {
+      "transition": DesignToken,
+      "transform": {
+        "movement": DesignToken,
+        "start": DesignToken,
+        "end": DesignToken
+      }
+    },
     "header": {
       "shadow": {
         "box": DesignToken

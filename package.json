@@ -1,6 +1,6 @@
 {
   "name": "@algemetric/chroma-tokens",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "This project is responsible for centralizing the design tokens of the Chroma design system. Also managing white label tokens",
   "main": "build/web/themes/algemetric/tokens.cjs.js",
   "module": "build/web/themes/algemetric/tokens.esm.js",
