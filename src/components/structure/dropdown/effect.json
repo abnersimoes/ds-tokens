@@ -1,0 +1,20 @@
+{
+  "effect": {
+    "dropdown": {
+      "transition": {
+        "value": "{effect.transition.duration.default} all {effect.transition.type.fade-in}"
+      },
+      "transform": {
+        "movement": {
+          "value": "{size.spacing.xs}"
+        },
+        "start": {
+          "value": "translate3d(0, -{effect.dropdown.transform.movement}, 0) scale(0.975)"
+        },
+        "end": {
+          "value": "translate3d(0, {effect.dropdown.transform.movement}, 0) scale(1)"
+        }
+      }
+    }
+  }
+}
