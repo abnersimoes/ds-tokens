@@ -105,6 +105,13 @@
   --color-divider-base: #e8e8e8;
   --color-header-background: #f6f6f6;
   --color-header-text: #383836;
+  --color-menu-item-icon: #194666;
+  --color-menu-item-default-background: #ffffff;
+  --color-menu-item-default-text: #383836;
+  --color-menu-item-hover-background: #fef3ec;
+  --color-menu-item-active-text: #d15b0a;
+  --color-menu-item-selected-background: #f6f6f6;
+  --color-menu-item-disabled-text: #d6d6d6;
   --color-table-background: #f6f6f6;
   --color-toast-icon-fill: #ffffff;
   --color-toast-icon-success: #45a672;
@@ -188,6 +195,7 @@
   --effect-dropdown-transform-start: translate3d(0, -0.25rem, 0) scale(0.975);
   --effect-dropdown-transform-end: translate3d(0, 0.25rem, 0) scale(1);
   --effect-header-shadow-box: 0 0.0625rem 0 #e8e8e8;
+  --effect-menu-item-transition: 0.15s all ease-out;
   --effect-toast-transition: 0.5s ease-out;
   --size-border-width-none: 0rem;
   --size-border-width-hairline: 0.0625rem;
@@ -270,6 +278,10 @@
   --size-header-padding: 1rem;
   --size-header-logo-gap: 0.5rem;
   --size-header-actions-gap: 1rem;
+  --size-menu-item-height: 3rem;
+  --size-menu-item-padding: 1rem;
+  --size-menu-item-gap: 0.75rem;
+  --size-menu-item-icon: 1.25rem;
   --size-table-wrapper-border-radius: 0.5rem;
   --size-table-wrapper-padding: 2rem 2rem 1.5rem;
   --size-table-column-padding: 0.5rem 3rem 0.5rem 0;

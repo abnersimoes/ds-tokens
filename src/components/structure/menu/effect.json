@@ -1,0 +1,9 @@
+{
+  "effect": {
+    "menu": {
+      "item": {
+        "transition": { "value": "{effect.transition.default}" }
+      }
+    }
+  }
+}

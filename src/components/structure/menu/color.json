@@ -1,0 +1,25 @@
+{
+  "color": {
+    "menu": {
+      "item": {
+        "icon": { "value": "{color.brand.secondary.dark}" },
+        "default": {
+          "background": { "value": "{color.neutral.high.pure}" },
+          "text": { "value": "{color.neutral.low.pure}" }
+        },
+        "hover": {
+          "background": { "value": "{color.brand.primary.lighter}" }
+        },
+        "active": {
+          "text": { "value": "{color.brand.primary.medium}" }
+        },
+        "selected": {
+          "background": { "value": "{color.neutral.high.light}" }
+        },
+        "disabled": {
+          "text": { "value": "{color.neutral.high.dark}" }
+        }
+      }
+    }
+  }
+}
