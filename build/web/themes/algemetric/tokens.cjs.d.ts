@@ -218,6 +218,27 @@ declare const tokens: {
       "background": DesignToken,
       "text": DesignToken
     },
+    "menu": {
+      "item": {
+        "icon": DesignToken,
+        "default": {
+          "background": DesignToken,
+          "text": DesignToken
+        },
+        "hover": {
+          "background": DesignToken
+        },
+        "active": {
+          "text": DesignToken
+        },
+        "selected": {
+          "background": DesignToken
+        },
+        "disabled": {
+          "text": DesignToken
+        }
+      }
+    },
     "table": {
       "background": DesignToken
     },
@@ -397,6 +418,11 @@ declare const tokens: {
         "box": DesignToken
       }
     },
+    "menu": {
+      "item": {
+        "transition": DesignToken
+      }
+    },
     "toast": {
       "transition": DesignToken
     }
@@ -551,6 +577,14 @@ declare const tokens: {
       },
       "actions": {
         "gap": DesignToken
+      }
+    },
+    "menu": {
+      "item": {
+        "height": DesignToken,
+        "padding": DesignToken,
+        "gap": DesignToken,
+        "icon": DesignToken
       }
     },
     "table": {

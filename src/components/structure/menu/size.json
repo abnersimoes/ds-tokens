@@ -1,0 +1,12 @@
+{
+  "size": {
+    "menu": {
+      "item": {
+        "height": { "value": "{size.spacing.3xl}" },
+        "padding": { "value": "{size.spacing.md}" },
+        "gap": { "value": "{size.font.xs}" },
+        "icon": { "value": "{size.font.lg}" }
+      }
+    }
+  }
+}
