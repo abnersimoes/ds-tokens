@@ -219,6 +219,9 @@ declare const tokens: {
       "text": DesignToken
     },
     "menu": {
+      "box": {
+        "border": DesignToken
+      },
       "item": {
         "icon": DesignToken,
         "default": {

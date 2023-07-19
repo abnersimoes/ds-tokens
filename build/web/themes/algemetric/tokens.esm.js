@@ -98,6 +98,7 @@ export const colorCardBorder = "#e8e8e8";
 export const colorDividerBase = "#e8e8e8";
 export const colorHeaderBackground = "#f6f6f6";
 export const colorHeaderText = "#383836";
+export const colorMenuBoxBorder = "#e8e8e8";
 export const colorMenuItemIcon = "#194666";
 export const colorMenuItemDefaultBackground = "#ffffff";
 export const colorMenuItemDefaultText = "#383836";
