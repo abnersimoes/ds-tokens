@@ -1,6 +1,9 @@
 {
   "color": {
     "menu": {
+      "box": {
+        "border": { "value": "{color.neutral.high.medium}" }
+      },
       "item": {
         "icon": { "value": "{color.brand.secondary.dark}" },
         "default": {

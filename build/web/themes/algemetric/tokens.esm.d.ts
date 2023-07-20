@@ -98,6 +98,7 @@ export const colorCardBorder : string;
 export const colorDividerBase : string;
 export const colorHeaderBackground : string;
 export const colorHeaderText : string;
+export const colorMenuBoxBorder : string;
 export const colorMenuItemIcon : string;
 export const colorMenuItemDefaultBackground : string;
 export const colorMenuItemDefaultText : string;
