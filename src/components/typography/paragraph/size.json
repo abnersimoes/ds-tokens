@@ -2,6 +2,7 @@
   "size": {
     "paragraph": {
       "font": {
+        "xs": { "value": "{size.font.xs}" },
         "sm": { "value": "{size.font.sm}" },
         "md": { "value": "{size.font.default}" },
         "lg": { "value": "{size.font.lg}" }

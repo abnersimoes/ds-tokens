@@ -294,6 +294,7 @@ export const sizeHeadingFont2xl : string;
 export const sizeHeadingFontDisplay : string;
 export const sizeLinkFocusBorderWidth : string;
 export const sizeLinkFocusBorderRadius : string;
+export const sizeParagraphFontXs : string;
 export const sizeParagraphFontSm : string;
 export const sizeParagraphFontMd : string;
 export const sizeParagraphFontLg : string;
