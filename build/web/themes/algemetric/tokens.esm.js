@@ -294,6 +294,7 @@ export const sizeHeadingFont2xl = "32px";
 export const sizeHeadingFontDisplay = "96px";
 export const sizeLinkFocusBorderWidth = "2px";
 export const sizeLinkFocusBorderRadius = "2px";
+export const sizeParagraphFontXs = "12px";
 export const sizeParagraphFontSm = "14px";
 export const sizeParagraphFontMd = "16px";
 export const sizeParagraphFontLg = "20px";

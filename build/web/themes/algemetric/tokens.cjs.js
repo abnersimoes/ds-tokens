@@ -295,6 +295,7 @@ module.exports = {
   "sizeHeadingFontDisplay": "96px",
   "sizeLinkFocusBorderWidth": "2px",
   "sizeLinkFocusBorderRadius": "2px",
+  "sizeParagraphFontXs": "12px",
   "sizeParagraphFontSm": "14px",
   "sizeParagraphFontMd": "16px",
   "sizeParagraphFontLg": "20px",

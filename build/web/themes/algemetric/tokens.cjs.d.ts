@@ -632,6 +632,7 @@ declare const tokens: {
     },
     "paragraph": {
       "font": {
+        "xs": DesignToken,
         "sm": DesignToken,
         "md": DesignToken,
         "lg": DesignToken
