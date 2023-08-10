@@ -1,0 +1,11 @@
+{
+  "size": {
+    "chip": {
+      "height": { "value": "{size.font.2xl}" },
+      "padding": { "value": "{size.spacing.sm}" },
+      "gap": { "value": "{size.spacing.xs}" },
+      "border-radius": { "value": "{size.border.radius.md}" },
+      "icon": { "value": "{size.font.default}" }
+    }
+  }
+}

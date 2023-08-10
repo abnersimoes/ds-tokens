@@ -10,6 +10,9 @@
         "border-width": { "value": "{size.border.width.thin}" },
         "border-radius": { "value": "{size.border.radius.sm}" }
       },
+      "group": {
+        "gap": { "value": "{size.spacing.xs}" }
+      },
       "text": {
         "height": { "value": 3 }
       },
@@ -22,6 +25,20 @@
           "width": { "value": 0.75 },
           "half-width": { "value": 0.429 },
           "spacing": { "value": "{size.spacing.sm}" }
+        }
+      },
+      "chips": {
+        "items": {
+          "gap": { "value": "{size.spacing.sm}" }
+        },
+        "height": {
+          "min": { "value": "{size.field.text.height}" },
+          "max": { "value": 13.3 }
+        },
+        "textarea": {
+          "width": {
+            "min": { "value": 10 }
+          }
         }
       }
     }
