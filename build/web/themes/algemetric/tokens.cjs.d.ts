@@ -155,6 +155,14 @@ declare const tokens: {
         }
       }
     },
+    "chip": {
+      "background": DesignToken,
+      "text": DesignToken,
+      "icon": {
+        "base": DesignToken,
+        "hover": DesignToken
+      }
+    },
     "field": {
       "base": {
         "placeholder": DesignToken,
@@ -305,6 +313,13 @@ declare const tokens: {
     },
     "button": {
       "weight": DesignToken
+    },
+    "field": {
+      "chips": {
+        "textarea": {
+          "line-height": DesignToken
+        }
+      }
     },
     "heading": {
       "line-height": {
@@ -503,6 +518,13 @@ declare const tokens: {
         "border-width": DesignToken
       }
     },
+    "chip": {
+      "height": DesignToken,
+      "padding": DesignToken,
+      "gap": DesignToken,
+      "border-radius": DesignToken,
+      "icon": DesignToken
+    },
     "field": {
       "base": {
         "font": DesignToken,
@@ -512,6 +534,9 @@ declare const tokens: {
         },
         "border-width": DesignToken,
         "border-radius": DesignToken
+      },
+      "group": {
+        "gap": DesignToken
       },
       "text": {
         "height": DesignToken
@@ -525,6 +550,20 @@ declare const tokens: {
           "width": DesignToken,
           "half-width": DesignToken,
           "spacing": DesignToken
+        }
+      },
+      "chips": {
+        "items": {
+          "gap": DesignToken
+        },
+        "height": {
+          "min": DesignToken,
+          "max": DesignToken
+        },
+        "textarea": {
+          "width": {
+            "min": DesignToken
+          }
         }
       }
     },

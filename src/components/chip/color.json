@@ -1,0 +1,12 @@
+{
+  "color": {
+    "chip": {
+      "background": { "value": "{color.neutral.high.medium}" },
+      "text": { "value": "{color.neutral.low.pure}" },
+      "icon": {
+        "base": { "value": "{color.neutral.low.medium}" },
+        "hover": { "value": "{color.brand.primary.medium}" }
+      }
+    }
+  }
+}
