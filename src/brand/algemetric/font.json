@@ -12,7 +12,7 @@
       }
     },
     "mono": {
-      "family": { "value": "'Roboto Mono', 'monospace'" },
+      "family": { "value": "'Roboto Mono', monospace" },
       "weight": {
         "regular": { "value": 400 }
       },

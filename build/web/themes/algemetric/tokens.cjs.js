@@ -128,7 +128,7 @@ module.exports = {
   "fontSansWeightSemiBold": 600,
   "fontSansWeightBold": 700,
   "fontSansStyleNormal": "normal",
-  "fontMonoFamily": "'Roboto Mono', 'monospace'",
+  "fontMonoFamily": "'Roboto Mono', monospace",
   "fontMonoWeightRegular": 400,
   "fontMonoStyleNormal": "normal",
   "fontLineHeightDefault": 1,
