@@ -1,13 +1,24 @@
 {
   "font": {
-    "family": { "value": "'Poppins', Arial, sans-serif" },
-    "weight": {
-      "regular": { "value": 400 },
-      "semiBold": { "value": 600 },
-      "bold": { "value": 700 }
+    "sans": {
+      "family": { "value": "'Poppins', Arial, sans-serif" },
+      "weight": {
+        "regular": { "value": 400 },
+        "semiBold": { "value": 600 },
+        "bold": { "value": 700 }
+      },
+      "style": {
+        "normal": { "value": "normal" }
+      }
     },
-    "style": {
-      "normal": { "value": "normal" }
+    "mono": {
+      "family": { "value": "'Roboto Mono', monospace" },
+      "weight": {
+        "regular": { "value": 400 }
+      },
+      "style": {
+        "normal": { "value": "normal" }
+      }
     }
   }
 }

@@ -11,13 +11,13 @@
         "display": { "value": "{font.line-height.default}" }
       },
       "weight": {
-        "xs": { "value": "{font.weight.semiBold}" },
-        "sm": { "value": "{font.weight.semiBold}" },
-        "md": { "value": "{font.weight.semiBold}" },
-        "lg": { "value": "{font.weight.bold}" },
-        "xl": { "value": "{font.weight.bold}" },
-        "2xl": { "value": "{font.weight.bold}" },
-        "display": { "value": "{font.weight.bold}" }
+        "xs": { "value": "{font.sans.weight.semiBold}" },
+        "sm": { "value": "{font.sans.weight.semiBold}" },
+        "md": { "value": "{font.sans.weight.semiBold}" },
+        "lg": { "value": "{font.sans.weight.bold}" },
+        "xl": { "value": "{font.sans.weight.bold}" },
+        "2xl": { "value": "{font.sans.weight.bold}" },
+        "display": { "value": "{font.sans.weight.bold}" }
       }
     }
   }

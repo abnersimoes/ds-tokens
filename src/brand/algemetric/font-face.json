@@ -1,25 +1,37 @@
 {
   "asset": {
     "font": {
-      "family": {
+      "sans": {
         "value": "Poppins",
         "formats": ["woff2", "woff"],
         "display": "fallback",
         "styles": [
           {
             "file": "Poppins-Regular",
-            "weight": "{font.weight.regular}",
-            "style": "{font.style.normal}"
+            "weight": "{font.sans.weight.regular}",
+            "style": "{font.sans.style.normal}"
           },
           {
             "file": "Poppins-SemiBold",
-            "weight": "{font.weight.semiBold}",
-            "style": "{font.style.normal}"
+            "weight": "{font.sans.weight.semiBold}",
+            "style": "{font.sans.style.normal}"
           },
           {
             "file": "Poppins-Bold",
-            "weight": "{font.weight.bold}",
-            "style": "{font.style.normal}"
+            "weight": "{font.sans.weight.bold}",
+            "style": "{font.sans.style.normal}"
+          }
+        ]
+      },
+      "mono": {
+        "value": "Roboto Mono",
+        "formats": ["woff2"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "RobotoMono-Regular",
+            "weight": "{font.mono.weight.regular}",
+            "style": "{font.sans.style.normal}"
           }
         ]
       }
