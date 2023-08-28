@@ -1,0 +1,11 @@
+{
+  "font": {
+    "field": {
+      "chips": {
+        "textarea": {
+          "line-height": { "value": "{font.line-height.md}" }
+        }
+      }
+    }
+  }
+}

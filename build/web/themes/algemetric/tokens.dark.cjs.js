@@ -15,6 +15,8 @@ module.exports = {
   "colorButtonGhostBackgroundHover": "#331e0f",
   "colorButtonGhostBackgroundPressed": "#522100",
   "colorButtonGhostTextDefault": "#fef3ec",
+  "colorChipBackground": "#383836",
+  "colorChipText": "#f6f6f6",
   "colorFieldBasePlaceholder": "#6e6e6c",
   "colorFieldBaseText": "#ffffff",
   "colorFieldBaseBorderDefault": "#383836",
