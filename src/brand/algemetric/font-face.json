@@ -2,42 +2,38 @@
   "asset": {
     "font": {
       "sans": {
-        "family": {
-          "value": "Poppins",
-          "formats": ["woff2", "woff"],
-          "display": "fallback",
-          "styles": [
-            {
-              "file": "Poppins-Regular",
-              "weight": "{font.sans.weight.regular}",
-              "style": "{font.sans.style.normal}"
-            },
-            {
-              "file": "Poppins-SemiBold",
-              "weight": "{font.sans.weight.semiBold}",
-              "style": "{font.sans.style.normal}"
-            },
-            {
-              "file": "Poppins-Bold",
-              "weight": "{font.sans.weight.bold}",
-              "style": "{font.sans.style.normal}"
-            }
-          ]
-        }
+        "value": "Poppins",
+        "formats": ["woff2", "woff"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "Poppins-Regular",
+            "weight": "{font.sans.weight.regular}",
+            "style": "{font.sans.style.normal}"
+          },
+          {
+            "file": "Poppins-SemiBold",
+            "weight": "{font.sans.weight.semiBold}",
+            "style": "{font.sans.style.normal}"
+          },
+          {
+            "file": "Poppins-Bold",
+            "weight": "{font.sans.weight.bold}",
+            "style": "{font.sans.style.normal}"
+          }
+        ]
       },
       "mono": {
-        "family": {
-          "value": "Roboto Mono",
-          "formats": ["woff2"],
-          "display": "fallback",
-          "styles": [
-            {
-              "file": "RobotoMono-Regular",
-              "weight": "{font.mono.weight.regular}",
-              "style": "{font.sans.style.normal}"
-            }
-          ]
-        }
+        "value": "Roboto Mono",
+        "formats": ["woff2"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "RobotoMono-Regular",
+            "weight": "{font.mono.weight.regular}",
+            "style": "{font.sans.style.normal}"
+          }
+        ]
       }
     }
   }

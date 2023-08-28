@@ -127,8 +127,8 @@
   --color-link-base-border-focus: #7bc7ff;
   --color-tag-base-text-default: #ffffff;
   --color-tag-base-background-default: #6e6e6c;
-  --asset-font-sans-family: "Poppins";
-  --asset-font-mono-family: "Roboto Mono";
+  --asset-font-sans: "Poppins";
+  --asset-font-mono: "Roboto Mono";
   --font-sans-family: 'Poppins', Arial, sans-serif;
   --font-sans-weight-regular: 400;
   --font-sans-weight-semi-bold: 600;

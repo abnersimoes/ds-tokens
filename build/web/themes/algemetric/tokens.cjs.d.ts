@@ -285,12 +285,8 @@ declare const tokens: {
   },
   "asset": {
     "font": {
-      "sans": {
-        "family": DesignToken
-      },
-      "mono": {
-        "family": DesignToken
-      }
+      "sans": DesignToken,
+      "mono": DesignToken
     }
   },
   "font": {
