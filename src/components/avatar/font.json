@@ -1,7 +1,7 @@
 {
   "font": {
     "avatar": {
-      "weight": { "value": "{font.weight.semiBold}" },
+      "weight": { "value": "{font.sans.weight.semiBold}" },
       "line-height": { "value": "{font.line-height.xs}" }
     }
   }

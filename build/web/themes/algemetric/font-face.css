@@ -24,3 +24,11 @@
 			 url("./assets/fonts/Poppins-Bold.woff") format("woff");
 	font-display: fallback;
 }
+
+@font-face {
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./assets/fonts/RobotoMono-Regular.woff2") format("woff2");
+	font-display: fallback;
+}

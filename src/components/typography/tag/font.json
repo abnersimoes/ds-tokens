@@ -1,7 +1,7 @@
 {
   "font": {
     "tag": {
-      "weight": { "value": "{font.weight.semiBold}" }
+      "weight": { "value": "{font.sans.weight.semiBold}" }
     }
   }
 }

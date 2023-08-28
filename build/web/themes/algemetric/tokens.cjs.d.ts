@@ -277,18 +277,34 @@ declare const tokens: {
   },
   "asset": {
     "font": {
-      "family": DesignToken
+      "sans": {
+        "family": DesignToken
+      },
+      "mono": {
+        "family": DesignToken
+      }
     }
   },
   "font": {
-    "family": DesignToken,
-    "weight": {
-      "regular": DesignToken,
-      "semiBold": DesignToken,
-      "bold": DesignToken
+    "sans": {
+      "family": DesignToken,
+      "weight": {
+        "regular": DesignToken,
+        "semiBold": DesignToken,
+        "bold": DesignToken
+      },
+      "style": {
+        "normal": DesignToken
+      }
     },
-    "style": {
-      "normal": DesignToken
+    "mono": {
+      "family": DesignToken,
+      "weight": {
+        "regular": DesignToken
+      },
+      "style": {
+        "normal": DesignToken
+      }
     },
     "line-height": {
       "default": DesignToken,

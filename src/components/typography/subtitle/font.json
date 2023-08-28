@@ -9,11 +9,11 @@
         "xl": { "value": "{font.line-height.xl}" }
       },
       "weight": {
-        "xs": { "value": "{font.weight.regular}" },
-        "sm": { "value": "{font.weight.regular}" },
-        "md": { "value": "{font.weight.regular}" },
-        "lg": { "value": "{font.weight.regular}" },
-        "xl": { "value": "{font.weight.regular}" }
+        "xs": { "value": "{font.sans.weight.regular}" },
+        "sm": { "value": "{font.sans.weight.regular}" },
+        "md": { "value": "{font.sans.weight.regular}" },
+        "lg": { "value": "{font.sans.weight.regular}" },
+        "xl": { "value": "{font.sans.weight.regular}" }
       }
     }
   }
