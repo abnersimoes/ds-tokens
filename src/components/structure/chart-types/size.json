@@ -1,0 +1,26 @@
+{
+  "size": {
+    "chart-types": {
+      "gap": { "value": "{size.spacing.sm}" },
+      "card": {
+        "min-width": { "value": 3.5 },
+        "height": { "value": 3 },
+        "border-radius": { "value": "{size.border.radius.sm}" }
+      },
+      "dropdown": {
+        "button": {
+          "padding": {
+            "left": { "value": "{size.spacing.md}" },
+            "right": { "value": "{size.spacing.sm}" }
+          }
+        },
+        "menu": {
+          "width": { "value": 17.5 },
+          "gap": { "value": "{size.spacing.sm}" },
+          "padding": { "value": "{size.spacing.md}" },
+          "grid-fix": { "value": "-{size.spacing.sm}" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "color": {
+    "chart-types": {
+      "card": {
+        "checked": {
+          "background": {
+            "value": "{color.button.secondary.background.default}"
+          }
+        },
+        "disabled": {
+          "icon": { "value": "{color.neutral.low.pure}" }
+        }
+      }
+    }
+  }
+}
