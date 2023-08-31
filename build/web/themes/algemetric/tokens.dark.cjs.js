@@ -35,6 +35,8 @@ module.exports = {
   "colorModalDialogHeaderCloseIcon": "#fef3ec",
   "colorCardBackground": "#1c1c1b",
   "colorCardBorder": "#383836",
+  "colorChartTypesCardCheckedBackground": "#331e0f",
+  "colorChartTypesCardDisabledIcon": "#383836",
   "colorDividerBase": "#383836",
   "colorHeaderBackground": "#1c1c1b",
   "colorHeaderText": "#ffffff",

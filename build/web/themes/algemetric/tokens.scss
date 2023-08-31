@@ -106,6 +106,8 @@
   --color-progress-bar-background: linear-gradient(90deg, rgba(255, 133, 51, 0.25), rgba(255, 133, 51, 1));
   --color-card-background: #ffffff;
   --color-card-border: #e8e8e8;
+  --color-chart-types-card-checked-background: #fef3ec;
+  --color-chart-types-card-disabled-icon: #d6d6d6;
   --color-divider-base: #e8e8e8;
   --color-header-background: #f6f6f6;
   --color-header-text: #383836;
@@ -292,6 +294,16 @@
   --size-card-border-radius: 0.5rem;
   --size-chart-card-wrapper-spacing: 1.5rem;
   --size-chart-card-header-spacing: 0.5rem;
+  --size-chart-types-gap: 0.5rem;
+  --size-chart-types-card-min-width: 3.5rem;
+  --size-chart-types-card-height: 3rem;
+  --size-chart-types-card-border-radius: 0.5rem;
+  --size-chart-types-dropdown-button-padding-left: 1rem;
+  --size-chart-types-dropdown-button-padding-right: 0.5rem;
+  --size-chart-types-dropdown-menu-width: 17.5rem;
+  --size-chart-types-dropdown-menu-gap: 0.5rem;
+  --size-chart-types-dropdown-menu-padding: 1rem;
+  --size-chart-types-dropdown-menu-grid-fix: -0.5rem;
   --size-divider-height: 0.0625rem;
   --size-divider-margin: 1rem;
   --size-header-height: 4rem;

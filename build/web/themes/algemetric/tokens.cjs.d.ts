@@ -219,6 +219,16 @@ declare const tokens: {
       "background": DesignToken,
       "border": DesignToken
     },
+    "chart-types": {
+      "card": {
+        "checked": {
+          "background": DesignToken
+        },
+        "disabled": {
+          "icon": DesignToken
+        }
+      }
+    },
     "divider": {
       "base": DesignToken
     },
@@ -617,6 +627,28 @@ declare const tokens: {
       },
       "header": {
         "spacing": DesignToken
+      }
+    },
+    "chart-types": {
+      "gap": DesignToken,
+      "card": {
+        "min-width": DesignToken,
+        "height": DesignToken,
+        "border-radius": DesignToken
+      },
+      "dropdown": {
+        "button": {
+          "padding": {
+            "left": DesignToken,
+            "right": DesignToken
+          }
+        },
+        "menu": {
+          "width": DesignToken,
+          "gap": DesignToken,
+          "padding": DesignToken,
+          "grid-fix": DesignToken
+        }
       }
     },
     "divider": {
