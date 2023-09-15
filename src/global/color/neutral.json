@@ -2,7 +2,10 @@
   "color": {
     "neutral": {
       "low": {
-        "pure": { "value": "#383836" },
+        "pure": {
+          "rgb": "56, 56, 54",
+          "value": "#383836"
+        },
         "light": { "value": "#B3B3B3" },
         "medium": { "value": "#6E6E6C" },
         "dark": {

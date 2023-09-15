@@ -30,6 +30,8 @@ module.exports = {
   "colorHelperBaseText": "#b3b3b3",
   "colorLabelBaseText": "#e6edf2",
   "colorLabelDisabledText": "#383836",
+  "colorLoadingOverlayBackground": "rgba(56, 56, 54, 0.72)",
+  "colorLoadingOverlayText": "#ffffff",
   "colorModalDialogBackground": "#1c1c1b",
   "colorModalDialogText": "#ffffff",
   "colorModalDialogHeaderCloseIcon": "#fef3ec",
