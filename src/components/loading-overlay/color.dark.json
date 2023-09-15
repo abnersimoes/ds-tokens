@@ -1,0 +1,12 @@
+{
+  "color": {
+    "loading-overlay": {
+      "background": {
+        "value": "rgba({color.neutral.low.pure.rgb}, {effect.opacity.semi-opaque})"
+      },
+      "text": {
+        "value": "{color.neutral.high.pure}"
+      }
+    }
+  }
+}

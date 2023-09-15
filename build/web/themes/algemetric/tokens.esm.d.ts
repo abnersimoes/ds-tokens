@@ -93,6 +93,8 @@ export const colorHelperErrorText : string;
 export const colorHelperDisabledText : string;
 export const colorLabelBaseText : string;
 export const colorLabelDisabledText : string;
+export const colorLoadingOverlayBackground : string;
+export const colorLoadingOverlayText : string;
 export const colorBackdropBackground : string;
 export const colorModalDialogBackground : string;
 export const colorModalDialogText : string;

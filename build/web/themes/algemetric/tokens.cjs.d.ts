@@ -203,6 +203,10 @@ declare const tokens: {
         "text": DesignToken
       }
     },
+    "loading-overlay": {
+      "background": DesignToken,
+      "text": DesignToken
+    },
     "backdrop": {
       "background": DesignToken
     },

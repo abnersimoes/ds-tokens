@@ -30,6 +30,8 @@
   --color-helper-base-text: #b3b3b3;
   --color-label-base-text: #e6edf2;
   --color-label-disabled-text: #383836;
+  --color-loading-overlay-background: rgba(56, 56, 54, 0.72);
+  --color-loading-overlay-text: #ffffff;
   --color-modal-dialog-background: #1c1c1b;
   --color-modal-dialog-text: #ffffff;
   --color-modal-dialog-header-close-icon: #fef3ec;
