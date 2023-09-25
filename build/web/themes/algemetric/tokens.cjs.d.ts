@@ -275,6 +275,10 @@ declare const tokens: {
         "error": DesignToken
       }
     },
+    "tooltip": {
+      "background": DesignToken,
+      "text": DesignToken
+    },
     "link": {
       "base": {
         "text": {
@@ -699,6 +703,12 @@ declare const tokens: {
       "transition": {
         "movement": DesignToken
       }
+    },
+    "tooltip": {
+      "border-radius": DesignToken,
+      "padding": DesignToken,
+      "gap": DesignToken,
+      "arrow": DesignToken
     },
     "heading": {
       "font": {

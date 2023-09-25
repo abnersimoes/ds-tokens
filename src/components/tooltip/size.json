@@ -1,0 +1,10 @@
+{
+  "size": {
+    "tooltip": {
+      "border-radius": { "value": "{size.border.radius.sm}" },
+      "padding": { "value": "{size.spacing.md}" },
+      "gap": { "value": "{size.spacing.xs}" },
+      "arrow": { "value": "{size.spacing.md}" }
+    }
+  }
+}
