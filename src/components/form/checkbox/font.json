@@ -1,0 +1,10 @@
+{
+  "font": {
+    "checkbox": {
+      "label": {
+        "size": { "value": "{ size.font.sm }" },
+        "weight": { "value": "{font.sans.weight.regular}" }
+      }
+    }
+  }
+}

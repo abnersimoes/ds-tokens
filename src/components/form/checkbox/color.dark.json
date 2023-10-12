@@ -1,0 +1,24 @@
+{
+  "color": {
+    "checkbox": {
+      "base": {
+        "label": {
+          "text": { "value": "{color.neutral.high.pure}" }
+        }
+      },
+      "hover": {
+        "input": {
+          "border": { "value": "{color.neutral.low.light}" }
+        }
+      },
+      "checked": {
+        "hover": {
+          "input": {
+            "background": { "value": "{color.brand.primary.mid-light}" },
+            "border": { "value": "{color.brand.primary.mid-light}" }
+          }
+        }
+      }
+    }
+  }
+}

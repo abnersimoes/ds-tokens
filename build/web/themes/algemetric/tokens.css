@@ -82,6 +82,14 @@
   --color-chip-text: #383836;
   --color-chip-icon-base: #6e6e6c;
   --color-chip-icon-hover: #d15b0a;
+  --color-checkbox-base-label-text: #383836;
+  --color-checkbox-base-input-text: #ffffff;
+  --color-checkbox-base-input-border: #6e6e6c;
+  --color-checkbox-hover-input-border: #383836;
+  --color-checkbox-checked-input-background: #d15b0a;
+  --color-checkbox-checked-input-border: #d15b0a;
+  --color-checkbox-checked-hover-input-background: #9e4000;
+  --color-checkbox-checked-hover-input-border: #9e4000;
   --color-field-base-placeholder: #b3b3b3;
   --color-field-base-text: #1c1c1b;
   --color-field-base-border-default: #e8e8e8;
@@ -153,6 +161,8 @@
   --font-avatar-weight: 600;
   --font-avatar-line-height: 1.15;
   --font-button-weight: 600;
+  --font-checkbox-label-size: 0.875rem;
+  --font-checkbox-label-weight: 400;
   --font-field-chips-textarea-line-height: 1.33;
   --font-heading-line-height-xs: 1;
   --font-heading-line-height-sm: 1.15;
@@ -268,6 +278,11 @@
   --size-chip-gap: 0.25rem;
   --size-chip-border-radius: 1rem;
   --size-chip-icon: 1rem;
+  --size-checkbox-column-gap: 0.5rem;
+  --size-checkbox-input-border: 0.125rem;
+  --size-checkbox-input-border-radius: 0.25rem;
+  --size-checkbox-input-height: 1.125rem;
+  --size-checkbox-input-width: 1.125rem;
   --size-field-base-font: 0.875rem;
   --size-field-base-padding-x: 1rem;
   --size-field-base-padding-y: 0.75rem;
