@@ -1,0 +1,14 @@
+{
+  "size": {
+    "checkbox": {
+      "column-gap": { "value": "{size.spacing.sm}" },
+
+      "input": {
+        "border": { "value": "{size.border.width.thin}" },
+        "border-radius": { "value": 0.25 },
+        "height": { "value": 1.125 },
+        "width": { "value": 1.125 }
+      }
+    }
+  }
+}

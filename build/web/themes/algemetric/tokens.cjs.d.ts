@@ -163,6 +163,34 @@ declare const tokens: {
         "hover": DesignToken
       }
     },
+    "checkbox": {
+      "base": {
+        "label": {
+          "text": DesignToken
+        },
+        "input": {
+          "text": DesignToken,
+          "border": DesignToken
+        }
+      },
+      "hover": {
+        "input": {
+          "border": DesignToken
+        }
+      },
+      "checked": {
+        "input": {
+          "background": DesignToken,
+          "border": DesignToken
+        },
+        "hover": {
+          "input": {
+            "background": DesignToken,
+            "border": DesignToken
+          }
+        }
+      }
+    },
     "field": {
       "base": {
         "placeholder": DesignToken,
@@ -343,6 +371,12 @@ declare const tokens: {
     },
     "button": {
       "weight": DesignToken
+    },
+    "checkbox": {
+      "label": {
+        "size": DesignToken,
+        "weight": DesignToken
+      }
     },
     "field": {
       "chips": {
@@ -554,6 +588,15 @@ declare const tokens: {
       "gap": DesignToken,
       "border-radius": DesignToken,
       "icon": DesignToken
+    },
+    "checkbox": {
+      "column-gap": DesignToken,
+      "input": {
+        "border": DesignToken,
+        "border-radius": DesignToken,
+        "height": DesignToken,
+        "width": DesignToken
+      }
     },
     "field": {
       "base": {

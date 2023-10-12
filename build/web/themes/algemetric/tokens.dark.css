@@ -17,6 +17,10 @@
   --color-button-ghost-text-default: #fef3ec;
   --color-chip-background: #383836;
   --color-chip-text: #f6f6f6;
+  --color-checkbox-base-label-text: #ffffff;
+  --color-checkbox-hover-input-border: #b3b3b3;
+  --color-checkbox-checked-hover-input-background: #ff8533;
+  --color-checkbox-checked-hover-input-border: #ff8533;
   --color-field-base-placeholder: #6e6e6c;
   --color-field-base-text: #ffffff;
   --color-field-base-border-default: #383836;

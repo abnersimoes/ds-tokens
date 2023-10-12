@@ -1,0 +1,32 @@
+{
+  "color": {
+    "checkbox": {
+      "base": {
+        "label": {
+          "text": { "value": "{color.neutral.low.pure}" }
+        },
+        "input": {
+          "text": { "value": "{color.neutral.high.pure}" },
+          "border": { "value": "{color.neutral.low.medium}" }
+        }
+      },
+      "hover": {
+        "input": {
+          "border": { "value": "{color.neutral.low.pure}" }
+        }
+      },
+      "checked": {
+        "input": {
+          "background": { "value": "{color.brand.primary.medium}" },
+          "border": { "value": "{color.brand.primary.medium}" }
+        },
+        "hover": {
+          "input": {
+            "background": { "value": "{color.brand.primary.mid-dark}" },
+            "border": { "value": "{color.brand.primary.mid-dark}" }
+          }
+        }
+      }
+    }
+  }
+}
