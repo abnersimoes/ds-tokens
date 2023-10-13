@@ -1,0 +1,44 @@
+{
+  "color": {
+    "datepicker": {
+      "predefined": {
+        "border": { "value": "{color.neutral.low.pure}" },
+        "button": {
+          "base": { "value": "{color.text.layout.pure}" }
+        }
+      },
+      "main": {
+        "background": { "value": "{color.background.layout.pure}" },
+        "border": { "value": "{color.neutral.low.pure}" }
+      },
+      "months": {
+        "background": { "value": "{color.background.layout.pure}" },
+        "header": {
+          "text": { "value": "{color.text.layout.pure}" }
+        }
+      },
+      "weekdays": {
+        "text": { "value": "{color.neutral.low.medium}" }
+      },
+      "days": {
+        "text": {
+          "base": { "value": "{color.text.layout.pure}" },
+          "hover": { "value": "{color.brand.primary.mid-light}" }
+        },
+        "locked": {
+          "text": { "value": "{color.neutral.low.medium}" }
+        }
+      },
+      "range": {
+        "background": { "value": "{color.brand.primary.darker}" },
+        "highlight": {
+          "text": { "value": "{color.neutral.high.pure}" },
+          "background": { "value": "{color.brand.primary.mid-dark}" }
+        }
+      },
+      "tooltip": {
+        "background": { "value": "{color.neutral.low.medium}" }
+      }
+    }
+  }
+}

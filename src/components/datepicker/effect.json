@@ -1,0 +1,11 @@
+{
+  "effect": {
+    "datepicker": {
+      "main": {
+        "shadow": {
+          "box": { "value": "{effect.shadow.box.md}" }
+        }
+      }
+    }
+  }
+}
