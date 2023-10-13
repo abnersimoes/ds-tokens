@@ -1,0 +1,58 @@
+{
+  "color": {
+    "datepicker": {
+      "predefined": {
+        "border": { "value": "{color.neutral.high.medium}" },
+        "button": {
+          "base": { "value": "{color.text.layout.pure}" },
+          "hover": { "value": "{color.brand.primary.medium}" }
+        }
+      },
+      "main": {
+        "background": { "value": "{color.background.layout.pure}" },
+        "border": { "value": "{color.neutral.high.medium}" }
+      },
+      "months": {
+        "background": { "value": "{color.background.layout.pure}" },
+        "header": {
+          "text": { "value": "{color.text.layout.pure}" },
+          "button": {
+            "base": { "value": "{color.neutral.low.medium}" },
+            "hover": { "value": "{color.brand.primary.medium}" }
+          }
+        },
+        "week-number": {
+          "text": { "value": "{color.neutral.low.light}" }
+        }
+      },
+      "weekdays": {
+        "text": { "value": "{color.neutral.low.medium}" }
+      },
+      "days": {
+        "text": {
+          "base": { "value": "{color.text.layout.pure}" },
+          "hover": { "value": "{color.brand.primary.mid-light}" }
+        },
+        "highlighted": {
+          "background": { "value": "{color.highlight.light}" }
+        },
+        "locked": {
+          "text": { "value": "{color.neutral.low.light}" }
+        }
+      },
+      "today": {
+        "text": { "value": "{color.brand.primary.medium}" }
+      },
+      "range": {
+        "background": { "value": "{color.brand.primary.lighter}" },
+        "highlight": {
+          "text": { "value": "{color.neutral.high.pure}" },
+          "background": { "value": "{color.brand.primary.mid-light}" }
+        }
+      },
+      "tooltip": {
+        "background": { "value": "{color.background.layout.pure}" }
+      }
+    }
+  }
+}

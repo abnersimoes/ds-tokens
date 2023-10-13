@@ -1,0 +1,9 @@
+{
+  "font": {
+    "datepicker": {
+      "today": {
+        "weight": "{font.sans.weight.bold}"
+      }
+    }
+  }
+}

@@ -163,6 +163,60 @@ declare const tokens: {
         "hover": DesignToken
       }
     },
+    "datepicker": {
+      "predefined": {
+        "border": DesignToken,
+        "button": {
+          "base": DesignToken,
+          "hover": DesignToken
+        }
+      },
+      "main": {
+        "background": DesignToken,
+        "border": DesignToken
+      },
+      "months": {
+        "background": DesignToken,
+        "header": {
+          "text": DesignToken,
+          "button": {
+            "base": DesignToken,
+            "hover": DesignToken
+          }
+        },
+        "week-number": {
+          "text": DesignToken
+        }
+      },
+      "weekdays": {
+        "text": DesignToken
+      },
+      "days": {
+        "text": {
+          "base": DesignToken,
+          "hover": DesignToken
+        },
+        "highlighted": {
+          "background": DesignToken
+        },
+        "locked": {
+          "text": DesignToken
+        }
+      },
+      "today": {
+        "text": DesignToken
+      },
+      "range": {
+        "background": DesignToken,
+        "highlight": {
+          "text": DesignToken,
+          "background": DesignToken
+        }
+      },
+      "tooltip": {
+        "background": DesignToken
+      }
+    },
     "checkbox": {
       "base": {
         "label": {
@@ -372,6 +426,9 @@ declare const tokens: {
     "button": {
       "weight": DesignToken
     },
+    "datepicker": {
+      "today": {}
+    },
     "checkbox": {
       "label": {
         "size": DesignToken,
@@ -463,6 +520,13 @@ declare const tokens: {
         "fade-out": DesignToken
       },
       "default": DesignToken
+    },
+    "datepicker": {
+      "main": {
+        "shadow": {
+          "box": DesignToken
+        }
+      }
     },
     "backdrop": {
       "filter": DesignToken,
@@ -588,6 +652,34 @@ declare const tokens: {
       "gap": DesignToken,
       "border-radius": DesignToken,
       "icon": DesignToken
+    },
+    "datepicker": {
+      "predefined": {
+        "width": DesignToken,
+        "padding": DesignToken,
+        "gap": DesignToken
+      },
+      "main": {
+        "border-radius": DesignToken
+      },
+      "months": {
+        "padding": DesignToken,
+        "gap": DesignToken,
+        "header": {
+          "height": DesignToken,
+          "margin-bottom": DesignToken,
+          "padding": DesignToken,
+          "button": {
+            "size": DesignToken
+          }
+        }
+      },
+      "weekdays": {
+        "size": DesignToken
+      },
+      "days": {
+        "width": DesignToken
+      }
     },
     "checkbox": {
       "column-gap": DesignToken,

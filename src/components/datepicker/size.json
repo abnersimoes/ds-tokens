@@ -1,0 +1,32 @@
+{
+  "size": {
+    "datepicker": {
+      "predefined": {
+        "width": { "value": 10 },
+        "padding": { "value": "{size.spacing.md}" },
+        "gap": { "value": "{size.spacing.md}" }
+      },
+      "main": {
+        "border-radius": { "value": "{size.border.radius.sm}" }
+      },
+      "months": {
+        "padding": { "value": "{size.spacing.md}" },
+        "gap": { "value": "{size.spacing.lg}" },
+        "header": {
+          "height": { "value": "{size.spacing.lg}" },
+          "margin-bottom": { "value": "{size.spacing.sm}" },
+          "padding": { "value": "{size.spacing.sm}" },
+          "button": {
+            "size": { "value": "{size.spacing.lg}" }
+          }
+        }
+      },
+      "weekdays": {
+        "size": { "value": "{size.font.2xl}" }
+      },
+      "days": {
+        "width": { "value": "{size.font.2xl}" }
+      }
+    }
+  }
+}
