@@ -39,18 +39,66 @@ declare const tokens: {
       }
     },
     "chart": {
-      "1": DesignToken,
-      "2": DesignToken,
-      "3": DesignToken,
-      "4": DesignToken,
-      "5": DesignToken,
-      "6": DesignToken,
-      "7": DesignToken,
-      "8": DesignToken,
-      "9": DesignToken,
-      "10": DesignToken,
-      "11": DesignToken,
-      "12": DesignToken
+      "1": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "2": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "3": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "4": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "5": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "6": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "7": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "8": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "9": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "10": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "11": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      },
+      "12": {
+        "light": DesignToken,
+        "medium": DesignToken,
+        "dark": DesignToken
+      }
     },
     "feedback": {
       "error": {
