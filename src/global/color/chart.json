@@ -1,18 +1,66 @@
 {
   "color": {
     "chart": {
-      "1": { "value": "#FF5726" },
-      "2": { "value": "#FFD300" },
-      "3": { "value": "#ED8B19" },
-      "4": { "value": "#9B1535" },
-      "5": { "value": "#AA30BA" },
-      "6": { "value": "#5426A3" },
-      "7": { "value": "#056CB7" },
-      "8": { "value": "#00BCD3" },
-      "9": { "value": "#009689" },
-      "10": { "value": "#87BC54" },
-      "11": { "value": "#70919F" },
-      "12": { "value": "#416372" }
+      "1": {
+        "light": { "value": "#FEBDAA" },
+        "medium": { "value": "#FF5726" },
+        "dark": { "value": "#BD5A23" }
+      },
+      "2": {
+        "light": { "value": "#FBDB45" },
+        "medium": { "value": "#FFD300" },
+        "dark": { "value": "#BEA72E" }
+      },
+      "3": {
+        "light": { "value": "#D1A377" },
+        "medium": { "value": "#ED8B19" },
+        "dark": { "value": "#784204" }
+      },
+      "4": {
+        "light": { "value": "#FB96AE" },
+        "medium": { "value": "#9B1535" },
+        "dark": { "value": "#BF294B" }
+      },
+      "5": {
+        "light": { "value": "#FFA5FE" },
+        "medium": { "value": "#AA30BA" },
+        "dark": { "value": "#A932A4" }
+      },
+      "6": {
+        "light": { "value": "#B78DFF" },
+        "medium": { "value": "#5426A3" },
+        "dark": { "value": "#5A0C76" }
+      },
+      "7": {
+        "light": { "value": "#7BC8FF" },
+        "medium": { "value": "#056CB7" },
+        "dark": { "value": "#275C82" }
+      },
+      "8": {
+        "light": { "value": "#75D9D9" },
+        "medium": { "value": "#00BCD3" },
+        "dark": { "value": "#067C7C" }
+      },
+      "9": {
+        "light": { "value": "#69FFB4" },
+        "medium": { "value": "#009689" },
+        "dark": { "value": "#0C4933" }
+      },
+      "10": {
+        "light": { "value": "#BBED56" },
+        "medium": { "value": "#87BC54" },
+        "dark": { "value": "#537B02" }
+      },
+      "11": {
+        "light": { "value": "#E6EBED" },
+        "medium": { "value": "#70919F" },
+        "dark": { "value": "#878A8D" }
+      },
+      "12": {
+        "light": { "value": "#A7ABAD" },
+        "medium": { "value": "#5C6064" },
+        "dark": { "value": "#34383D" }
+      }
     }
   }
 }
