@@ -1,0 +1,20 @@
+{
+  "color": {
+    "svg-gradient": {
+      "background": {
+        "1": {
+          "start": { "value": "#FFAE10" },
+          "end": { "value": "#FF6700" }
+        },
+        "2": {
+          "start": { "value": "#FF6700" },
+          "end": { "value": "#5F129B" }
+        },
+        "3": {
+          "start": { "value": "#5F129B" },
+          "end": { "value": "#FFAE10" }
+        }
+      }
+    }
+  }
+}
