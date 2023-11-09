@@ -69,12 +69,12 @@
   --color-menu-item-disabled-text: #383836;
   --color-table-background: #383836;
   --color-table-text: #d6d6d6;
-  --color-svg-gradient-background-1-start: #0077b6;
-  --color-svg-gradient-background-1-end: #0b3d91;
-  --color-svg-gradient-background-2-start: #0b3d91;
-  --color-svg-gradient-background-2-end: #8d1d8f;
-  --color-svg-gradient-background-3-start: #8d1d8f;
-  --color-svg-gradient-background-3-end: #0077b6;
+  --color-support-login-gradient-background-1-start: #0077b6;
+  --color-support-login-gradient-background-1-end: #0b3d91;
+  --color-support-login-gradient-background-2-start: #0b3d91;
+  --color-support-login-gradient-background-2-end: #8d1d8f;
+  --color-support-login-gradient-background-3-start: #8d1d8f;
+  --color-support-login-gradient-background-3-end: #0077b6;
   --color-link-base-text-default: #ffcaa6;
   --color-link-base-text-active: #ffffff;
   --color-link-base-border-focus: #7bc7ff;

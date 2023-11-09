@@ -397,19 +397,21 @@ declare const tokens: {
     "table": {
       "background": DesignToken
     },
-    "svg-gradient": {
-      "background": {
-        "1": {
-          "start": DesignToken,
-          "end": DesignToken
-        },
-        "2": {
-          "start": DesignToken,
-          "end": DesignToken
-        },
-        "3": {
-          "start": DesignToken,
-          "end": DesignToken
+    "support": {
+      "login-gradient": {
+        "background": {
+          "1": {
+            "start": DesignToken,
+            "end": DesignToken
+          },
+          "2": {
+            "start": DesignToken,
+            "end": DesignToken
+          },
+          "3": {
+            "start": DesignToken,
+            "end": DesignToken
+          }
         }
       }
     },
