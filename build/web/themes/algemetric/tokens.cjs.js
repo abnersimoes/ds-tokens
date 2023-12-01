@@ -142,6 +142,7 @@ module.exports = {
   "colorFieldDisabledArrow": "#d6d6d6",
   "colorFieldErrorBorder": "#e50d05",
   "colorFieldErrorArrow": "#e50d05",
+  "colorFieldRequiredSymbol": "#e50d05",
   "colorHelperErrorText": "#e50d05",
   "colorHelperDisabledText": "#d6d6d6",
   "colorLabelBaseText": "#194666",

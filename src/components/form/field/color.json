@@ -22,6 +22,9 @@
       "error": {
         "border": { "value": "{color.feedback.error.medium}" },
         "arrow": { "value": "{color.feedback.error.medium}" }
+      },
+      "required": {
+        "symbol": { "value": "{color.feedback.error.medium}" }
       }
     }
   }

@@ -141,6 +141,7 @@ export const colorFieldDisabledText = "#d6d6d6";
 export const colorFieldDisabledArrow = "#d6d6d6";
 export const colorFieldErrorBorder = "#e50d05";
 export const colorFieldErrorArrow = "#e50d05";
+export const colorFieldRequiredSymbol = "#e50d05";
 export const colorHelperErrorText = "#e50d05";
 export const colorHelperDisabledText = "#d6d6d6";
 export const colorLabelBaseText = "#194666";
