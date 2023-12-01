@@ -317,7 +317,7 @@ declare const tokens: {
         "arrow": DesignToken
       },
       "required": {
-        "dot": DesignToken
+        "symbol": DesignToken
       }
     },
     "helper": {

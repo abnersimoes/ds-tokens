@@ -24,7 +24,7 @@
         "arrow": { "value": "{color.feedback.error.medium}" }
       },
       "required": {
-        "dot": { "value": "{color.feedback.error.medium}" }
+        "symbol": { "value": "{color.feedback.error.medium}" }
       }
     }
   }
