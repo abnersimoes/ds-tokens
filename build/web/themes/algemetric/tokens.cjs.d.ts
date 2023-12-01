@@ -315,6 +315,9 @@ declare const tokens: {
       "error": {
         "border": DesignToken,
         "arrow": DesignToken
+      },
+      "required": {
+        "dot": DesignToken
       }
     },
     "helper": {

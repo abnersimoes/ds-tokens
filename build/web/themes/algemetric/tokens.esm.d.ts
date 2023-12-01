@@ -141,6 +141,7 @@ export const colorFieldDisabledText : string;
 export const colorFieldDisabledArrow : string;
 export const colorFieldErrorBorder : string;
 export const colorFieldErrorArrow : string;
+export const colorFieldRequiredDot : string;
 export const colorHelperErrorText : string;
 export const colorHelperDisabledText : string;
 export const colorLabelBaseText : string;
