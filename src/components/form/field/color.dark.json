@@ -15,6 +15,9 @@
         "border": { "value": "{color.neutral.low.pure}" },
         "text": { "value": "{color.neutral.low.dark}" },
         "arrow": { "value": "{color.neutral.low.dark}" }
+      },
+      "code": {
+        "highlight": { "value": "#ffa5fe" }
       }
     }
   }

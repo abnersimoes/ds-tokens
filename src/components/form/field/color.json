@@ -25,6 +25,9 @@
       },
       "required": {
         "symbol": { "value": "{color.feedback.error.medium}" }
+      },
+      "code": {
+        "highlight": { "value": "#aa30ba" }
       }
     }
   }

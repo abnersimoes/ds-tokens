@@ -40,6 +40,14 @@
             "min": { "value": 10 }
           }
         }
+      },
+      "code": {
+        "min-height": { "value": 17.5 },
+        "status": {
+          "width": { "value": 0.625 },
+          "height": { "value": 0.625 },
+          "margin-top": { "value": 0.15 }
+        }
       }
     }
   }
