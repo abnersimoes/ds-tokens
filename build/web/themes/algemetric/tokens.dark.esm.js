@@ -43,6 +43,7 @@ export const colorFieldDisabledBackground = "#383836";
 export const colorFieldDisabledBorder = "#383836";
 export const colorFieldDisabledText = "#1c1c1b";
 export const colorFieldDisabledArrow = "#1c1c1b";
+export const colorFieldCodeHighlight = "#ffa5fe";
 export const colorHelperDisabledText = "#383836";
 export const colorHelperBaseText = "#b3b3b3";
 export const colorLabelBaseText = "#e6edf2";

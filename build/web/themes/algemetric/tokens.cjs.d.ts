@@ -318,6 +318,9 @@ declare const tokens: {
       },
       "required": {
         "symbol": DesignToken
+      },
+      "code": {
+        "highlight": DesignToken
       }
     },
     "helper": {
@@ -798,6 +801,14 @@ declare const tokens: {
           "width": {
             "min": DesignToken
           }
+        }
+      },
+      "code": {
+        "min-height": DesignToken,
+        "status": {
+          "width": DesignToken,
+          "height": DesignToken,
+          "margin-top": DesignToken
         }
       }
     },

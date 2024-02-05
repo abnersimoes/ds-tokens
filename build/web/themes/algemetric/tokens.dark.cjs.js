@@ -44,6 +44,7 @@ module.exports = {
   "colorFieldDisabledBorder": "#383836",
   "colorFieldDisabledText": "#1c1c1b",
   "colorFieldDisabledArrow": "#1c1c1b",
+  "colorFieldCodeHighlight": "#ffa5fe",
   "colorHelperDisabledText": "#383836",
   "colorHelperBaseText": "#b3b3b3",
   "colorLabelBaseText": "#e6edf2",
