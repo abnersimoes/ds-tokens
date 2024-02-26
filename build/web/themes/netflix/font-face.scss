@@ -1,0 +1,34 @@
+@font-face {
+	font-family: "NetflixSans";
+	font-style: normal;
+	font-weight: 400;
+	src: url("#{$font-path}/NetflixSans-Regular.woff2") format("woff2"),
+			 url("#{$font-path}/NetflixSans-Regular.woff") format("woff");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "NetflixSans";
+	font-style: normal;
+	font-weight: 600;
+	src: url("#{$font-path}/NetflixSans-Medium.woff2") format("woff2"),
+			 url("#{$font-path}/NetflixSans-Medium.woff") format("woff");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "NetflixSans";
+	font-style: normal;
+	font-weight: 700;
+	src: url("#{$font-path}/NetflixSans-Bold.woff2") format("woff2"),
+			 url("#{$font-path}/NetflixSans-Bold.woff") format("woff");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: 400;
+	src: url("#{$font-path}/RobotoMono-Regular.woff2") format("woff2");
+	font-display: fallback;
+}

@@ -1,0 +1,30 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "lighter": { "value": "#ffeaeb" },
+        "light": { "value": "#fad3d5" },
+        "mid-light": {
+          "rgb": "243, 24, 35",
+          "value": "#f31823"
+        },
+        "medium": {
+          "rgb": "229, 9, 20",
+          "value": "#e50914"
+        },
+        "mid-dark": { "value": "#ca0710" },
+        "dark": { "value": "##97050c" },
+        "darker": { "value": "#5c0307" }
+      },
+      "secondary": {
+        "lighter": { "value": "#a6c8f6" },
+        "light": { "value": "#448ef4" },
+        "mid-light": { "value": "#2779e9" },
+        "medium": { "value": "#176bde" },
+        "mid-dark": { "value": "#115abd" },
+        "dark": { "value": "#0f4186" },
+        "darker": { "value": "#0e356a" }
+      }
+    }
+  }
+}

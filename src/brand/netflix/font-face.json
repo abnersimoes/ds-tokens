@@ -1,0 +1,40 @@
+{
+  "asset": {
+    "font": {
+      "sans": {
+        "value": "NetflixSans",
+        "formats": ["woff2", "woff"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "NetflixSans-Regular",
+            "weight": "{font.sans.weight.regular}",
+            "style": "{font.sans.style.normal}"
+          },
+          {
+            "file": "NetflixSans-Medium",
+            "weight": "{font.sans.weight.semiBold}",
+            "style": "{font.sans.style.normal}"
+          },
+          {
+            "file": "NetflixSans-Bold",
+            "weight": "{font.sans.weight.bold}",
+            "style": "{font.sans.style.normal}"
+          }
+        ]
+      },
+      "mono": {
+        "value": "Roboto Mono",
+        "formats": ["woff2"],
+        "display": "fallback",
+        "styles": [
+          {
+            "file": "RobotoMono-Regular",
+            "weight": "{font.mono.weight.regular}",
+            "style": "{font.sans.style.normal}"
+          }
+        ]
+      }
+    }
+  }
+}
