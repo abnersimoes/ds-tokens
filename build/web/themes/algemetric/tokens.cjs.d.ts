@@ -893,7 +893,10 @@ declare const tokens: {
         "height": DesignToken,
         "padding": DesignToken,
         "gap": DesignToken,
-        "icon": DesignToken
+        "icon": DesignToken,
+        "link": {
+          "padding": DesignToken
+        }
       }
     },
     "table": {
