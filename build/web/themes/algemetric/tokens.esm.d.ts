@@ -395,6 +395,7 @@ export const sizeMenuItemHeight : string;
 export const sizeMenuItemPadding : string;
 export const sizeMenuItemGap : string;
 export const sizeMenuItemIcon : string;
+export const sizeMenuItemLinkPadding : string;
 export const sizeTableWrapperBorderRadius : string;
 export const sizeTableWrapperPadding : string;
 export const sizeTableColumnPadding : string;
