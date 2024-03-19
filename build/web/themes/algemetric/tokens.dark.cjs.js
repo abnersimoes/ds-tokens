@@ -62,7 +62,7 @@ module.exports = {
   "colorHeaderBackground": "#1c1c1b",
   "colorHeaderText": "#ffffff",
   "colorMenuBoxBorder": "#383836",
-  "colorMenuItemIcon": "#194666",
+  "colorMenuItemIcon": "#6e6e6c",
   "colorMenuItemDefaultBackground": "#1c1c1b",
   "colorMenuItemDefaultText": "#f6f6f6",
   "colorMenuItemHoverBackground": "#331e0f",
