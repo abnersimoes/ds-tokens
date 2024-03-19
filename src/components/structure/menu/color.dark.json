@@ -5,7 +5,7 @@
         "border": { "value": "{color.neutral.low.pure}" }
       },
       "item": {
-        "icon": { "value": "{color.brand.secondary.dark}" },
+        "icon": { "value": "{color.neutral.low.medium}" },
         "default": {
           "background": { "value": "{color.neutral.low.dark}" },
           "text": { "value": "{color.neutral.high.light}" }
