@@ -321,6 +321,24 @@ declare const tokens: {
       },
       "code": {
         "highlight": DesignToken
+      },
+      "option": {
+        "base": {
+          "icon": DesignToken
+        },
+        "hover": {
+          "background": DesignToken
+        },
+        "active": {
+          "text": DesignToken
+        },
+        "selected": {
+          "background": DesignToken,
+          "icon": DesignToken
+        },
+        "disabled": {
+          "text": DesignToken
+        }
       }
     },
     "helper": {
@@ -787,6 +805,14 @@ declare const tokens: {
           "width": DesignToken,
           "half-width": DesignToken,
           "spacing": DesignToken
+        },
+        "option": {
+          "height": DesignToken,
+          "padding": DesignToken,
+          "gap": DesignToken,
+          "icon": {
+            "size": DesignToken
+          }
         }
       },
       "chips": {

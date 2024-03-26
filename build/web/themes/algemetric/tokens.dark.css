@@ -45,6 +45,10 @@
   --color-field-disabled-text: #1c1c1b;
   --color-field-disabled-arrow: #1c1c1b;
   --color-field-code-highlight: #ffa5fe;
+  --color-field-option-base-icon: #6e6e6c;
+  --color-field-option-hover-background: #331e0f;
+  --color-field-option-selected-background: #383836;
+  --color-field-option-disabled-text: #383836;
   --color-helper-disabled-text: #383836;
   --color-helper-base-text: #b3b3b3;
   --color-label-base-text: #e6edf2;
