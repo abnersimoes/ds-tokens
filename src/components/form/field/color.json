@@ -28,6 +28,24 @@
       },
       "code": {
         "highlight": { "value": "#aa30ba" }
+      },
+      "option": {
+        "base": {
+          "icon": { "value": "{color.brand.secondary.dark}" }
+        },
+        "hover": {
+          "background": { "value": "{color.brand.primary.lighter}" }
+        },
+        "active": {
+          "text": { "value": "{color.brand.primary.medium}" }
+        },
+        "selected": {
+          "background": { "value": "{color.neutral.high.light}" },
+          "icon": { "value": "{color.brand.primary.medium}" }
+        },
+        "disabled": {
+          "text": { "value": "{color.neutral.high.dark}" }
+        }
       }
     }
   }

@@ -25,6 +25,14 @@
           "width": { "value": 0.75 },
           "half-width": { "value": 0.429 },
           "spacing": { "value": "{size.spacing.sm}" }
+        },
+        "option": {
+          "height": { "value": "{size.spacing.3xl}" },
+          "padding": { "value": "{size.spacing.md}" },
+          "gap": { "value": "{size.spacing.sm}" },
+          "icon": {
+            "size": { "value": "{size.spacing.2xl}" }
+          }
         }
       },
       "chips": {
