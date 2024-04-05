@@ -2,59 +2,107 @@
   "size": {
     "field": {
       "base": {
-        "font": { "value": "{size.paragraph.font.sm}" },
-        "padding": {
-          "x": { "value": "{size.spacing.md}" },
-          "y": { "value": 0.75 }
+        "font": {
+          "value": "{size.paragraph.font.sm}"
         },
-        "border-width": { "value": "{size.border.width.thin}" },
-        "border-radius": { "value": "{size.border.radius.sm}" }
+        "padding": {
+          "x": {
+            "value": "{size.spacing.md}"
+          },
+          "y": {
+            "value": 0.75
+          }
+        },
+        "border-width": {
+          "value": "{size.border.width.thin}"
+        },
+        "border-radius": {
+          "value": "{size.border.radius.sm}"
+        }
       },
       "group": {
-        "gap": { "value": "{size.spacing.xs}" }
+        "gap": {
+          "value": "{size.spacing.xs}"
+        }
       },
       "text": {
-        "height": { "value": 3 }
+        "height": {
+          "value": 3
+        }
       },
       "multiline": {
-        "height": { "value": 3.5 }
+        "height": {
+          "value": 3.5
+        }
       },
       "select": {
-        "padding-right": { "value": "{size.spacing.2xl}" },
+        "padding-right": {
+          "value": "{size.spacing.2xl}"
+        },
         "arrow": {
-          "width": { "value": 0.75 },
-          "half-width": { "value": 0.429 },
-          "spacing": { "value": "{size.spacing.sm}" }
+          "width": {
+            "value": 0.75
+          },
+          "half-width": {
+            "value": 0.429
+          },
+          "spacing": {
+            "value": "{size.spacing.sm}"
+          }
         },
         "option": {
-          "height": { "value": "{size.spacing.3xl}" },
-          "padding": { "value": "{size.spacing.md}" },
-          "gap": { "value": "{size.spacing.sm}" },
+          "height": {
+            "value": "{size.spacing.3xl}"
+          },
+          "padding": {
+            "value": "{size.spacing.md}"
+          },
+          "gap": {
+            "value": "{size.spacing.sm}"
+          },
           "icon": {
-            "size": { "value": "{size.spacing.2xl}" }
+            "size": {
+              "value": "{size.spacing.xl}"
+            }
           }
         }
       },
       "chips": {
         "items": {
-          "gap": { "value": "{size.spacing.sm}" }
+          "gap": {
+            "value": "{size.spacing.sm}"
+          }
         },
         "height": {
-          "min": { "value": "{size.field.text.height}" },
-          "max": { "value": 13.3 }
+          "min": {
+            "value": "{size.field.text.height}"
+          },
+          "max": {
+            "value": 13.3
+          }
         },
         "textarea": {
           "width": {
-            "min": { "value": 10 }
+            "min": {
+              "value": 10
+            }
           }
         }
       },
       "code": {
-        "min-height": { "value": 17.5 },
+        "min-height": {
+          "value": 17.5
+        },
         "status": {
-          "width": { "value": 0.625 },
-          "height": { "value": 0.625 },
-          "margin-top": { "value": 0.15 }
+          "width": {
+            "value": 0.625
+          },
+          "height": {
+            "value": 0.625
+          },
+          "margin-top": {
+            "value": 0.15
+          }
         }
       }
     }

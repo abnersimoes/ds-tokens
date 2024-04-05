@@ -363,7 +363,7 @@ module.exports = {
   "sizeFieldSelectOptionHeight": "48px",
   "sizeFieldSelectOptionPadding": "16px",
   "sizeFieldSelectOptionGap": "8px",
-  "sizeFieldSelectOptionIconSize": "40px",
+  "sizeFieldSelectOptionIconSize": "32px",
   "sizeFieldChipsItemsGap": "8px",
   "sizeFieldChipsHeightMin": "48px",
   "sizeFieldChipsHeightMax": "213px",
