@@ -29,7 +29,7 @@
           "pressed": { "value": "{color.brand.primary.mid-light}" }
         },
         "text": {
-          "default": { "value": "{color.brand.primary.medium}" }
+          "default": { "value": "{color.brand.primary.mid-dark}" }
         }
       },
       "ghost": {
@@ -56,7 +56,7 @@
             "pressed": { "value": "{color.feedback.error.mid-light}" }
           },
           "text": {
-            "default": { "value": "{color.feedback.error.medium}" }
+            "default": { "value": "{color.feedback.error.mid-dark}" }
           }
         },
         "ghost": {
