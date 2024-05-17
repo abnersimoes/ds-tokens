@@ -36,6 +36,36 @@
         "text": {
           "default": { "value": "{color.brand.primary.lighter}" }
         }
+      },
+      "danger": {
+        "primary": {
+          "background": {
+            "hover": { "value": "{color.feedback.error.mid-light}" },
+            "pressed": { "value": "{color.feedback.error.light}" }
+          },
+          "text": {
+            "default": { "value": "{color.neutral.high.pure}" }
+          }
+        },
+        "secondary": {
+          "background": {
+            "default": { "value": "{color.feedback.error.darker}" },
+            "hover": { "value": "{color.feedback.error.dark}" },
+            "pressed": { "value": "{color.feedback.error.mid-dark}" }
+          },
+          "text": {
+            "default": { "value": "{color.feedback.error.light}" }
+          }
+        },
+        "ghost": {
+          "background": {
+            "hover": { "value": "{color.feedback.error.darker}" },
+            "pressed": { "value": "{color.feedback.error.dark}" }
+          },
+          "text": {
+            "default": { "value": "{color.feedback.error.light}" }
+          }
+        }
       }
     }
   }
