@@ -15,6 +15,16 @@
   --color-button-ghost-background-hover: #331e0f;
   --color-button-ghost-background-pressed: #522100;
   --color-button-ghost-text-default: #fef3ec;
+  --color-button-danger-primary-background-hover: #e78380;
+  --color-button-danger-primary-background-pressed: #f3a7a4;
+  --color-button-danger-primary-text-default: #ffffff;
+  --color-button-danger-secondary-background-default: #4d0300;
+  --color-button-danger-secondary-background-hover: #640300;
+  --color-button-danger-secondary-background-pressed: #a50600;
+  --color-button-danger-secondary-text-default: #f3a7a4;
+  --color-button-danger-ghost-background-hover: #4d0300;
+  --color-button-danger-ghost-background-pressed: #640300;
+  --color-button-danger-ghost-text-default: #f3a7a4;
   --color-chip-background: #383836;
   --color-chip-text: #f6f6f6;
   --color-datepicker-predefined-border: #383836;

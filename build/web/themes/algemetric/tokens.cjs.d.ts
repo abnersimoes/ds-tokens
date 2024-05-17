@@ -102,10 +102,13 @@ declare const tokens: {
     },
     "feedback": {
       "error": {
-        "pure": DesignToken,
+        "lighter": DesignToken,
         "light": DesignToken,
+        "mid-light": DesignToken,
         "medium": DesignToken,
-        "dark": DesignToken
+        "mid-dark": DesignToken,
+        "dark": DesignToken,
+        "darker": DesignToken
       },
       "warning": {
         "pure": DesignToken,
@@ -200,6 +203,34 @@ declare const tokens: {
         },
         "text": {
           "default": DesignToken
+        }
+      },
+      "danger": {
+        "primary": {
+          "background": {
+            "default": DesignToken,
+            "hover": DesignToken,
+            "pressed": DesignToken
+          }
+        },
+        "secondary": {
+          "background": {
+            "default": DesignToken,
+            "hover": DesignToken,
+            "pressed": DesignToken
+          },
+          "text": {
+            "default": DesignToken
+          }
+        },
+        "ghost": {
+          "background": {
+            "hover": DesignToken,
+            "pressed": DesignToken
+          },
+          "text": {
+            "default": DesignToken
+          }
         }
       }
     },

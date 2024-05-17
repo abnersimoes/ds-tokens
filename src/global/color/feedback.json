@@ -2,10 +2,13 @@
   "color": {
     "feedback": {
       "error": {
-        "pure": { "value": "#FC0E05" },
-        "light": { "value": "#FECCCA" },
-        "medium": { "value": "#E50D05" },
-        "dark": { "value": "#A90903" }
+        "lighter": { "value": "#FFE8E7" },
+        "light": { "value": "#F3A7A4" },
+        "mid-light": { "value": "#E78380" },
+        "medium": { "value": "#C6312C" },
+        "mid-dark": { "value": "#A50600" },
+        "dark": { "value": "#640300" },
+        "darker": { "value": "#4D0300" }
       },
       "warning": {
         "pure": { "value": "#F89502" },
