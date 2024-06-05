@@ -438,6 +438,7 @@ export const sizeHeadingFontMd : string;
 export const sizeHeadingFontLg : string;
 export const sizeHeadingFontXl : string;
 export const sizeHeadingFont2xl : string;
+export const sizeHeadingFont3xl : string;
 export const sizeHeadingFontDisplay : string;
 export const sizeLinkFocusBorderWidth : string;
 export const sizeLinkFocusBorderRadius : string;

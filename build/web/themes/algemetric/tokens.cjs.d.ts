@@ -993,6 +993,7 @@ declare const tokens: {
         "lg": DesignToken,
         "xl": DesignToken,
         "2xl": DesignToken,
+        "3xl": DesignToken,
         "display": DesignToken
       }
     },

@@ -438,6 +438,7 @@ export const sizeHeadingFontMd = "16px";
 export const sizeHeadingFontLg = "20px";
 export const sizeHeadingFontXl = "24px";
 export const sizeHeadingFont2xl = "32px";
+export const sizeHeadingFont3xl = "40px";
 export const sizeHeadingFontDisplay = "96px";
 export const sizeLinkFocusBorderWidth = "2px";
 export const sizeLinkFocusBorderRadius = "2px";

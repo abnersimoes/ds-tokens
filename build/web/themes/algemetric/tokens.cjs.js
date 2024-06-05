@@ -439,6 +439,7 @@ module.exports = {
   "sizeHeadingFontLg": "20px",
   "sizeHeadingFontXl": "24px",
   "sizeHeadingFont2xl": "32px",
+  "sizeHeadingFont3xl": "40px",
   "sizeHeadingFontDisplay": "96px",
   "sizeLinkFocusBorderWidth": "2px",
   "sizeLinkFocusBorderRadius": "2px",
