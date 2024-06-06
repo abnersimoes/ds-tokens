@@ -2,22 +2,56 @@
   "font": {
     "heading": {
       "line-height": {
-        "xs": { "value": "{font.line-height.default}" },
-        "sm": { "value": "{font.line-height.xs}" },
-        "md": { "value": "{font.line-height.default}" },
-        "lg": { "value": "{font.line-height.lg}" },
-        "xl": { "value": "{font.line-height.lg}" },
-        "2xl": { "value": "{font.line-height.lg}" },
-        "display": { "value": "{font.line-height.default}" }
+        "xs": {
+          "value": "{font.line-height.default}"
+        },
+        "sm": {
+          "value": "{font.line-height.xs}"
+        },
+        "md": {
+          "value": "{font.line-height.default}"
+        },
+        "lg": {
+          "value": "{font.line-height.lg}"
+        },
+        "xl": {
+          "value": "{font.line-height.lg}"
+        },
+        "2xl": {
+          "value": "{font.line-height.lg}"
+        },
+        "3xl": {
+          "value": "{font.line-height.default}"
+        },
+        "display": {
+          "value": "{font.line-height.default}"
+        }
       },
       "weight": {
-        "xs": { "value": "{font.sans.weight.semiBold}" },
-        "sm": { "value": "{font.sans.weight.semiBold}" },
-        "md": { "value": "{font.sans.weight.semiBold}" },
-        "lg": { "value": "{font.sans.weight.bold}" },
-        "xl": { "value": "{font.sans.weight.bold}" },
-        "2xl": { "value": "{font.sans.weight.bold}" },
-        "display": { "value": "{font.sans.weight.bold}" }
+        "xs": {
+          "value": "{font.sans.weight.semiBold}"
+        },
+        "sm": {
+          "value": "{font.sans.weight.semiBold}"
+        },
+        "md": {
+          "value": "{font.sans.weight.semiBold}"
+        },
+        "lg": {
+          "value": "{font.sans.weight.bold}"
+        },
+        "xl": {
+          "value": "{font.sans.weight.bold}"
+        },
+        "2xl": {
+          "value": "{font.sans.weight.bold}"
+        },
+        "3xl": {
+          "value": "{font.sans.weight.bold}"
+        },
+        "display": {
+          "value": "{font.sans.weight.bold}"
+        }
       }
     }
   }
