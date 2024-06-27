@@ -449,6 +449,39 @@ declare const tokens: {
         }
       }
     },
+    "sidebar": {
+      "background": DesignToken,
+      "border": DesignToken,
+      "logo": {
+        "fill": DesignToken
+      },
+      "selector": {
+        "button": {
+          "text": DesignToken,
+          "background": DesignToken
+        },
+        "avatar": {
+          "background": DesignToken
+        }
+      },
+      "link": {
+        "base": {
+          "text": DesignToken
+        },
+        "hover": {
+          "background": DesignToken
+        },
+        "active": {
+          "text": DesignToken
+        },
+        "selected": {
+          "text": DesignToken
+        },
+        "icon": {
+          "fill": DesignToken
+        }
+      }
+    },
     "table": {
       "background": DesignToken
     },
@@ -956,6 +989,37 @@ declare const tokens: {
         "link": {
           "padding": DesignToken
         }
+      }
+    },
+    "sidebar": {
+      "width": DesignToken,
+      "border": DesignToken,
+      "logo": {
+        "height": DesignToken,
+        "padding": DesignToken
+      },
+      "selector": {
+        "padding": DesignToken,
+        "height": DesignToken,
+        "button": {
+          "gap": DesignToken,
+          "padding": DesignToken,
+          "border-radius": DesignToken
+        }
+      },
+      "menu": {
+        "padding": DesignToken,
+        "gap": DesignToken
+      },
+      "footer": {
+        "padding": DesignToken,
+        "gap": DesignToken
+      },
+      "link": {
+        "height": DesignToken,
+        "gap": DesignToken,
+        "padding": DesignToken,
+        "border-radius": DesignToken
       }
     },
     "table": {

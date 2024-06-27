@@ -1,0 +1,37 @@
+{
+  "color": {
+    "sidebar": {
+      "background": { "value": "{color.background.layout.pure}" },
+      "border": { "value": "{color.neutral.low.pure}" },
+      "logo": {
+        "fill": { "value": "{color.neutral.high.pure}" }
+      },
+      "selector": {
+        "button": {
+          "text": { "value": "{color.neutral.high.light}" },
+          "background": { "value": "{color.neutral.low.pure}" }
+        },
+        "avatar": {
+          "background": { "value": "{color.brand.primary.mid-dark}" }
+        }
+      },
+      "link": {
+        "base": {
+          "text": { "value": "{color.neutral.high.pure}" }
+        },
+        "hover": {
+          "background": { "value": "{color.brand.primary.darker}" }
+        },
+        "active": {
+          "text": { "value": "{color.brand.primary.medium}" }
+        },
+        "selected": {
+          "text": { "value": "{color.brand.primary.mid-light}" }
+        },
+        "icon": {
+          "fill": { "value": "{color.brand.secondary.lighter}" }
+        }
+      }
+    }
+  }
+}
