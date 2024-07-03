@@ -348,9 +348,12 @@
   --size-spacing-7xl: 7.5rem;
   --size-spacing-8xl: 10rem;
   --size-spacing-9xl: 12.5rem;
-  --size-avatar-width: 2rem;
-  --size-avatar-height: 2rem;
-  --size-avatar-font: 0.875rem;
+  --size-avatar-width-sm: 1.5rem;
+  --size-avatar-width-md: 2rem;
+  --size-avatar-height-sm: 1.5rem;
+  --size-avatar-height-md: 2rem;
+  --size-avatar-font-sm: 0.25rem;
+  --size-avatar-font-md: 0.875rem;
   --size-avatar-border-radius: 50%;
   --size-button-base-font: 0.875rem;
   --size-button-base-border-radius: 0.5rem;
