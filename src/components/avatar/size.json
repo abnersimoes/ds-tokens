@@ -10,7 +10,7 @@
         "md": { "value": "{size.spacing.xl}" }
       },
       "font": {
-        "sm": { "value": "{size.spacing.xs}" },
+        "sm": { "value": "{size.font.xs}" },
         "md": { "value": "{size.font.sm}" }
       },
       "border": {

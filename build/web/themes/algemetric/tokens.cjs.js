@@ -346,7 +346,7 @@ module.exports = {
   "sizeAvatarWidthMd": "32px",
   "sizeAvatarHeightSm": "24px",
   "sizeAvatarHeightMd": "32px",
-  "sizeAvatarFontSm": "4px",
+  "sizeAvatarFontSm": "12px",
   "sizeAvatarFontMd": "14px",
   "sizeAvatarBorderRadius": "50%",
   "sizeButtonBaseFont": "14px",
