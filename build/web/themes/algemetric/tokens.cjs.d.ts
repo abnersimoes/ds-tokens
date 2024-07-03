@@ -783,9 +783,18 @@ declare const tokens: {
       "9xl": DesignToken
     },
     "avatar": {
-      "width": DesignToken,
-      "height": DesignToken,
-      "font": DesignToken,
+      "width": {
+        "sm": DesignToken,
+        "md": DesignToken
+      },
+      "height": {
+        "sm": DesignToken,
+        "md": DesignToken
+      },
+      "font": {
+        "sm": DesignToken,
+        "md": DesignToken
+      },
       "border": {
         "radius": DesignToken
       }
