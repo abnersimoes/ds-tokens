@@ -1,9 +1,18 @@
 {
   "size": {
     "avatar": {
-      "width": { "value": "{size.spacing.xl}" },
-      "height": { "value": "{size.spacing.xl}" },
-      "font": { "value": "{size.font.sm}" },
+      "width": {
+        "sm": { "value": "{size.spacing.lg}" },
+        "md": { "value": "{size.spacing.xl}" }
+      },
+      "height": {
+        "sm": { "value": "{size.spacing.lg}" },
+        "md": { "value": "{size.spacing.xl}" }
+      },
+      "font": {
+        "sm": { "value": "{size.font.xs}" },
+        "md": { "value": "{size.font.sm}" }
+      },
       "border": {
         "radius": { "value": "{size.border.radius.circular}" }
       }
