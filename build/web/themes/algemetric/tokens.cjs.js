@@ -301,6 +301,8 @@ module.exports = {
   "effectDropdownTransformEnd": "translate3d(0, 4px, 0) scale(1)",
   "effectHeaderShadowBox": "0 1px 0 #e8e8e8",
   "effectMenuItemTransition": "0.15s all ease-out",
+  "effectSidebarTransitionSlow": "0.25s all ease-out",
+  "effectSidebarTransitionMedium": "0.15s all ease-out",
   "effectToastTransition": "0.5s ease-out",
   "sizeBorderWidthNone": "0px",
   "sizeBorderWidthHairline": "1px",

@@ -300,6 +300,8 @@ export const effectDropdownTransformStart : string;
 export const effectDropdownTransformEnd : string;
 export const effectHeaderShadowBox : string;
 export const effectMenuItemTransition : string;
+export const effectSidebarTransitionSlow : string;
+export const effectSidebarTransitionMedium : string;
 export const effectToastTransition : string;
 export const sizeBorderWidthNone : string;
 export const sizeBorderWidthHairline : string;

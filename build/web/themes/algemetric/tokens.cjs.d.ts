@@ -725,6 +725,12 @@ declare const tokens: {
         "transition": DesignToken
       }
     },
+    "sidebar": {
+      "transition": {
+        "slow": DesignToken,
+        "medium": DesignToken
+      }
+    },
     "toast": {
       "transition": DesignToken
     }
