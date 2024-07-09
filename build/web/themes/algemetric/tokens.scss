@@ -360,6 +360,7 @@
   --size-button-base-height: 2.75rem;
   --size-button-base-padding-horizontal: 1.5rem;
   --size-button-base-column-gap: 0.5rem;
+  --size-button-only-icon-padding: 0.5rem;
   --size-button-focus-border-width: 0.125rem;
   --size-chip-height: 2rem;
   --size-chip-padding: 0.5rem;
@@ -444,8 +445,8 @@
   --size-menu-item-link-padding: 3.5rem;
   --size-sidebar-width: 16.5rem;
   --size-sidebar-border: 0.0625rem;
-  --size-sidebar-logo-height: 3.5rem;
-  --size-sidebar-logo-padding: 0.5rem 1rem;
+  --size-sidebar-header-height: 3.5rem;
+  --size-sidebar-header-padding: 0.5rem 0.5rem 0.5rem 1rem;
   --size-sidebar-selector-padding: 0.5rem;
   --size-sidebar-selector-height: 2.75rem;
   --size-sidebar-selector-button-gap: 0.5rem;
@@ -459,6 +460,8 @@
   --size-sidebar-link-gap: 0.5rem;
   --size-sidebar-link-padding: 0.5rem;
   --size-sidebar-link-border-radius: 0.5rem;
+  --size-sidebar-collapsed-width: 3.5rem;
+  --size-sidebar-collapsed-padding: 0.25rem;
   --size-table-wrapper-border-radius: 0.5rem;
   --size-table-wrapper-padding: 2rem 2rem 1.5rem;
   --size-table-column-padding: 0.5rem 3rem 0.5rem 0;

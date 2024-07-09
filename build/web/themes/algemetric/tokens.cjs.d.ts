@@ -807,6 +807,9 @@ declare const tokens: {
         "padding-horizontal": DesignToken,
         "column-gap": DesignToken
       },
+      "only-icon": {
+        "padding": DesignToken
+      },
       "focus": {
         "border-width": DesignToken
       }
@@ -1003,7 +1006,7 @@ declare const tokens: {
     "sidebar": {
       "width": DesignToken,
       "border": DesignToken,
-      "logo": {
+      "header": {
         "height": DesignToken,
         "padding": DesignToken
       },
@@ -1029,6 +1032,10 @@ declare const tokens: {
         "gap": DesignToken,
         "padding": DesignToken,
         "border-radius": DesignToken
+      },
+      "collapsed": {
+        "width": DesignToken,
+        "padding": DesignToken
       }
     },
     "table": {
