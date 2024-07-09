@@ -34,7 +34,7 @@
           "pressed": { "value": "{color.brand.primary.dark}" }
         },
         "text": {
-          "default": { "value": "{color.brand.primary.lighter}" }
+          "default": { "value": "{color.brand.primary.light}" }
         }
       },
       "danger": {

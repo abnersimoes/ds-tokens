@@ -8,6 +8,9 @@
         "padding-horizontal": { "value": "{size.spacing.lg}" },
         "column-gap": { "value": "{size.spacing.sm}" }
       },
+      "only-icon": {
+        "padding": { "value": "{size.spacing.sm}" }
+      },
       "focus": {
         "border-width": { "value": "{size.border.width.thin}" }
       }
