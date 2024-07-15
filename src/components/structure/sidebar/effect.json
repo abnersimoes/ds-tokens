@@ -1,0 +1,10 @@
+{
+  "effect": {
+    "sidebar": {
+      "transition": {
+        "slow": { "value": "0.25s all {effect.transition.type.fade-in}" },
+        "medium": { "value": "{effect.transition.default}" }
+      }
+    }
+  }
+}

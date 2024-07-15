@@ -3,9 +3,11 @@
     "sidebar": {
       "width": { "value": 16.5 },
       "border": { "value": "{size.border.width.hairline}" },
-      "logo": {
+      "header": {
         "height": { "value": 3.5 },
-        "padding": { "value": "{size.spacing.sm} {size.spacing.md}" }
+        "padding": {
+          "value": "{size.spacing.sm} {size.spacing.sm} {size.spacing.sm} {size.spacing.md}"
+        }
       },
       "selector": {
         "padding": { "value": "{size.spacing.sm}" },
@@ -29,6 +31,10 @@
         "gap": { "value": "{size.spacing.sm}" },
         "padding": { "value": "{size.spacing.sm}" },
         "border-radius": { "value": "{size.border.radius.sm}" }
+      },
+      "collapsed": {
+        "width": { "value": "{size.spacing.4xl}" },
+        "padding": { "value": "{size.spacing.xs}" }
       }
     }
   }
