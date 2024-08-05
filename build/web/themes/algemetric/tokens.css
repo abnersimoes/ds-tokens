@@ -153,6 +153,7 @@
   --color-field-base-border-hover: #b3b3b3;
   --color-field-base-border-focus: #7bc7ff;
   --color-field-base-border-active: #ffcaa6;
+  --color-field-base-prefix: #194666;
   --color-field-base-arrow: #194666;
   --color-field-disabled-placeholder: #d6d6d6;
   --color-field-disabled-background: #f6f6f6;
@@ -163,6 +164,7 @@
   --color-field-error-arrow: #c6312c;
   --color-field-required-symbol: #c6312c;
   --color-field-code-highlight: #aa30ba;
+  --color-field-option-base-text: #383836;
   --color-field-option-base-icon: #194666;
   --color-field-option-hover-background: #fef3ec;
   --color-field-option-active-text: #d15b0a;
