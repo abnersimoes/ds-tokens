@@ -7,6 +7,7 @@
         "border": {
           "default": { "value": "{color.neutral.low.pure}" }
         },
+        "prefix": { "value": "{color.brand.secondary.light}" },
         "arrow": { "value": "{color.brand.secondary.light}" }
       },
       "disabled": {
@@ -21,6 +22,7 @@
       },
       "option": {
         "base": {
+          "text": { "value": "{color.neutral.high.pure}" },
           "icon": { "value": "{color.neutral.low.medium}" }
         },
         "hover": {

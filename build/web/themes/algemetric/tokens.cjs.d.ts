@@ -334,6 +334,7 @@ declare const tokens: {
           "focus": DesignToken,
           "active": DesignToken
         },
+        "prefix": DesignToken,
         "arrow": DesignToken
       },
       "disabled": {
@@ -355,6 +356,7 @@ declare const tokens: {
       },
       "option": {
         "base": {
+          "text": DesignToken,
           "icon": DesignToken
         },
         "hover": {
