@@ -1035,11 +1035,18 @@ declare const tokens: {
         "padding": DesignToken,
         "gap": DesignToken
       },
+      "section": {
+        "margin-next-element": DesignToken
+      },
       "link": {
         "height": DesignToken,
         "gap": DesignToken,
         "padding": DesignToken,
-        "border-radius": DesignToken
+        "border-radius": DesignToken,
+        "icon": {
+          "width": DesignToken,
+          "width-with-chevron": DesignToken
+        }
       },
       "collapsed": {
         "width": DesignToken,

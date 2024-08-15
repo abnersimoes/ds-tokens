@@ -19,18 +19,25 @@
         }
       },
       "menu": {
-        "padding": { "value": "{size.spacing.xs} {size.spacing.sm}" },
+        "padding": { "value": "{size.spacing.md}" },
         "gap": { "value": "{size.spacing.xs}" }
       },
       "footer": {
         "padding": { "value": "{size.spacing.sm}" },
         "gap": { "value": "{size.spacing.xs}" }
       },
+      "section": {
+        "margin-next-element": { "value": 0.75 }
+      },
       "link": {
         "height": { "value": 2.5 },
         "gap": { "value": "{size.spacing.sm}" },
         "padding": { "value": "{size.spacing.sm}" },
-        "border-radius": { "value": "{size.border.radius.sm}" }
+        "border-radius": { "value": "{size.border.radius.sm}" },
+        "icon": {
+          "width": { "value": "{size.spacing.lg}" },
+          "width-with-chevron": { "value": "{size.spacing.2xl}" }
+        }
       },
       "collapsed": {
         "width": { "value": "{size.spacing.4xl}" },
