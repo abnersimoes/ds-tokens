@@ -10,6 +10,7 @@
           "focus": { "value": "{color.highlight.pure}" },
           "active": { "value": "{color.brand.primary.light}" }
         },
+        "prefix": { "value": "{color.brand.secondary.dark}" },
         "arrow": { "value": "{color.brand.secondary.dark}" }
       },
       "disabled": {
@@ -31,6 +32,7 @@
       },
       "option": {
         "base": {
+          "text": { "value": "{color.neutral.low.pure}" },
           "icon": { "value": "{color.brand.secondary.dark}" }
         },
         "hover": {
