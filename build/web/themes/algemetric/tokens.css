@@ -456,14 +456,17 @@
   --size-sidebar-selector-button-gap: 0.5rem;
   --size-sidebar-selector-button-padding: 0.5rem;
   --size-sidebar-selector-button-border-radius: 0.5rem;
-  --size-sidebar-menu-padding: 0.25rem 0.5rem;
+  --size-sidebar-menu-padding: 1rem;
   --size-sidebar-menu-gap: 0.25rem;
   --size-sidebar-footer-padding: 0.5rem;
   --size-sidebar-footer-gap: 0.25rem;
+  --size-sidebar-section-margin-next-element: 0.75rem;
   --size-sidebar-link-height: 2.5rem;
   --size-sidebar-link-gap: 0.5rem;
   --size-sidebar-link-padding: 0.5rem;
   --size-sidebar-link-border-radius: 0.5rem;
+  --size-sidebar-link-icon-width: 1.5rem;
+  --size-sidebar-link-icon-width-with-chevron: 2.5rem;
   --size-sidebar-collapsed-width: 3.5rem;
   --size-sidebar-collapsed-padding: 0.25rem;
   --size-table-wrapper-border-radius: 0.5rem;
