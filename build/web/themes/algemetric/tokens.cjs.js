@@ -432,7 +432,7 @@ module.exports = {
   "sizeChartTypesDropdownMenuGridFix": "-8px",
   "sizeDividerHeight": "1px",
   "sizeDividerMargin": "16px",
-  "sizeHeaderHeight": "64px",
+  "sizeHeaderHeight": "56px",
   "sizeHeaderPadding": "16px",
   "sizeHeaderLogoGap": "8px",
   "sizeHeaderActionsGap": "16px",

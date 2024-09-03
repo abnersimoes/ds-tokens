@@ -1,13 +1,21 @@
 {
   "size": {
     "header": {
-      "height": { "value": "{size.spacing.5xl}" },
-      "padding": { "value": "{size.spacing.md}" },
+      "height": {
+        "value": "{size.spacing.4xl}"
+      },
+      "padding": {
+        "value": "{size.spacing.md}"
+      },
       "logo": {
-        "gap": { "value": "{size.spacing.sm}" }
+        "gap": {
+          "value": "{size.spacing.sm}"
+        }
       },
       "actions": {
-        "gap": { "value": "{size.spacing.md}" }
+        "gap": {
+          "value": "{size.spacing.md}"
+        }
       }
     }
   }
